@@ -1,0 +1,96 @@
+.mejs-controls .mejs-time-rail .mejs-time-current {
+  background: #e74c3c !important;
+}
+#bbpress-forums li.bbp-footer,
+#bbpress-forums li.bbp-header,
+.btn-primary,
+.cart-body .panel-info > .panel-heading,
+.checkbox-primary input[type="checkbox"]:checked + label::before,
+.checkbox-primary input[type="radio"]:checked + label::before,
+.course-carousel.owl-theme .owl-nav [class*="owl-"]:hover,
+.course-table .fa-close,
+.demo-parallax .btn-inverse,
+.fileupload .btn,
+.hot,
+.large-buttons .btn-primary,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.progress-bar-success,
+.redbg,
+.testi-carousel.owl-theme .owl-nav [class*="owl-"]:hover,
+body.leftmenu .alignleftlist.service-list .widget:hover img.alignleft {
+  background-color: #e74c3c !important;
+  border-color: #e74c3c !important;
+  color: #fff !important;
+}
+.aboutme .tagline h5,
+.copyrights .footer-social i:hover,
+.mark,
+mark {
+  background-color: #e74c3c !important;
+  color: #fff;
+}
+body.leftmenu .sidebar-nav li.active,
+body.leftmenu .sidebar-nav li:active,
+body.leftmenu .sidebar-nav li:focus,
+body.leftmenu .sidebar-nav li:hover {
+  border-right-color: #e74c3c;
+}
+.about-widget span,
+.awards small,
+.blog-wrapper .blog-meta a i,
+.check li .fa-circle-o,
+.colorized h3,
+.conecourse hr.customhr::before,
+.copyrights li:hover a,
+.course-table .fa-play-circle,
+.course-table .fa-question-circle,
+.custom_fact_item h6,
+.fa-heart,
+.notfound p a,
+.related-posts .entry small,
+.service-list span,
+.service-style2 h3,
+.team-member-name span,
+.testibox small a,
+.video-wrapper .widget-title .btn-inverse,
+.yamm-content li:hover a,
+blockquote .small,
+blockquote footer,
+blockquote small,
+div.bbp-template-notice a {
+  color: #640a65 !important;
+} /*.form-control:focus,.yamm hr{border-color:#e74c3c!important}*/
+#superslides .slides-navigation a.next,
+#superslides .slides-navigation a.prev,
+.btn-primary:focus,
+.btn-primary:hover,
+.looking-photo .centermessage .btn:focus,
+.looking-photo .centermessage .btn:hover,
+.service-list .widget:hover .alignleft {
+  background-color: #c0392b !important;
+  border-color: #c0392b !important;
+  color: #fff !important;
+}
+.btn-default,
+.cartmenu sup,
+.course-table .fa-check,
+.greenbg,
+.magnifier .magni-desc .firsticon,
+.magnifier .magni-desc .secondicon,
+.navbar-right li.btn,
+.owl-theme .owl-nav [class*="owl-"]:focus,
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background-color: #27ae60;
+  border-color: #27ae60;
+  color: #fff;
+}
+.btn-default.active,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
+.open > .dropdown-toggle.btn-default {
+  background-color: #1ca355 !important;
+  border-color: #1ca355 !important;
+  color: #fff !important;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "askedumonk",
+  "version": "1.0.0",
+  "description": "Online career and counselling portal",
+  "main": "server.js",
+  "scripts": {
+    "monk":"concurrently \"npm run server\" \"npm run client\"",
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Krishna Bihari rajput",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^9.4.1",
+	"react": "^16.3.1",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.5",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.0",
+    "react-dom": "^16.3.1",
+    "react-moment": "^0.7.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

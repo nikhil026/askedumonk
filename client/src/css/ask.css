@@ -1,0 +1,426 @@
+.ask_body
+{
+    margin-top: 3em !important;
+}
+.ask_body .ask_header
+{
+    color: #05294B;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.45px;
+    line-height: 21px;
+}
+.ask_body .ask_header .login_btn a
+{
+    float: right;
+    color: #4021C4;
+    font-size: 14px;
+    letter-spacing: -0.04px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.ask_segment
+{
+    background: #fff;
+}
+
+.ask_segment .top.menu
+{
+    border-bottom: 0 !important;
+}
+.ask_segment .top.menu .item
+{
+    height: 52px;
+    color: #9996A3;
+    background-color: #F2F2F2;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+    line-height: 16px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.ask_segment .top.menu .item svg
+{
+    height: 18px;
+    width: 18px;
+    margin-right: 8px;
+}
+.ask_segment .top.menu .item svg path
+{
+    fill: #9996A3;
+}
+.ask_segment .top.menu .item:hover
+{
+    color: #431AB6;
+    background-color: #F1EEFF;
+}
+.ask_segment .top.menu .active.item svg path,
+.ask_segment .top.menu .item:hover svg path
+{
+    fill: #431AB6;
+}
+.ask_segment .top.menu .item.poll_item:hover
+{
+    color: #118F5D;
+    background-color: #EBFFF7;
+}
+.ask_segment .top.menu .active.item.poll_item svg path,
+.ask_segment .top.menu .item.poll_item:hover svg path
+{
+    fill: #118F5D;
+}
+.ask_segment .top.menu .active.item
+{
+    color: #431AB6;
+    background-color: #F1EEFF;
+}
+.ask_segment .top.menu .active.item.poll_item
+{
+    color: #118F5D;
+    background-color: #EBFFF7;
+}
+
+/* ask community */
+.ask_community .ui.bottom.attached.segment
+{
+    border-top: 0;
+}
+.ask_community .q_field input
+{
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    line-height: 19px;
+}
+.ask_community .q_field::placeholder,
+.ask_community .q_field:-ms-input-placeholder,
+.ask_community .q_field::-ms-input-placeholder
+{
+    color: #8F9AB3;
+    opacity: 1;
+}
+.ask_community .desc_field
+{
+    margin-bottom: 0 !important;
+}
+.ask_community .desc_field textarea
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    resize: none;
+}
+.ask_community .tag_field .tag_label,
+.ask_community .tag_field .company_select,
+.ask_community .tag_field .at_label
+{
+    border-radius: 0 !important;
+    /* border-top: 0 !important; */
+}
+.ask_community .tag_field .tag_label,
+.create_poll .tag_field .tag_label
+{
+    border-bottom-left-radius: 5px !important;
+    background-color: #F2F5F9;
+    font-size: 14px !important;
+    color: #F56C31;
+    letter-spacing: -0.3px;
+    font-weight: normal;
+    border: 1px solid rgba(206,204,218,0.48);
+    border-right: none;
+}
+.ask_community .tag_field .tag_label
+{
+    border-top: none;
+}
+.ask_community .tag_field .at_label,
+.create_poll .tag_field .at_label
+{
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-bottom-left-radius: 0px !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    color: #F56C31 !important;
+    letter-spacing: -0.3px;
+}
+.ask_community .tag_field .company_select
+{
+    border-left: 0 !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.ask_community .topic_select,
+.create_poll .topic_select
+{
+    background: rgba(143,159,179,0.10) !important;
+    border: 1px solid rgba(143,159,179,0.50) !important;
+    background-color: #F2F5F9 !important;
+    font-size: 14px;
+    color: #05294B !important;
+    letter-spacing: -0.3px;
+    min-width: 12rem !important;
+}
+.ask_community .topic_select .default.text,
+.create_poll .topic_select .default.text
+{
+    color: #35333D !important;
+}
+.ask_community .tag_field .company_select a.ui.label,
+.create_poll .tag_field .company_select a.ui.label
+{
+    color: #6D778F;
+    font-family: "Inter UI";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    line-height: 15px;
+    border: 1px solid rgba(176,166,227,0.48);
+    border-radius: 4px;
+    background-color: rgba(176,166,227,0.1);
+}
+.ask_community .ask_btn,
+.ask_community .ask_btn:hover,
+.ask_community .ask_btn:focus
+{
+    background: #6144D4;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* create poll */
+.create_poll .ui.bottom.attached.segment
+{
+    border-top: 0;
+}
+.create_poll .opt_fields input
+{
+    margin-bottom: 0.5em !important;
+}
+.create_poll .opt_fields .ui.label
+{
+    height: 38px;
+    cursor: pointer;
+}
+.create_poll .opt_fields .option_item input
+{
+    border-radius: 20px;
+}
+.create_poll .opt_fields .option_item .icons
+{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
+.create_poll .opt_fields .option_item .icons .circle.icon
+{
+    color: #c6cfd9;
+}
+.create_poll .opt_fields .option_item .icons .close.icon
+{
+    color: #fff;
+    top: 55%;
+    left: 55%;
+}
+.create_poll .opt_fields .add_opt
+{
+    font-size: 14px;
+    color: #6D778F !important;
+    letter-spacing: -0.03px;
+    border-radius: 4px;
+    background-color: rgba(143,159,179,0.1) !important;
+}
+
+.create_poll .tag_field .company_select,
+.create_poll .tag_field .at_label
+{
+    border-radius: 0 !important;
+}
+.create_poll .tag_field .company_select
+{
+    border-left: 0 !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.create_poll .ask_btn,
+.create_poll .ask_btn:hover,
+.create_poll .ask_btn:focus
+{
+    background: #6144D4;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* login banner */
+.login_banner
+{
+    height: 100px;
+    margin-top: 16px;
+    border: 1px solid #FFA63B;
+    border-radius: 4px;
+    background-color: #FFFDF6;
+    text-align: center;
+}
+.login_banner .header
+{
+    margin-top: 24px;
+    color: #262629;
+    font-size: 18px;
+    letter-spacing: -0.03px;
+    line-height: 21px;
+}
+.login_banner .description
+{
+    margin-top: 12px;
+    color: #262629;
+    font-size: 16px;
+    letter-spacing: -0.02px;
+    line-height: 19px;
+}
+.login_banner .description span
+{
+    color: #167AB8;
+    cursor: pointer;
+}
+
+/* tips */
+.segment.tips
+{
+    background: #fff;
+    padding: 0;
+    margin-bottom: 24px;
+}
+.segment.tips .content .header
+{
+    height: 48px;
+    color: #5E587E;
+    background-color: #BBB8CC;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2.33px;
+    line-height: 48px;
+    text-align: center;
+}
+.segment.tips .content .header svg
+{
+    position: relative;
+    top: 3px;
+}
+.segment.tips .content .header svg path
+{
+    fill: #5E587E;
+}
+.segment.tips .content .description
+{
+    margin-top: 16px;
+}
+.segment.tips .content .description .d_item
+{
+    display: inline-flex;
+    margin-bottom: 12px;
+    color: #BBB8CC;
+    padding: 0 16px;
+}
+.segment.tips .content .description .d_item .icon
+{
+    position: relative;
+    top: 2px;
+}
+.segment.tips .content .description .d_item .text
+{
+    color: #5A5570;
+    font-size: 14px;
+    letter-spacing: -0.03px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+/* app info */
+.app_info
+{
+    text-align: center;
+}
+.app_info .tag
+{
+    color: #5A5570;
+    font-size: 14px;
+    letter-spacing: -0.03px;
+    line-height: 16px;
+    margin-bottom: 1em;
+}
+.app_info .appstoreBtnContainer
+{
+    display: block;
+    padding-bottom: 12px;
+}
+.app_info .appstoreBtnContainer .storeBtn
+{
+    height: 40px;
+    width: 175px;
+    border : none;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    box-shadow: 0 4px 5px 0 rgba(64,33,196,0.14), 0 1px 10px 0 rgba(64,33,196,0.12), 0 2px 4px -1px rgba(64,33,196,0.2);
+    margin-right: 21px;
+    color: #05294B;
+    font-size: 16px;
+    letter-spacing: -0.45px;
+    line-height: 19px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.app_info .appstoreBtnContainer .storeBtn img
+{
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .login_banner
+    {
+        padding: 16px;
+        height: auto;
+    }
+    .ask_tab .at_footer,
+    .ask_tab .tag_field
+    {
+        display: grid !important;
+    }
+    .ask_tab .tag_field .tag_label
+    {
+        display: grid !important;
+        border-right: 1px solid rgba(34, 36, 38, 0.15) !important;
+        border-radius: 0px !important;
+    }
+    .ask_tab .tag_field .at_label
+    {
+        border: 1px solid rgba(34, 36, 38, 0.15) !important;
+        border-top: 0 !important;
+    }
+    .ask_tab .tag_field .company_select
+    {
+        border-left: 1px solid rgba(34, 36, 38, 0.15) !important;
+        border-bottom-left-radius: 5px !important;
+        border-top-right-radius: 0px !important;
+        border-top: 0 !important;
+    }
+    .ask_tab .at_footer .topic_select
+    {
+        margin-bottom: 16px;
+    }
+    .ask_tab .at_footer .ask_btn
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .login_banner .header
+    {
+        margin-top: 0;
+    }
+    .app_info .appstoreBtnContainer .storeBtn
+    {
+        width: 100%;
+    }
+}
