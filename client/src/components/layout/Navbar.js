@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -6,14 +6,13 @@ import { logoutUser } from '../../actions/authActions';
 import { clearCurrentProfile } from '../../actions/profileActions';
 
 class Navbar extends Component {
-  onLogoutClick(e) {
+    onLogoutClick(e) {
     e.preventDefault();
     this.props.clearCurrentProfile();
     this.props.logoutUser();
-  }
-
+    }
   render() {
-    const { isAuthenticated, user } = this.props.auth;
+     const { isAuthenticated, user } = this.props.auth;
 
     const authLinks = (
       <ul className="nav navbar-nav navbar-left">
@@ -60,2263 +59,352 @@ class Navbar extends Component {
         </li>
       </ul>
     );
-
     return (
-    
-        <div className="homepagem">
-        <div id="wrapper">
-          <header
-            className="header normal-header affix-top"
-            data-spy="affix"
-            data-offset-top="197"
-          >
-            <div className="container1">
-              <nav className="navbar navbar-default yamm">
-                <div className="container-full">
-                  <div className="navbar-header">
-                    <button
-                      type="button"
-                      className="navbar-toggle collapsed"
-                      data-toggle="collapse"
-                      data-target="#navbar"
-                      aria-expanded="false"
-                      aria-controls="navbar"
-                    >
-                      <span className="sr-only">Toggle navigation</span>
-                      <span className="icon-bar" />
-                      <span className="icon-bar" />
-                      <span className="icon-bar" />
-                    </button>
-                    <Link className="navbar-brand with-text" to="/">
-                      <img
-                        alt=""
-                        src={require("../.././images/logo-edumonk1.png")}
-                        width="100%"
-                      />
+      <nav className="navbar navbar-expand-lg navbar-light ">
+        <img className="navbar-brand" src="/images/logo.png" alt="brand-logo" />
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto">
+                <li className="nav-item dropdown">
+                    <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    Course Library
                     </Link>
-                    <Link
-                      className="logheader with-text nodesktop"
-                      data-toggle="modal"
-                      data-target="#loginform"
-                      to=""
-                    >
-                      <i className="fa fa-user" />
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div className="flex-container">
+                            <div className="flex-item" >
+                                <div className="flex-item1">
+                                    <Link to="/ManagementandBusiness" className="dropdown-header"><i class="fa fa-bar-chart"></i>Management & Business</Link>
+                                    <Link className="dropdown-item" to="/Business_Administration">Bachelor Of Business Administration</Link>
+                                    <Link className="dropdown-item" to="/Management_Business">Bachelor Of Business Management</Link>
+                                </div>
+                                <div className="flex-item2">
+                                    <Link to="/Engineering" className="dropdown-header"><i class="fa fa-cog"></i>Engineer</Link>
+                                    <Link className="dropdown-item" to="/agriculture">Agriculture Engineering</Link>
+                                    <Link className="dropdown-item" to="/information">Information Technology Engineering</Link>
+                                    <Link className="dropdown-item" to="/electronics">Electronics & Tele-Communication</Link>
+                                    <Link className="dropdown-item" to="/chemical">Chemical Engineering</Link>
+                                    <Link className="dropdown-item" to="/biochemical">Biochemical Engineering</Link>
+                                    <Link className="dropdown-item" to="/metallurgical">Metallurgical Engineering</Link>
+                                    <Link className="dropdown-item" to="/electrical">Electrical Engineering</Link>
+                                    <Link className="dropdown-item" to="/mechanical">Mechanical Engineering</Link>
+                                    <Link className="dropdown-item" to="/civil">Civil Engineering</Link>
+                                    <Link className="dropdown-item" to="/aeronautical">Aeronautical Engineering</Link>
+                                    <Link className="dropdown-item" to="/mining">Mining Engineering</Link>
+                                    <Link className="dropdown-item" to="/electrical_instrumental">Electrical And Instrumentation Engineering</Link>
+                                    <Link className="dropdown-item" to="/astronautical">Astronautical Engineering</Link>
+                                    <Link className="dropdown-item" to="/aircraft">Aircraft Maintenance Engineering</Link>
+                                    <Link className="dropdown-item" to="/computer">Computer Science Engineering</Link>
+                                    <Link className="dropdown-item" to="/Management_Business">Bachelor Of Business Management</Link>
+                                    <Link to="/teaching" className="dropdown-header"><i class="fa fa-youtube-play"></i>Teaching</Link>
+                                    <Link className="dropdown-item" to="/bed">B.Ed</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item">
+                                <div className="flex-item3">
+                                    <Link to="/architecture" className="dropdown-header"><i class="fa fa-file-text"></i>Architecture</Link>
+                                    <Link className="dropdown-item" to="/bachelor_architecture">Bachelor Of Architecture</Link>
+                                    
+                                    <Link to="/computer_app" className="dropdown-header"><i class="fa fa-youtube-play"></i>Computers & IT</Link>
+                                    <Link className="dropdown-item" to="/bachelor_computer">Bachelor Of Computer Applications</Link>
+                                </div>
+                                <div className="flex-item4">
+                                    <Link to="/medical" className="dropdown-header"><i class="fa fa-stethoscope"></i>Medical & Health Care</Link>
+                                    <Link className="dropdown-item" to="/bachelor_medicine">Bachelor Of Medicine & Bachelor Of Surgery</Link>
+                                    <Link className="dropdown-item" to="/bachelor_ayurveda">Bachelor Of Ayurveda, Medicine And Surgery</Link>
+                                    <Link className="dropdown-item" to="/bachelor_homeopathy">Bachelor Of Homeopathy Medicine<br />
+                                                                    And Surgery</Link>
+                                    <Link className="dropdown-item" to="/bachelor_unani">Bachelor Of Unani Medicine And Surgery</Link>
+                                    <Link className="dropdown-item" to="/bachelor_physiotherapy">Bachelor Of Physiotherapy</Link>
+                                    <Link className="dropdown-item" to="/bachelor_dental">Bachelor Of Dental Surgery</Link>
+                                </div>
+                                <div className="flex-item5">
+                                    <Link to="/law" className="dropdown-header"><i class="	fa fa-drupal"></i>Law</Link>
+                                    <Link className="dropdown-item" to="/bachelor_law">Bachelor Of Laws</Link>
+                                    <Link className="dropdown-item" to="/bachelor_art">Bachelor Of Arts & Law (B.A, LLB)</Link>
+                                    <Link className="dropdown-item" to="/bachelor_comLaw">Bachelor Of Commerce & Law (B.Com, LLB)</Link>
+                                    <Link className="dropdown-item" to="/bachelor_businessadd">Bachelor Of Business Administration<br />
+                                                                    & Law (BBA, LLB)</Link>
+                               
+                                
+                                    <Link to="/commerce" className="dropdown-header"><i class="fa fa-rupee"></i>Commerce</Link>
+                                    <Link className="dropdown-item" to="/bachelor_commerce">Bachelor Of Commerence Chartered</Link>
+                                    <Link className="dropdown-item" to="/chartedAccountent">Chartered Accountant(CA)</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item">
+                                <div className="flex-item6">
+                                    <Link to="/science" className="dropdown-header"><i class="fa fa-scribd"></i>Science</Link>
+                                    <Link className="dropdown-item" to="/bachelor_science">Bachelor Of Science(Nursing)</Link>
+                                    
+                                    <Link to="/art_huminities" className="dropdown-header"><i class="fa fa-stumbleupon"></i>Art & Humanities</Link>
+                                    <Link className="dropdown-item" to="/bachelor_arts">Bachelor Of Arts</Link>
+                                    <Link to="/bachelor_fineart" className="dropdown-item">Bachelor of Fine Arts(BFA)</Link>
+                                    <Link to="/diploma_fineArts" className="dropdown-item">Diploma In Fine Arts</Link>
+                                </div>
+                                <div className="flex-item7">
+                                    <Link to="/diploma" className="dropdown-header"><i class="	fa fa-graduation-cap"></i>Dimploma in Engineering</Link>
+                                    <Link className="dropdown-item" to="/diploma_civil">Diploma In Civil Engineering</Link>
+                                    <Link className="dropdown-item" to="/diploma_automobile">Diploma In Automobile<br /> Engineering</Link>
+                                    <Link className="dropdown-item" to="/diploma_computer">Diploma In Compe-playuter<br /> Engineering</Link>
+                                    <Link className="dropdown-item" to="/diploma_electrical">Diploma In Electrical<br /> & Electronics Engineering</Link>
+                                    <Link className="dropdown-item" to="/diploma_electronics">Diploma In Electronics<br /> & Communication Engineering</Link>
+                                    <Link className="dropdown-item" to="/diploma_mechanical">Diploma In Mechanical Engineering</Link>
+                                </div>
+                                <div className="flex-item8">
+                                    <Link to="/pharmecy" className="dropdown-header"><i class="	fa fa-graduation-cap"></i>Pharmacy</Link>
+                                    <Link className="dropdown-item" to="/bachelor_pharmecy">Bachelor Of Pharmacy</Link>
+                                    
+                                    <Link to="/hotal_management" className="dropdown-header"><i class="	fa fa-hotel"></i>Hotel Management</Link>
+                                    <Link className="dropdown-item" to="/bachelor_hmanagement">Bachelor Of Hotel Management</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item">
+                                <div className="flex-item9">
+                                    <Link to="/fashion_design" className="dropdown-header"><i class="fa fa-random"></i>Fashion & Design</Link>
+                                    <Link className="dropdown-item" to="/bachelor_design">Bachelor Of Design</Link>
+                                    <Link className="dropdown-item" to="/fashion_designcourse">Fashion Design Courses</Link>
+                                    <Link to="/media_mass" className="dropdown-header">Media & Mass Communication</Link>
+                                    <Link className="dropdown-item" to="/Bachelor_journalism">Bachelor's In Journalism And Mass<br /> Communication</Link>
+                                </div>
+                                <div className="flex-item10">
+                                    <Link to="/Agriculture1" className="dropdown-header"><i class="fa fa-shopping-baske"></i>Agriculture</Link>
+                                    <Link className="dropdown-item" to="/bachelor_horiculture">Bachelor Of Technology (B.Tech)<br/> In Horticulture</Link>
+                                    <Link className="dropdown-item" to="/bachelor_scienceHorticulture">Bachelor Of Science (B.Sc)<br /> In Horticulture</Link>
+                                    <Link className="dropdown-item" to="/agriculture_business">Agriculture Business Management</Link>
+                                    <Link className="dropdown-item" to="/bachelor_scienceAgriculture">Bachelor Of Science (B.Sc) <br />In Agriculture</Link>
+                                </div>
+                                <div className="flex-item11">
+                                    <Link to="/aviation" className="dropdown-header"><i class="fa fa-upload"></i>Aviaiton</Link>
+                                    <Link className="dropdown-item" to="/bba_airport">BBA In Airport Management</Link>
+                                    <Link to="/bsc_avaition" className="dropdown-item">B.Sc. Aviation</Link>
+                                </div>
+                                <div className="flex-item12">
+                                    <Link to="/diploma_certificate" className="dropdown-header"><i class="fa fa-university"></i>Diploma And Certificate Courses</Link>
+                                    <Link className="dropdown-item" to="/Airfare_ticketing">Airfare And Ticketing Management</Link>
+                                    <Link to="/aviation_hospitality" className="dropdown-item">Aviation Hospitality</Link>
+                                    
+                                    <Link to="/travel_tourism" className="dropdown-header"><i class="fa fa-space-shuttle"></i>Travel And Tourism</Link>
+                                    <Link className="dropdown-item" to="/tourism_management">Tourism Management</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li className="nav-item dropdown">
+                    <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Exam Library
                     </Link>
-                  </div>
-
-                  <div id="navbar" className="navbar-collapse collapse">
-                    <ul className="nav navbar-nav">
-                      <li className="dropdown yamm-fw">
-                        <Link to="/" className="active">
-                          Home
-                        </Link>
-                      </li>
-                      <li>
-                        <Link title="" to="/about-us">
-                          Our-Team
-                        </Link>
-                      </li>
-                      <li className="dropdown yamm-fw">
-                        <Link
-                          to="#"
-                          data-toggle="dropdown"
-                          className="dropdown-toggle active"
-                        >
-                          Course Library <b className="fa fa-angle-down" />
-                        </Link>
-                        <ul className="dropdown-menu coursedrop container-fluid">
-                          <li>
-                            <div className="yamm-content clearfix">
-                              
-                              <div>
-                                <div id="myTabContent" className="tab-content">
-                                  <div
-                                    className="tab-pane jobpane1box fade in active"
-                                    id="after12pn"
-                                  >
-                                    <div className="masonry navcoursesit">
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/ManagementandBusiness">
-                                            <i className="fa fa-bar-chart" />
-                                            Management &amp; Business
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/Business_Administration">
-                                              Bachelor of Business
-                                              Administration
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/Management_Business">
-                                              Bachelor of Business Management
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/Engineering">
-                                            <i className="fa fa-gears" />
-                                            Engineering
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/agriculture">
-                                              Agriculture Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/information">
-                                              Information Technology Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/electronics">
-                                              Electronics &amp;
-                                              Tele-communication
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/chemical">
-                                              Chemical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/biochemical">
-                                              Biochemical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/metallurgical">
-                                              Metallurgical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/electrical">
-                                              Electrical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/mechanical">
-                                              Mechanical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/civil">
-                                              Civil Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/aeronautical">
-                                              Aeronautical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/mining">
-                                              Mining engineering
-                                            </Link>
-                                          </li>
-
-                                          <li>
-                                            <Link to="electrical_instrumental">
-                                              Electrical and Instrumentation
-                                              Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/astronautical">
-                                              Astronautical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/aircraft">
-                                              Aircraft Maintenance Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/computer">
-                                              Computer Science Engineering
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/architecture">
-                                            <i className="fa fa-building-o" />
-                                            Architecture
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_architecture">
-                                              Bachelor of Architecture
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/computer_app">
-                                            <i className="fa fa-desktop" />
-                                            Computers &amp; IT
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_computer">
-                                              Bachelor of Computer Applications
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/medical">
-                                            <i className="fa fa-medkit" />
-                                            Medical &amp; Health Care
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_medicine">
-                                              Bachelor of Medicine &amp;
-                                              Bachelor of Surgery
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_ayurveda">
-                                              Bachelor of Ayurveda, Medicine and
-                                              Surgery
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_homeopathy">
-                                              Bachelor of Homeopathy medicine
-                                              and Surgery
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_unani">
-                                              Bachelor of Unani Medicine and
-                                              Surgery
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_physiotherapy">
-                                              Bachelor of Physiotherapy
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_dental">
-                                              Bachelor of Dental Surgery
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/law">
-                                            <i className="fa fa-gavel" />
-                                            Law
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_law">
-                                              Bachelor of Laws
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_art">
-                                              Bachelor of Arts &amp; Law (B.A,
-                                              LLB)
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_comLaw">
-                                              Bachelor of Commerce &amp; Law
-                                              (B.Com, LLB)
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="bachelor_businessadd">
-                                              Bachelor of Business
-                                              Administration &amp; Law (BBA,
-                                              LLB)
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/commerce">
-                                            <i className="fa fa-rupee" />
-                                            Commerce
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_commerce">
-                                              Bachelor of Commerce
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/chartedAccountent">
-                                              Chartered Accountant (CA)
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/science">
-                                            <i className="fa fa-flask" />
-                                            Science
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_science">
-                                              Bachelor of Science(Nursing)
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/art_huminities">
-                                            <i className="fa fa-paint-brush" />
-                                            Arts &amp; Humanities
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_arts">
-                                              Bachelor of Arts
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_fineart">
-                                              Bachelor of Fine Arts (BFA)
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/diploma_fineArts">
-                                              Diploma in Fine Arts
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/diploma">
-                                            <i className="fa fa-gears" />
-                                            Diploma in Engineering
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/diploma_civil">
-                                              Diploma in Civil Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/diploma_automobile">
-                                              Diploma in Automobile Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/diploma_computer">
-                                              Diploma in Computer Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/diploma_electrical">
-                                              Diploma in Electrical &amp;
-                                              Electronics Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/diploma_electronics">
-                                              Diploma in Electronics &amp;
-                                              Communication Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/diploma_mechanical">
-                                              Diploma in Mechanical Engineering
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/pharmecy">
-                                            <i className="fa fa-medkit" />
-                                            Pharmacy
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_pharmecy">
-                                              Bachelor of Pharmacy
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/hotal_management">
-                                            <i className="fa fa-bed" />
-                                            Hotel Management
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_hmanagement">
-                                              Bachelor of Hotel Management
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/fashion_design">
-                                            <i className="fa fa-black-tie" />
-                                            Fashion &amp; Design
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_design">
-                                              Bachelor of Design
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/fashion_designcourse">
-                                              Fashion Design Courses
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/media_mass">
-                                            <i className="fa fa-camera" />
-                                            Media &amp; Mass Communication
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/Bachelor_journalism">
-                                              Bachelor's in Journalism and Mass
-                                              Communication
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/Agriculture1">
-                                            <i className="fa fa-crop" />
-                                            Agriculture
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bachelor_horiculture">
-                                              Bachelor of Technology (B.Tech) in
-                                              Horticulture
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_scienceHorticulture">
-                                              Bachelor of Science (B.Sc) in
-                                              Horticulture
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/agriculture_business">
-                                              Agriculture Business Management
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bachelor_scienceAgriculture">
-                                              Bachelor of Science (B.Sc) in
-                                              Agriculture
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/teaching">
-                                            <i className="fa fa-graduation-cap" />
-                                            Teaching
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bed">B.Ed</Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/aviation">
-                                            <i className="fa fa-plane" />
-                                            Aviation
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/bba_airport">
-                                              BBA in Airport Management
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/bsc_avaition">
-                                              B.Sc. Aviation
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/diploma_certificate">
-                                            <i className="fa fa-file" />
-                                            Diploma and Certificate Courses
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/Airfare_ticketing">
-                                              Airfare and Ticketing Management
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="/aviation_hospitality">
-                                              Aviation Hospitality
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="/travel_tourism">
-                                            <i className="fa fa-plane" />
-                                            Travel and Tourism
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="/tourism_management">
-                                              Tourism Management
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className="tab-pane clgpane1box fade"
-                                    id="aftergraduation"
-                                  >
-                                    <div className="masonry navcoursesit graduationcrs">
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/management--business">
-                                            <i className="fa fa-chart-bar" />
-                                            Management &amp; Business
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-business-administration">
-                                              Master of Business Administration
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mba-in-human-resource-management">
-                                              MBA in Human Resource Management
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mba-in-finance">
-                                              MBA in Finance
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mba-in-marketing">
-                                              MBA in Marketing
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/logistics-and-supply-chain-management">
-                                              Logistics and Supply Chain
-                                              Management
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/engineering">
-                                            <i className="fa fa-cog" />
-                                            Engineering
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mtech-in-mechanical-engineering">
-                                              M.Tech in Mechanical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-in-chemical-engineering">
-                                              M. Tech in Chemical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-in-electrical-engineering">
-                                              M. Tech in Electrical Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-computer-science-engineering">
-                                              M. Tech Computer Science
-                                              Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-in-electronics--communication-engineering">
-                                              M. Tech in Electronics &amp;
-                                              communication Engineering
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-in-aeronautical-engineering">
-                                              Masters in Aeronautical
-                                              Engineering
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/commerce">
-                                            <i className="fa fa-rupee" />
-                                            Commerce
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-commerce">
-                                              Master of Commerce
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/arts--humanities">
-                                            <i className="fa fa-paint-brush" />
-                                            Arts &amp; Humanities
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-arts">
-                                              Master of Arts
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/computers">
-                                            <i className="fa fa-desktop" />
-                                            Computers
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-computer-applications">
-                                              Master of Computer Applications
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/architecture">
-                                            <i className="fa fa-building" />
-                                            Architecture
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-of-architecture">
-                                              Masters of Architecture
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/law">
-                                            <i className="fa fa-gavel" />
-                                            Law
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-law">
-                                              Master of Law
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/teaching">
-                                            <i className="fa fa-user" />
-                                            Teaching
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-in-education">
-                                              Masters in Education
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/media--mass-communication">
-                                            <i className="fa fa-camera" />
-                                            Media &amp; Mass Communication
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mass-communication">
-                                              Mass Communication
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/media-pg">
-                                              Media PG
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/pharmacy">
-                                            <i className="fa fa-medkit" />
-                                            Pharmacy
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-pharmacy">
-                                              Master of Pharmacy
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/medical--health-care">
-                                            <i className="fa fa-plus-square" />
-                                            Medical &amp; Health Care
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-dental-surgery">
-                                              Master of Dental Surgery
-                                            </Link>
-                                          </li>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-of-physiotherapy">
-                                              Masters of Physiotherapy
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/fashion--design">
-                                            <i className="fa fa-paint-brush" />
-                                            Fashion &amp; Design
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-design">
-                                              Master of Design
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/aviation">
-                                            <i className="fa fa-plane" />
-                                            Aviation
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/msc-aviation">
-                                              M.Sc. Aviation
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                      <div className="item">
-                                        <h2>
-                                          <Link to="https://www.careerpotli.com/course-category/graduation/science">
-                                            <i className="fa fa-filter" />
-                                            Science
-                                          </Link>
-                                        </h2>
-                                        <ul>
-                                          <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-science">
-                                              Master of Science
-                                            </Link>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                    </div>{" "}
-                                  </div>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div className="flex-container">
+                            <div className="flex-item" >
+                                <div className="flex-item11">
+                                    <Link to="/Engineering1" className="dropdown-header"><i class="fa fa-cog"></i>Engineering</Link>
+                                    <Link className="dropdown-item" to="/jee-main">JEE Mains</Link>
+                                    <Link className="dropdown-item" to="/jee-advance">JEE Advance</Link>
+                                    <Link className="dropdown-item" to="/bitsat">BITSAT</Link>
+                                    <Link className="dropdown-item" to="/vitee">VITEEE</Link>
+                                    <Link className="dropdown-item" to="/wbjee">WBJEE</Link>
+                                    <Link className="dropdown-item" to="/jcece">JCECE</Link>
+                                    <Link className="dropdown-item" to="/upsee">UPSEE</Link>
+                                    <Link className="dropdown-item" to="/ojee">OJEE</Link>
+                                    <Link className="dropdown-item" to="/bcece">BCECE</Link>
+                                    <Link className="dropdown-item" to="/gate">GATE</Link>
+                                    <Link className="dropdown-item" to="/srmjeee">SRMJEEE</Link>
+                                    <Link className="dropdown-item" to="/aeee">AEEE</Link>
+                                    <Link className="dropdown-item" to="/nata">NATA</Link>
+                                    <Link className="dropdown-item" to="/muoet">MUOET</Link>
+                                    <Link className="dropdown-item" to="/ceed">CEED</Link>
+                                    <Link className="dropdown-item" to="/iiith-pgee">IIITH PGEE</Link>    
                                 </div>
-
-                                <div className="col-md-12 imgchoose">
-                                  <div className="col-md-4 col-md-offset-2">
-                                    <img
-                                      alt=""
-                                      src={require("../.././images/confuse-choose.png")}
-                                    />
-                                  </div>
-                                  <div className="col-md-4">
-                                    <Link
-                                      to="https://www.careerpotli.com/course-options.php"
-                                      className="imgchoosea"
-                                    >
-                                      Help me to choose
-                                    </Link>
-                                  </div>
-                                </div>
-                              </div>
                             </div>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="dropdown yamm-fw">
-                        <Link
-                          to="#"
-                          data-toggle="dropdown"
-                          className="dropdown-toggle active"
-                        >
-                          Exam Library <b className="fa fa-angle-down" />
-                        </Link>
-                        <ul className="dropdown-menu coursedrop container-fluid">
-                          <li>
-                            <div className="yamm-content clearfix coursenav exmnavcoursesit">
-                              <div className="row-fluid">
-                                <div className="col-md-6 no-padding">
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/Engineering1"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/Engineering1"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Engineering
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link to="/jee-main">JEE Mains</Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/jee-advance">
-                                          JEE Advance
-                                        </Link> 
-                                      </li>
-                                      <li>
-                                        <Link to="/bitsat">
-                                          BITSAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/vitee">
-                                          VITEEE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/wbjee">
-                                          WBJEE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/jcece">
-                                          JCECE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/upsee">
-                                          UPSEE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ojee">
-                                          OJEE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/bcece">
-                                          BCECE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/gate">
-                                          GATE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/srmjeee">
-                                          SRMJEEE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/aeee">
-                                          AEEE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/nata">
-                                          NATA
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/muoet">
-                                          MUOET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ceed">
-                                          CEED
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/iiith-pgee">
-                                          IIITH PGEE
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/Management11"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/Management11"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-bars" />
-                                        Management
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link to="/cat">
-                                          CAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/mat">
-                                          MAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/xat">
-                                          XAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/snap">
-                                          SNAP
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/nmat">
-                                          NMAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ibsat">
-                                          IBSAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/cmat">
-                                          CMAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/atma">
-                                          ATMA
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/iift">
-                                          IIFT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/tancet">
-                                          TANCET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/mah-cet">
-                                          MAH-CET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/irma">
-                                          IRMA
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/kiitee-management">
-                                          KIITEE MANAGEMENT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/kmat">
-                                          KMAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/tsicet">
-                                          TSICET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/hpu-mat">
-                                          HPU MAT
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/compititive_exam"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/compititive_exam"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Compititive Exams
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link to="/upsc_ias">
-                                          UPSC-IAS
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ssc-cgl">
-                                          SSC-CGL
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ctet">
-                                          CTET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/kvpy">
-                                          KVPY
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ibps-po">
-                                          IBPS-PO
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/sbi-clerk">
-                                          SBI Clerk
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ibps-clerk">
-                                          IBPS-Clerk
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ies">
-                                          IES
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ntse">
-                                          NTSE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/psu-through-gate">
-                                          PSU Through GATE
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ssc-chsl">
-                                          SSC-CHSL
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="https://www.careerpotli.com/exam-details/uptet">
-                                          UPTET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="https://www.careerpotli.com/exam-details/icar-aieea">
-                                          ICAR AIEEA
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="https://www.careerpotli.com/exam-details/fddi---aist">
-                                          FDDI - AIST
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
+                            <div className="flex-item" >    
+                                <div className="flex-item12">
+                                    <Link to="/Management11" className="dropdown-header"><i class="fa fa-cog"></i>Management</Link>
+                                    <Link className="dropdown-item" to="/cat">CAT</Link>
+                                    <Link className="dropdown-item" to="/mat">MAT</Link>
+                                    <Link className="dropdown-item" to="/xat">XAT</Link>
+                                    <Link className="dropdown-item" to="/snap">SNAP</Link>
+                                    <Link className="dropdown-item" to="/nmat">NMAT</Link>
+                                    <Link className="dropdown-item" to="/ibsat">IBSAT</Link>
+                                    <Link className="dropdown-item" to="/cmat">CMAT</Link>
+                                    <Link className="dropdown-item" to="/atma">ATMA</Link>
+                                    <Link className="dropdown-item" to="/iift">IIFT</Link>
+                                    <Link className="dropdown-item" to="/ancet">ANCET</Link>
+                                    <Link className="dropdown-item" to="/mat-cet">MAH-CET</Link>
+                                    <Link className="dropdown-item" to="/irma">IRMA</Link>
+                                    <Link className="dropdown-item" to="/kiitee-management">KIITEE MANAGEMENT</Link>
+                                    <Link className="dropdown-item" to="/kmat">KMAT</Link>
+                                    <Link className="dropdown-item" to="/tsicet">TSICET</Link>
+                                    <Link className="dropdown-item" to="/hpu-mat">HPU MAT</Link>
                                 </div>
-                                <div className="col-md-6 no-padding">
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/medical_exams"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/medical_exams"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Medical Exams
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link to="/aiims">
-                                          AIIMS
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/neet">
-                                          NEET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/jipmer">
-                                          JIPMER
-                                        </Link>
-                                      </li>
-                                      <li>
-                      
-                      
-                                           <Link to="/gujcet">
-                                          GUJCET
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/bhu_pmt">
-                                          BHU PMT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/pmet">
-                                          PMET
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/law_exams"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/law_exams"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Law Exams
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link to="/ap_lawcet">
-                                          AP LAWCET 2019
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/clat">
-                                          CLAT 2019
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/ailet">
-                                          AILET 2019
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/lsat">
-                                          LSAT
-                                        </Link>
-                                      </li>
-                                      <li>
-                                        <Link to="/mh_cet">
-                                          MH CET
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/other_exams"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/other_exams"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Other Exams
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link to="/comedk_uget">
-                                          COMEDK - UGET
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div className="col-md-6 no-padding" />
-                              </div>
                             </div>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="dropdown yamm-fw">
-                        <Link
-                          to="#"
-                          data-toggle="dropdown"
-                          className="dropdown-toggle active"
-                        >
-                          College <b className="fa fa-angle-down" />
-                        </Link>
-                        <ul className="dropdown-menu coursedrop container-fluid">
-                          <li>
-                            <div className="yamm-content clearfix coursenav exmnavcoursesit">
-                              <div className="row-fluid">
-                                <div className="col-md-6 no-padding">
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Engineering
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            4636 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-bar-chart" />
-                                        Management &amp; Business
-                                      </Link>
-                                    </h2>
-                                    <p />
-
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/manager-50.png")}
-                                            title="Management"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            6014 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-desktop" />
-                                        Computer Application
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            3934 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-medkit" />
-                                        Medical &amp; Health Care
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/dna_helix-50.png")}
-                                            title="Life sciences"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            1534 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gavel" />
-                                        Law
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/law-50.png")}
-                                            title="Law"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            1052 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-rupee" />
-                                        Commerce
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/literature-50.png")}
-                                            title="Education"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            3833 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-flask" />
-                                        Science
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/geography-50.png")}
-                                            title="Social sciences"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            4920 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-paint-brush" />
-                                        Arts
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/art_prices-50.png")}
-                                            title="Arts"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            4222 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Diploma in Engineering
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            4576 Colleges
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-medkit" />
-                                        Pharmacy
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/pill-50.png")}
-                                            title="Pharmacy"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            4576 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-bed" />
-                                        Hotel Management
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            750 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-black-tie" />
-                                        Fashion
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/3d_glasses_filled-50.png")}
-                                            title="Fashion"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            276 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
+                            <div className="flex-item">
+                                <div className="flex-item13">
+                                    <Link to="/cpmititive_exam" className="dropdown-header"><i class="fa fa-cog"></i>Compitive Exams</Link>
+                                    <Link className="dropdown-item" to="/upsc_ias">UPSC-IAS</Link>
+                                    <Link className="dropdown-item" to="/ssc_cgl">SSC-CGL</Link>
+                                    <Link className="dropdown-item" to="/ctet">CTET</Link>
+                                    <Link className="dropdown-item" to="/kvpy">KVPY</Link>
+                                    <Link className="dropdown-item" to="/ibps-po">IBPS-PO</Link>
+                                    <Link className="dropdown-item" to="/sbi-clerk">SBI Clerk</Link>
+                                    <Link className="dropdown-item" to="/ibps-clerk">IBPS-Clerk</Link>
+                                    <Link className="dropdown-item" to="/ies">IES</Link>
+                                    <Link className="dropdown-item" to="/ntse">NTSE</Link>
+                                    <Link className="dropdown-item" to="/psu-through-gate">PSU Through GATE</Link>
+                                    <Link className="dropdown-item" to="/ssc-chsl">SSC-CHSL</Link>
+                                    <Link className="dropdown-item" to="https://www.careerpotli.com/exam-details/uptet">UPTET</Link>
+                                    <Link className="dropdown-item" to="https://www.careerpotli.com/exam-details/icar-aieea">ICAR AIEEA</Link>
+                                    <Link className="dropdown-item" to="https://www.careerpotli.com/exam-details/fddi---aist">FDDI - AIST</Link>
                                 </div>
-                                <div className="col-md-6 no-padding">
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-camera" />
-                                        Media &amp; Mass Communication
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/advertising-50.png")}
-                                            title="Mass communication"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            1229 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-crop" />
-                                        Agriculture
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/spade-50.png")}
-                                            title="Agriculture"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            716 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-graduation-cap" />
-                                        Education
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/geography-50.png")}
-                                            title="Social sciences"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            2751 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-plane" />
-                                        Aviation
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            144 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-file" />
-                                        Diploma and Certificate Courses
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/design-50.png")}
-                                            title="Design"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            714 Courses{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-plane" />
-                                        Hotal Management
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            750 Colleges
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-chart-bar" />
-                                        Management
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/manager-50.png")}
-                                            title="Management"
-                                            width="50"
-                                          />
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            6014 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Architecture
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/apartment-50.png")}
-                                            title="Architecture"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            516 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4 col-sm-4 col-xs-6">
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Dental
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            393 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Paramedical
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            997 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Veterinary Science
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            97 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                    <p>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      />
-                                    </p>
-                                    <h2>
-                                      <Link
-                                        to="/engineering"
-                                        className="exmheadcate"
-                                      >
-                                        <i className="fa fa-gears" />
-                                        Vocational Course
-                                      </Link>
-                                    </h2>
-                                    <p />
-                                    <ul className="menu-item">
-                                      <li>
-                                        <Link
-                                          to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"
-                                          className="each_subject"
-                                          title="Study Engineering Programs Abroad"
-                                        >
-                                          <img
-                                            alt=""
-                                            src={require("../.././images/engineering-50.png")}
-                                            title="Engineering"
-                                            width="50"
-                                          />
-
-                                          <p className="each_subject_value">
-                                            {" "}
-                                            714 Colleges{" "}
-                                          </p>
-                                        </Link>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div className="col-md-6 no-padding" />
-                              </div>
                             </div>
-                          </li>
-                        </ul>
-                      </li>
-                     
-                     
-                      <li>
-                        <Link
-                          title=""
-                          to="https://www.careerpotli.com/career-counselling-experts-in-india.php"
-                        >
-                          Live Webinar
-                        </Link>
-                      </li>
-                    </ul>
-                    <div className="collapse navbar-collapse" id="mobile-nav">
-            <ul className="nav navbar-nav navbar-auto">
-              <li className="nav-item">
-                <Link className="nav-link" to="/profiles">
-                  {' '}
-                  Profiles
-                </Link>
-              </li>
-            </ul>
-            {isAuthenticated ? authLinks : guestLinks}
-          </div>
-                  </div>
-                </div>
-             
-              </nav>
-            </div>
-          </header>
-          </div>
-      </div>
-    );
+                            <div className="flex-item" >
+                                <div className="flex-item14">
+                                    <Link to="/medical_exams" className="dropdown-header"><i class="fa fa-cog"></i>Medical Exams</Link>
+                                    <Link className="dropdown-item" to="/aiims">AIIMS</Link>
+                                    <Link className="dropdown-item" to="/neet">NEET</Link>
+                                    <Link className="dropdown-item" to="/jipmer">JIPMER</Link>
+                                    <Link className="dropdown-item" to="/gujcet">GUJCET</Link>
+                                    <Link className="dropdown-item" to="/bhu_pmt">BHU PMT</Link>
+                                    <Link className="dropdown-item" to="/pmet">PMET</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item" >
+                                <div className="flex-item15">
+                                    <Link to="/law_exams" className="dropdown-header"><i class="fa fa-cog"></i>Law Exams</Link>
+                                    <Link className="dropdown-item" to="/ap_lawcet">AP LAWCET 2019</Link>
+                                    <Link className="dropdown-item" to="/clat">CLAT 2019</Link>
+                                    <Link className="dropdown-item" to="/ailet">AILET 2019</Link>
+                                    <Link className="dropdown-item" to="/lsat">LSAT</Link>
+                                    <Link className="dropdown-item" to="/mh_cet">MH CET</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item">
+                                <div className="flex-item16">
+                                    <Link to="/other_exams" className="dropdown-header"><i class="fa fa-cog"></i>Other Exams</Link>
+                                    <Link className="dropdown-item" to="/comedk_uget">COMEDK-UGET</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li className="nav-item dropdown">
+                    <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Collage
+                    </Link>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div className="flex-container">
+                            <div className="flex-item" >
+                                <div className="flex-item21">
+                                    <Link to="/engineering" className="dropdown-header">Engineering</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/1.png" alt="img" /><br />4636 Colleges</Link>
+                                
+                                    <Link to="/management11" className="dropdown-header">Management & <br/>Business</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/2.png" alt="img" /><br />6014 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Computer Application</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/3.png" alt="img" /><br />3934 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Medical & Health Care</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/4.png" alt="img" /><br />1534 Colleges</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item" >
+                                <div className="flex-item22">
+                                    <Link to="/engineering/engineering" className="dropdown-header">Law</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/5.png" alt="img" /><br />1052 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Commerce</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/6.png" alt="img" /><br />3833 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Science</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/7.png" alt="img" /><br />4920 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Arts</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/8.png" alt="img" /><br />4222 Colleges</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item" >
+                                <div className="flex-item23">
+                                    <Link to="/engineering" className="dropdown-header">Diploma In <br />Engineering</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/9.png" alt="img" /><br />4576 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Pharmacy</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/10.png" alt="img" /><br />4576 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Hotel Management</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/11.png" alt="img" /><br />750 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Fashion</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/12.png" alt="img" /><br />276 Colleges</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item" >
+                                <div className="flex-item24">
+                                    <Link to="/engineering/engineering/engineering/engineering" className="dropdown-header">Media & Mass<br /> Communication</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/13.png" alt="img" /><br />1229 Colleges</Link>
+                                
+                                    <Link to="/engineering/engineering/engineering" className="dropdown-header">Agriculture</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/14.png" alt="img" /><br />716 Colleges</Link>
+                                
+                                    <Link to="/engineering/engineering" className="dropdown-header">Education</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/15.png" alt="img" /><br />2751 Colleges</Link>
+                               
+                                    <Link to="/engineering" className="dropdown-header">Aviation</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/16.png" alt="img" /><br />144 Colleges</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item" >
+                                <div className="flex-item25">
+                                    <Link to="/engineering" className="dropdown-header">Diploma And <br />Certificate Courses</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/17.png" alt="img" /><br />714 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Hotel Management</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/18.png" alt="img" /><br />750 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Mnagement</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/19.png" alt="img" /><br />6014 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Architecture</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/20.png" alt="img" /><br />516 Colleges</Link>
+                                </div>
+                            </div>
+                            <div className="flex-item" >
+                                <div className="flex-item26">
+                                    <Link to="/engineering" className="dropdown-header">Dental</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/21.png" alt="img" /><br />393 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Paramedical</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/22.png" alt="img" /><br />997 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Veterinary Science</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/23.png" alt="img" /><br />97 Colleges</Link>
+                                
+                                    <Link to="/engineering" className="dropdown-header">Vocational Course</Link>
+                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/24.png" alt="img" /><br />714 Colleges</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="#">Community</Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link sign1" to="#">SignUp</Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link sign2" to="#">SignIn</Link>
+                </li>
+                {isAuthenticated ? authLinks : guestLinks}
+        </ul>
+    </div>
+</nav>
+    )
   }
 }
-
 Navbar.propTypes = {
   logoutUser: PropTypes.func.isRequired,
   auth: PropTypes.object.isRequired

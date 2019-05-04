@@ -3,3 +3,62 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-item {
+  padding: 5px;
+  font-size: 12px;
+}
+a {
+  padding: -10px;
+}
+.dropdown-header {
+  width: 200px;
+  padding: 2px 0px;
+  margin-right: 0px;
+}
+a.dropdown-item {
+  width: 200px;
+  padding: 2px 0px;
+}
+
+.flex-item1,.flex-item2,.flex-item3,.flex-item4,.flex-item5,.flex-item6,
+.flex-item7,.flex-item8,.flex-item9,.flex-item10,.flex-item11,.flex-item12{
+  margin: 10px;
+}
+.flex-item11,.flex-item12,.flex-item13,.flex-item14,.flex-item15,.flex-item16{
+  margin:3px;
+  width:110px;
+}
+.flex-item21,.flex-item22,.flex-item23,.flex-item24,.flex-item25,.flex-item26{
+  margin:3px;
+  width:110px;
+}
+.dropdown-header{
+  color:orange;
+}
+i{
+  margin: 3px;
+}
+@media (min-width: 992px) {
+  .dropdown-menu.show {
+    display: block;
+    width: 700px;
+    margin-left: -190px;
+    margin-top: 20px;
+}
+
+} 
+
+@media (min-width: 1100px) {
+  .dropdown-menu.show {
+    display: block;
+    width: 950px;
+    margin-right: 400px;
+    margin-left: -180px;
+    margin-top: 20px;
+}
+}
