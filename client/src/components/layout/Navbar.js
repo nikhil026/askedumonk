@@ -182,7 +182,7 @@ class Navbar extends Component {
                                     <Link to="/bsc_avaition" className="dropdown-item">B.Sc. Aviation</Link>
                                 </div>
                                 <div className="flex-item12">
-                                    <Link to="/diploma_certificate" className="dropdown-header"><i class="fa fa-university"></i>Diploma And Certificate Courses</Link>
+                                    <Link to="/diploma_certificate" className="dropdown-header"><i class="fa fa-university"></i>Diploma And<br />Certificate Courses</Link>
                                     <Link className="dropdown-item" to="/Airfare_ticketing">Airfare And Ticketing Management</Link>
                                     <Link to="/aviation_hospitality" className="dropdown-item">Aviation Hospitality</Link>
                                     
@@ -391,12 +391,6 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="#">Community</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link sign1" to="#">SignUp</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link sign2" to="#">SignIn</Link>
                 </li>
                 {isAuthenticated ? authLinks : guestLinks}
         </ul>
