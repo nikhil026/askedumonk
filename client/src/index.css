@@ -51,6 +51,9 @@ i{
     margin-left: -190px;
     margin-top: 20px;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 12px;
+}
 
 } 
 
@@ -61,5 +64,8 @@ i{
     margin-right: 400px;
     margin-left: -180px;
     margin-top: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 12px;
 }
 }

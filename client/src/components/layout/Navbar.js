@@ -76,12 +76,12 @@ class Navbar extends Component {
                         <div className="flex-container">
                             <div className="flex-item" >
                                 <div className="flex-item1">
-                                    <Link to="/ManagementandBusiness" className="dropdown-header"><i class="fa fa-bar-chart"></i>Management & Business</Link>
+                                    <Link to="/ManagementandBusiness" className="dropdown-header"><i className="fa fa-bar-chart"></i>Management & Business</Link>
                                     <Link className="dropdown-item" to="/Business_Administration">Bachelor Of Business Administration</Link>
                                     <Link className="dropdown-item" to="/Management_Business">Bachelor Of Business Management</Link>
                                 </div>
                                 <div className="flex-item2">
-                                    <Link to="/Engineering" className="dropdown-header"><i class="fa fa-cog"></i>Engineer</Link>
+                                    <Link to="/Engineering" className="dropdown-header"><i className="fa fa-cog"></i>Engineer</Link>
                                     <Link className="dropdown-item" to="/agriculture">Agriculture Engineering</Link>
                                     <Link className="dropdown-item" to="/information">Information Technology Engineering</Link>
                                     <Link className="dropdown-item" to="/electronics">Electronics & Tele-Communication</Link>
@@ -98,20 +98,20 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/aircraft">Aircraft Maintenance Engineering</Link>
                                     <Link className="dropdown-item" to="/computer">Computer Science Engineering</Link>
                                     <Link className="dropdown-item" to="/Management_Business">Bachelor Of Business Management</Link>
-                                    <Link to="/teaching" className="dropdown-header"><i class="fa fa-youtube-play"></i>Teaching</Link>
+                                    <Link to="/teaching" className="dropdown-header"><i className="fa fa-youtube-play"></i>Teaching</Link>
                                     <Link className="dropdown-item" to="/bed">B.Ed</Link>
                                 </div>
                             </div>
                             <div className="flex-item">
                                 <div className="flex-item3">
-                                    <Link to="/architecture" className="dropdown-header"><i class="fa fa-file-text"></i>Architecture</Link>
+                                    <Link to="/architecture" className="dropdown-header"><i className="fa fa-file-text"></i>Architecture</Link>
                                     <Link className="dropdown-item" to="/bachelor_architecture">Bachelor Of Architecture</Link>
                                     
-                                    <Link to="/computer_app" className="dropdown-header"><i class="fa fa-youtube-play"></i>Computers & IT</Link>
+                                    <Link to="/computer_app" className="dropdown-header"><i className="fa fa-youtube-play"></i>Computers & IT</Link>
                                     <Link className="dropdown-item" to="/bachelor_computer">Bachelor Of Computer Applications</Link>
                                 </div>
                                 <div className="flex-item4">
-                                    <Link to="/medical" className="dropdown-header"><i class="fa fa-stethoscope"></i>Medical & Health Care</Link>
+                                    <Link to="/medical" className="dropdown-header"><i className="fa fa-stethoscope"></i>Medical & Health Care</Link>
                                     <Link className="dropdown-item" to="/bachelor_medicine">Bachelor Of Medicine & Bachelor Of Surgery</Link>
                                     <Link className="dropdown-item" to="/bachelor_ayurveda">Bachelor Of Ayurveda, Medicine And Surgery</Link>
                                     <Link className="dropdown-item" to="/bachelor_homeopathy">Bachelor Of Homeopathy Medicine<br />
@@ -121,7 +121,7 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/bachelor_dental">Bachelor Of Dental Surgery</Link>
                                 </div>
                                 <div className="flex-item5">
-                                    <Link to="/law" className="dropdown-header"><i class="	fa fa-drupal"></i>Law</Link>
+                                    <Link to="/law" className="dropdown-header"><i className="fa fa-drupal"></i>Law</Link>
                                     <Link className="dropdown-item" to="/bachelor_law">Bachelor Of Laws</Link>
                                     <Link className="dropdown-item" to="/bachelor_art">Bachelor Of Arts & Law (B.A, LLB)</Link>
                                     <Link className="dropdown-item" to="/bachelor_comLaw">Bachelor Of Commerce & Law (B.Com, LLB)</Link>
@@ -129,23 +129,23 @@ class Navbar extends Component {
                                                                     & Law (BBA, LLB)</Link>
                                
                                 
-                                    <Link to="/commerce" className="dropdown-header"><i class="fa fa-rupee"></i>Commerce</Link>
+                                    <Link to="/commerce" className="dropdown-header"><i className="fa fa-rupee"></i>Commerce</Link>
                                     <Link className="dropdown-item" to="/bachelor_commerce">Bachelor Of Commerence Chartered</Link>
                                     <Link className="dropdown-item" to="/chartedAccountent">Chartered Accountant(CA)</Link>
                                 </div>
                             </div>
                             <div className="flex-item">
                                 <div className="flex-item6">
-                                    <Link to="/science" className="dropdown-header"><i class="fa fa-scribd"></i>Science</Link>
+                                    <Link to="/science" className="dropdown-header"><i className="fa fa-scribd"></i>Science</Link>
                                     <Link className="dropdown-item" to="/bachelor_science">Bachelor Of Science(Nursing)</Link>
                                     
-                                    <Link to="/art_huminities" className="dropdown-header"><i class="fa fa-stumbleupon"></i>Art & Humanities</Link>
+                                    <Link to="/art_huminities" className="dropdown-header"><i className="fa fa-stumbleupon"></i>Art & Humanities</Link>
                                     <Link className="dropdown-item" to="/bachelor_arts">Bachelor Of Arts</Link>
                                     <Link to="/bachelor_fineart" className="dropdown-item">Bachelor of Fine Arts(BFA)</Link>
                                     <Link to="/diploma_fineArts" className="dropdown-item">Diploma In Fine Arts</Link>
                                 </div>
                                 <div className="flex-item7">
-                                    <Link to="/diploma" className="dropdown-header"><i class="	fa fa-graduation-cap"></i>Dimploma in Engineering</Link>
+                                    <Link to="/diploma" className="dropdown-header"><i className="fa fa-graduation-cap"></i>Dimploma in Engineering</Link>
                                     <Link className="dropdown-item" to="/diploma_civil">Diploma In Civil Engineering</Link>
                                     <Link className="dropdown-item" to="/diploma_automobile">Diploma In Automobile<br /> Engineering</Link>
                                     <Link className="dropdown-item" to="/diploma_computer">Diploma In Compe-playuter<br /> Engineering</Link>
@@ -154,39 +154,39 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/diploma_mechanical">Diploma In Mechanical Engineering</Link>
                                 </div>
                                 <div className="flex-item8">
-                                    <Link to="/pharmecy" className="dropdown-header"><i class="	fa fa-graduation-cap"></i>Pharmacy</Link>
+                                    <Link to="/pharmecy" className="dropdown-header"><i className="fa fa-graduation-cap"></i>Pharmacy</Link>
                                     <Link className="dropdown-item" to="/bachelor_pharmecy">Bachelor Of Pharmacy</Link>
                                     
-                                    <Link to="/hotal_management" className="dropdown-header"><i class="	fa fa-hotel"></i>Hotel Management</Link>
+                                    <Link to="/hotal_management" className="dropdown-header"><i className="fa fa-hotel"></i>Hotel Management</Link>
                                     <Link className="dropdown-item" to="/bachelor_hmanagement">Bachelor Of Hotel Management</Link>
                                 </div>
                             </div>
                             <div className="flex-item">
                                 <div className="flex-item9">
-                                    <Link to="/fashion_design" className="dropdown-header"><i class="fa fa-random"></i>Fashion & Design</Link>
+                                    <Link to="/fashion_design" className="dropdown-header"><i className="fa fa-random"></i>Fashion & Design</Link>
                                     <Link className="dropdown-item" to="/bachelor_design">Bachelor Of Design</Link>
                                     <Link className="dropdown-item" to="/fashion_designcourse">Fashion Design Courses</Link>
                                     <Link to="/media_mass" className="dropdown-header">Media & Mass Communication</Link>
                                     <Link className="dropdown-item" to="/Bachelor_journalism">Bachelor's In Journalism And Mass<br /> Communication</Link>
                                 </div>
                                 <div className="flex-item10">
-                                    <Link to="/Agriculture1" className="dropdown-header"><i class="fa fa-shopping-baske"></i>Agriculture</Link>
+                                    <Link to="/Agriculture1" className="dropdown-header"><i className="fa fa-shopping-baske"></i>Agriculture</Link>
                                     <Link className="dropdown-item" to="/bachelor_horiculture">Bachelor Of Technology (B.Tech)<br/> In Horticulture</Link>
                                     <Link className="dropdown-item" to="/bachelor_scienceHorticulture">Bachelor Of Science (B.Sc)<br /> In Horticulture</Link>
                                     <Link className="dropdown-item" to="/agriculture_business">Agriculture Business Management</Link>
                                     <Link className="dropdown-item" to="/bachelor_scienceAgriculture">Bachelor Of Science (B.Sc) <br />In Agriculture</Link>
                                 </div>
                                 <div className="flex-item11">
-                                    <Link to="/aviation" className="dropdown-header"><i class="fa fa-upload"></i>Aviaiton</Link>
+                                    <Link to="/aviation" className="dropdown-header"><i className="fa fa-upload"></i>Aviaiton</Link>
                                     <Link className="dropdown-item" to="/bba_airport">BBA In Airport Management</Link>
                                     <Link to="/bsc_avaition" className="dropdown-item">B.Sc. Aviation</Link>
                                 </div>
                                 <div className="flex-item12">
-                                    <Link to="/diploma_certificate" className="dropdown-header"><i class="fa fa-university"></i>Diploma And<br />Certificate Courses</Link>
+                                    <Link to="/diploma_certificate" className="dropdown-header"><i className="fa fa-university"></i>Diploma And<br />Certificate Courses</Link>
                                     <Link className="dropdown-item" to="/Airfare_ticketing">Airfare And Ticketing Management</Link>
                                     <Link to="/aviation_hospitality" className="dropdown-item">Aviation Hospitality</Link>
                                     
-                                    <Link to="/travel_tourism" className="dropdown-header"><i class="fa fa-space-shuttle"></i>Travel And Tourism</Link>
+                                    <Link to="/travel_tourism" className="dropdown-header"><i className="fa fa-space-shuttle"></i>Travel And Tourism</Link>
                                     <Link className="dropdown-item" to="/tourism_management">Tourism Management</Link>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@ class Navbar extends Component {
                         <div className="flex-container">
                             <div className="flex-item" >
                                 <div className="flex-item11">
-                                    <Link to="/Engineering1" className="dropdown-header"><i class="fa fa-cog"></i>Engineering</Link>
+                                    <Link to="/Engineering1" className="dropdown-header"><i className="fa fa-cog"></i>Engineering</Link>
                                     <Link className="dropdown-item" to="/jee-main">JEE Mains</Link>
                                     <Link className="dropdown-item" to="/jee-advance">JEE Advance</Link>
                                     <Link className="dropdown-item" to="/bitsat">BITSAT</Link>
@@ -222,7 +222,7 @@ class Navbar extends Component {
                             </div>
                             <div className="flex-item" >    
                                 <div className="flex-item12">
-                                    <Link to="/Management11" className="dropdown-header"><i class="fa fa-cog"></i>Management</Link>
+                                    <Link to="/Management11" className="dropdown-header"><i className="fa fa-cog"></i>Management</Link>
                                     <Link className="dropdown-item" to="/cat">CAT</Link>
                                     <Link className="dropdown-item" to="/mat">MAT</Link>
                                     <Link className="dropdown-item" to="/xat">XAT</Link>
@@ -243,7 +243,7 @@ class Navbar extends Component {
                             </div>
                             <div className="flex-item">
                                 <div className="flex-item13">
-                                    <Link to="/cpmititive_exam" className="dropdown-header"><i class="fa fa-cog"></i>Compitive Exams</Link>
+                                    <Link to="/cpmititive_exam" className="dropdown-header"><i className="fa fa-cog"></i>Compitive Exams</Link>
                                     <Link className="dropdown-item" to="/upsc_ias">UPSC-IAS</Link>
                                     <Link className="dropdown-item" to="/ssc_cgl">SSC-CGL</Link>
                                     <Link className="dropdown-item" to="/ctet">CTET</Link>
@@ -262,7 +262,7 @@ class Navbar extends Component {
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item14">
-                                    <Link to="/medical_exams" className="dropdown-header"><i class="fa fa-cog"></i>Medical Exams</Link>
+                                    <Link to="/medical_exams" className="dropdown-header"><i className="fa fa-cog"></i>Medical Exams</Link>
                                     <Link className="dropdown-item" to="/aiims">AIIMS</Link>
                                     <Link className="dropdown-item" to="/neet">NEET</Link>
                                     <Link className="dropdown-item" to="/jipmer">JIPMER</Link>
@@ -273,7 +273,7 @@ class Navbar extends Component {
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item15">
-                                    <Link to="/law_exams" className="dropdown-header"><i class="fa fa-cog"></i>Law Exams</Link>
+                                    <Link to="/law_exams" className="dropdown-header"><i className="fa fa-cog"></i>Law Exams</Link>
                                     <Link className="dropdown-item" to="/ap_lawcet">AP LAWCET 2019</Link>
                                     <Link className="dropdown-item" to="/clat">CLAT 2019</Link>
                                     <Link className="dropdown-item" to="/ailet">AILET 2019</Link>
@@ -283,7 +283,7 @@ class Navbar extends Component {
                             </div>
                             <div className="flex-item">
                                 <div className="flex-item16">
-                                    <Link to="/other_exams" className="dropdown-header"><i class="fa fa-cog"></i>Other Exams</Link>
+                                    <Link to="/other_exams" className="dropdown-header"><i className="fa fa-cog"></i>Other Exams</Link>
                                     <Link className="dropdown-item" to="/comedk_uget">COMEDK-UGET</Link>
                                 </div>
                             </div>

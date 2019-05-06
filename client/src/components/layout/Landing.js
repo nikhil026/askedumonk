@@ -71,11 +71,11 @@ class Landing extends Component {
                       <div className="input-group">
                         <input
                           type="text"
-                          className="form-control input-lg ui-autocomplete-input"
+                          className="form-control input-lg ui-autoComplete-input"
                           id="prosearch"
                           name="s"
                           placeholder="Search for Course, Exams..."
-                          autocomplete="off"
+                          autoComplete="off"
                         />
                         <div className="sea-drop-com sea-drop-1" />
                         <span className="input-group-btn">
@@ -98,7 +98,7 @@ class Landing extends Component {
                     <div className="box_feat">
                       <p
                         className="purchsetestbtnfrree"
-                        style={{ "margin-top": "30px", padding: "10px" }}
+                        style={{ "marginTop": "30px", padding: "10px" }}
                       >
                         Recognized By
                       </p>
@@ -205,13 +205,13 @@ class Landing extends Component {
                     style={{
                       color: "#e21a37",
 
-                      "font-size": "20px"
+                      "fontSize": "20px"
                     }}
                   >
                     <strong>#AskEdumonk</strong>&nbsp;&nbsp;
                   </span>
                   <b>
-                    <span style={{ "font-size": "18px" }}>
+                    <span style={{ "fontSize": "18px" }}>
                       is an intiative taken by Edumonk Foundation to address the
                       growing needs of <br />
                       sustainable guidance effective process of self
@@ -221,7 +221,7 @@ class Landing extends Component {
                 </p>
                 <br />
                 <p align="center">
-                  <span style={{ color: "gray", "font-size": "18px" }}>
+                  <span style={{ color: "gray", "fontSize": "18px" }}>
                     <i>
                       "Nothing in This World is Greater Than The Desire Line Of
                       indviduals And Wisdom of the Crowd"
@@ -230,7 +230,7 @@ class Landing extends Component {
                 </p>
                 <br />
                 <p align="center">
-                  <span style={{ "font-size": "18px" }}>
+                  <span style={{ "fontSize": "18px" }}>
                     <b>
                       Align the intelligence of your mind with study habits for
                       defining learning path to have a greater
@@ -252,7 +252,7 @@ class Landing extends Component {
                     <b>Discover Your Inborn Potential</b>
                   </h3>
                   <p>
-                    <span style={{ "font-size": "18px" }}>
+                    <span style={{ "fontSize": "18px" }}>
                       Tap into the inner intelligence of your mind to choose the
                       best career for yourself and choose course as well as
                       colleges accordingly to reach towards your planned career
@@ -285,7 +285,7 @@ class Landing extends Component {
                     <div className="box_feat">
                       <p
                         className="purchsetestbtnfrree"
-                        style={{ "margin-top": "30px", padding: "10px" }}
+                        style={{ "marginTop": "30px", padding: "10px" }}
                       >
                         Academic Partners
                       </p>
@@ -331,7 +331,7 @@ class Landing extends Component {
                 </h3>
 
                 <p align="center">
-                  <span style={{ "font-size": "18px" }}>
+                  <span style={{ "fontSize": "18px" }}>
                     Tap into the inner intelligence of your mind to choose the
                     best career for yourself and choose course as well as
                     colleges accordingly to reach towards your planned career of
@@ -387,7 +387,7 @@ class Landing extends Component {
                 <div className=" testexplainboxh col-md-6 info">
                   <h3>Prepare Yourself For the Future With Confidence</h3>
                   <p>
-                    <span style={{ "font-size": "16px" }}>
+                    <span style={{ "fontSize": "16px" }}>
                       Our <strong>SIDCAT Career Report</strong> is a map of the
                       8 dimensional intellegence of your mind. Its analysis is
                       conducted by identifying the shape of fingerprint patterns
@@ -425,7 +425,7 @@ class Landing extends Component {
                   &nbsp;
                   <br />
                   <p>
-                    <span style={{ "font-size": "16px" }}>
+                    <span style={{ "fontSize": "16px" }}>
                       Book your free slots with the nearest
                       <strong> #AskEdumonk Career Lab</strong> near your
                       location from the list of centers mentaioned in the list
@@ -444,7 +444,7 @@ class Landing extends Component {
                     <div className="box_feat">
                       <p
                         className="purchsetestbtnfrree"
-                        style={{ "margin-top": "30px", padding: "10px" }}
+                        style={{ "marginTop": "30px", padding: "10px" }}
                       >
                         Industry Partners
                       </p>
@@ -495,7 +495,7 @@ class Landing extends Component {
                     To Ask & Discuss Career Queries With Edumonk
                   </h3>
                   <p>
-                    <span style={{ "font-size": "16px" }}>
+                    <span style={{ "fontSize": "16px" }}>
                       We conduct public as well as private Webinars for School
                       Students. College Students as well as Working
                       professionals. These Counselling Event & Webinars are
@@ -531,7 +531,7 @@ class Landing extends Component {
                   &nbsp;
                   <br />
                   <p>
-                    <span style={{ "font-size": "16px" }}>
+                    <span style={{ "fontSize": "16px" }}>
                       Book your free slots with the nearest
                       <strong> #AskEdumonk Career Lab</strong> near your
                       location from the list of centers mentaioned in the list
