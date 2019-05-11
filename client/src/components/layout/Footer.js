@@ -5,6 +5,7 @@ export default () => {
     <footer className="copyrights footerall">
       <div className="container1">
         <div className="row">
+          
           <div className="col-md-3 col-sm-12 footerabt">
             <img src={require("../.././images/logo-edumonk1.png")} alt="" />
             <br />
@@ -22,6 +23,8 @@ export default () => {
               the stream that’s better for you.{" "}
             </p>
           </div>
+          <div className="flex-container-footer">
+          <div className="flex-item-footer">
           <div className="col-md-2 col-sm-12 ">
             <h4>Important Links</h4>
             <div className="small-border" />
@@ -63,6 +66,8 @@ export default () => {
               <Link to="career-assessment-test" />
             </ul>
           </div>
+          </div>
+          <div className="flex-item-footer">
           <Link to="/career-assessment-test" />
           <div className="col-md-2 col-sm-12">
             <Link to="/career-assessment-test">
@@ -111,7 +116,8 @@ export default () => {
               </li>
             </ul>
           </div>
-
+        </div>
+        <div className="flex-item-footer">
           <div className="col-md-2 col-sm-12">
             <h4>Popular Exams</h4>
             <div className="small-border" />
@@ -152,6 +158,7 @@ export default () => {
                 <Link to="/upsc_ias">UPSC IAS</Link>
               </li>
             </ul>
+          </div>
           </div>
           <div className="col-md-3 col-sm-12">
             <h4>Contact</h4>
@@ -222,6 +229,8 @@ export default () => {
               </li>
             </ul>
           </div>
+         
+        </div>
         </div>
         <hr />
         <div className="col-md-12 col-sm-12">

@@ -32,11 +32,8 @@ class Landing extends Component {
                 <div
                   className="text-center"
                   style={{ width: "-moz-fit-content" }}
-                >
-                  <div
-                    className=" col-md-6 col-md-offset-3 col-sm-12 col-xs-12"
-                    style={{ align: "center" }}
-                  >
+                ><div className="flex-container-search">
+                <div className="flex-itemer" >
                     <ul className="nav nav-pills text-center form-tabs">
                       <li className="searchtype active">
                         <a data-toggle="tab" href="#colleges">
@@ -44,34 +41,47 @@ class Landing extends Component {
                           &nbsp;Colleges
                         </a>
                       </li>
-                      <li className="searchtype ">
+                      </ul>
+                      </div>
+                      <div className="flex-itemer" >
+                    <ul className="nav nav-pills text-center form-tabs">  
+                      <li className="searchtype active">
                         <a data-toggle="tab" href="#exams">
                           <div className="exams" />
                           &nbsp; Exams
                         </a>
                       </li>
-                      <li className="searchtype ">
+                      </ul>
+                      </div>
+                      <div className="flex-itemer" >
+                    <ul className="nav nav-pills text-center form-tabs">
+                      <li className="searchtype active">
                         <a data-toggle="tab" href="#courses">
                           <div className="courses" />
                           &nbsp;Courses
                         </a>
                       </li>
-                      <li className="searchtype">
+                      </ul>
+                      </div>
+                      <div className="flex-itemer" >
+                    <ul className="nav nav-pills text-center form-tabs">
+                      <li className="searchtype active">
                         <a data-toggle="tab" href="#courses">
                           <div className="courses" />
                           &nbsp;Scholarships
                         </a>
                       </li>
-                    </ul>
-                  </div>
+                      </ul>
                 </div>
-                <div className="row text-center">
-                  <div className="col-md-5 col-md-offset-3 col-sm-10 col-xs-10">
+                </div>
+                </div>
+                <div >
+                  <div >
                     <div id="hero-search-input">
                       <div className="input-group">
                         <input
                           type="text"
-                          className="form-control input-lg ui-autoComplete-input"
+                          className=""
                           id="prosearch"
                           name="s"
                           placeholder="Search for Course, Exams..."
@@ -93,9 +103,10 @@ class Landing extends Component {
           <section className="forwhomcp">
             <div className="container">
               <div className="1 margin_120_95">
-                <div className="row">
+                <div className="flex-container-logo">
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
-                    <div className="box_feat">
+                    <div className="box_feat1">
                       <p
                         className="purchsetestbtnfrree"
                         style={{ "marginTop": "30px", padding: "10px" }}
@@ -104,30 +115,41 @@ class Landing extends Component {
                       </p>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/1.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/1.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r1.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/r1.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r4.png")} alt="" />
+                      <img className="patner" src={require("../.././images/r4.png")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r3.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/r3.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r2.jpg")} alt="" />
+                      <img className="patner"  src={require("../.././images/r2.jpg")} alt="" />
                     </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -137,7 +159,7 @@ class Landing extends Component {
             <div className="container">
               <div className="1 margin_120_95">
                 <div className="row">
-                  <div className="heading_s1 text-center">
+                  <div className="heading_s1">
                     <h2>Explore Everything You Need</h2>
                   </div>
                 </div>
@@ -146,6 +168,8 @@ class Landing extends Component {
                   <div className="col-lg-1">
                     <div className="box_feat" />
                   </div>
+                  <div className="flex-container-logo">
+                    <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat">
                       <Link to="/">
@@ -154,6 +178,8 @@ class Landing extends Component {
                       </Link>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat">
                       {" "}
@@ -163,6 +189,8 @@ class Landing extends Component {
                       </Link>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat">
                       {" "}
@@ -172,6 +200,8 @@ class Landing extends Component {
                       </Link>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat">
                       {" "}
@@ -181,6 +211,8 @@ class Landing extends Component {
                       </Link>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat">
                       {" "}
@@ -189,6 +221,8 @@ class Landing extends Component {
                         <h3>Events & Webinar</h3>
                       </Link>
                     </div>
+                  </div>
+                  </div>
                   </div>
                   <div className="col-lg-1">
                     <div className="box_feat" />
@@ -280,41 +314,53 @@ class Landing extends Component {
           <section className="forwhomcp">
             <div className="container">
               <div className="1 margin_120_95">
-                <div className="row">
+                <div className="flex-container-logo">
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
-                    <div className="box_feat">
+                    <div className="box_feat1">
                       <p
                         className="purchsetestbtnfrree"
                         style={{ "marginTop": "30px", padding: "10px" }}
                       >
-                        Academic Partners
+                      Academic Partners
                       </p>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/1.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/1.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r1.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/r1.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r4.png")} alt="" />
+                      <img className="patner" src={require("../.././images/r4.png")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r3.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/r3.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r2.jpg")} alt="" />
+                      <img className="patner"  src={require("../.././images/r2.jpg")} alt="" />
                     </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -340,35 +386,51 @@ class Landing extends Component {
                 </p>
                 <br />
               </div>
+            </div>
+          </section>
+          <section className="forwhomcp">
+            <div className="container">
               <div className="1 margin_120_95">
                 <div className="row">
                   <div className="col-lg-1">
                     <div className="box_feat" />
                   </div>
+                  <div className="flex-container-logo-again">
+                    <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat">
-                      <img src={require("../.././images/e1.png")} alt="" />
-                      <h3>Course Library</h3>
+                      <Link to="/">
+                        <img src={require("../.././images/e1.png")} alt="" />
+                        <h3>Course Library</h3>
+                      </Link>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
+                    <div className="box_feat">
+                      {" "}
+                      <Link to="/">
+                        <img src={require("../.././images/e2.png")} alt="" />
+                        <h3>Exam Library</h3>
+                      </Link>
+                    </div>
+                  </div>
+                  </div>
+                  <div className="flex-item-logo">
+                  <div className="col-lg-2">
+                    <div className="box_feat">
+                      {" "}
+                      <Link to="/">
+                        <img src={require("../.././images/e3.png")} alt="" />
+                        <h3>College Admission</h3>
+                      </Link>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div className="col-lg-1">
                     <div className="box_feat" />
-                  </div>
-                  <div className="col-lg-2">
-                    <div className="box_feat">
-                      <img src={require("../.././images/e2.png")} alt="" />
-
-                      <h3>Exam Library</h3>
-                    </div>
-                  </div>
-                  <div className="col-lg-2">
-                    <div className="box_feat" />
-                  </div>
-                  <div className="col-lg-2">
-                    <div className="box_feat">
-                      <img src={require("../.././images/e3.png")} alt="" />
-                      <h3>College Admission</h3>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -400,27 +462,26 @@ class Landing extends Component {
                     </span>
                   </p>
                   <br />
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <div className="box_feat">
-                        <a
-                          href="free-online-stress-test.php"
-                          className="purchsetestbtnfrree1"
-                        >
-                          Get Sample Report
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="box_feat1">
-                        <a
-                          href="free-online-stress-test.php"
-                          className="purchsetestbtnfrree1"
-                        >
-                          Book 15 Mins Free Call
-                        </a>
-                      </div>
-                    </div>
+                  
+                  <div className="flex-container-text">
+                    <div className="flex-item-text">
+                  <br />
+                  <a
+                    href="free-online-stress-test.php"
+                    className="purchsetestbtnfrree1"
+                  >
+                  Get Sample Report
+                  </a>
+                  </div>
+                  <div className="flex-item-text">
+                  <br />
+                  <a
+                    href="free-online-stress-test.php"
+                    className="purchsetestbtnfrree1"
+                  >
+                    Book 15 Mins Free Call
+                  </a>
+                  </div>
                   </div>
                   &nbsp;
                   <br />
@@ -439,41 +500,53 @@ class Landing extends Component {
           <section className="forwhomcp">
             <div className="container">
               <div className="1 margin_120_95">
-                <div className="row">
+                <div className="flex-container-logo">
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
-                    <div className="box_feat">
+                    <div className="box_feat1">
                       <p
                         className="purchsetestbtnfrree"
                         style={{ "marginTop": "30px", padding: "10px" }}
                       >
-                        Industry Partners
+                      Industry Partners
                       </p>
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/1.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/1.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r1.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/r1.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r4.png")} alt="" />
+                      <img className="patner" src={require("../.././images/r4.png")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r3.jpg")} alt="" />
+                      <img className="patner" src={require("../.././images/r3.jpg")} alt="" />
                     </div>
                   </div>
+                  </div>
+                  <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat1">
-                      <img src={require("../.././images/r2.jpg")} alt="" />
+                      <img className="patner"  src={require("../.././images/r2.jpg")} alt="" />
                     </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -506,27 +579,26 @@ class Landing extends Component {
                     </span>
                   </p>
                   <br />
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <div className="box_feat">
-                        <a
-                          href="free-online-stress-test.php"
-                          className="purchsetestbtnfrree1"
-                        >
-                          Upcoming Webinars
-                        </a>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="box_feat1">
-                        <a
-                          href="free-online-stress-test.php"
-                          className="purchsetestbtnfrree1"
-                        >
-                          Book 15 Mins Free Call
-                        </a>
-                      </div>
-                    </div>
+                   
+                  <div className="flex-container-text">
+                    <div className="flex-item-text">
+                  <br />
+                  <a
+                    href="free-online-stress-test.php"
+                    className="purchsetestbtnfrree1"
+                  >
+                  Upcoming Webinars
+                  </a>
+                  </div>
+                  <div className="flex-item-text">
+                  <br />
+                  <a
+                    href="free-online-stress-test.php"
+                    className="purchsetestbtnfrree1"
+                  >
+                    Book 15 Mins Free Call
+                  </a>
+                  </div>
                   </div>
                   &nbsp;
                   <br />
