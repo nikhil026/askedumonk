@@ -4,13 +4,12 @@
   "description": "Online career and counselling portal",
   "main": "server.js",
   "scripts": {
-    "monk": "concurrently \"npm run server\" \"npm run client\"",
     "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Krishna Bihari rajput",
   "license": "MIT",
@@ -26,6 +25,7 @@
     "jwt-decode": "^2.2.0",
     "moment": "^2.22.0",
     "mongoose": "^5.0.12",
+    "nodemon": "^1.19.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "react": "^16.3.1",

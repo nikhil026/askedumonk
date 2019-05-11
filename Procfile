@@ -1,1 +1,1 @@
-web: npm run monk
+web: npm run dev
