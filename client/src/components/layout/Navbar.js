@@ -61,7 +61,7 @@ class Navbar extends Component {
     );
     return (
       <nav className="navbar navbar-expand-lg navbar-light ">
-        <img className="navbar-brand" src="/images/logo.png" alt="brand-logo" />
+        <Link to="/" className="logo"><img className="navbar-brand" src="/images/logo.png" alt="brand-logo" /></Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
@@ -233,7 +233,7 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/atma">ATMA</Link>
                                     <Link className="dropdown-item" to="/iift">IIFT</Link>
                                     <Link className="dropdown-item" to="/ancet">ANCET</Link>
-                                    <Link className="dropdown-item" to="/mat-cet">MAH-CET</Link>
+                                    <Link className="dropdown-item" to="/mahcet">MAH-CET</Link>
                                     <Link className="dropdown-item" to="/irma">IRMA</Link>
                                     <Link className="dropdown-item" to="/kiitee-management">KIITEE MANAGEMENT</Link>
                                     <Link className="dropdown-item" to="/kmat">KMAT</Link>
@@ -298,31 +298,31 @@ class Navbar extends Component {
                         <div className="flex-container">
                             <div className="flex-item" >
                                 <div className="flex-item21">
-                                    <Link to="/engineering" className="dropdown-header">Engineering</Link>
+                                    <Link to="/list_collage_engineering" className="dropdown-header">Engineering</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/1.png" alt="img" /><br />4636 Colleges</Link>
                                 
-                                    <Link to="/management11" className="dropdown-header">Management & <br/>Business</Link>
+                                    <Link to="/list_collage_management" className="dropdown-header">Management & <br/>Business</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/2.png" alt="img" /><br />6014 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Computer Application</Link>
+                                    <Link to="/list_collage_engineering" className="dropdown-header">Computer Application</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/3.png" alt="img" /><br />3934 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Medical & Health Care</Link>
+                                    <Link to="/list_collage_medical" className="dropdown-header">Medical & Health Care</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/4.png" alt="img" /><br />1534 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item22">
-                                    <Link to="/engineering/engineering" className="dropdown-header">Law</Link>
+                                    <Link to="/list_collage_law" className="dropdown-header">Law</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/5.png" alt="img" /><br />1052 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Commerce</Link>
+                                    <Link to="/list_collage_commerce" className="dropdown-header">Commerce</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/6.png" alt="img" /><br />3833 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Science</Link>
+                                    <Link to="/list_collage_science" className="dropdown-header">Science</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/7.png" alt="img" /><br />4920 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Arts</Link>
+                                    <Link to="/list_collage_arts" className="dropdown-header">Arts</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/8.png" alt="img" /><br />4222 Colleges</Link>
                                 </div>
                             </div>
@@ -331,7 +331,7 @@ class Navbar extends Component {
                                     <Link to="/engineering" className="dropdown-header">Diploma In <br />Engineering</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/9.png" alt="img" /><br />4576 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Pharmacy</Link>
+                                    <Link to="/list_collage_pharmacy" className="dropdown-header">Pharmacy</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/10.png" alt="img" /><br />4576 Colleges</Link>
                                 
                                     <Link to="/engineering" className="dropdown-header">Hotel Management</Link>

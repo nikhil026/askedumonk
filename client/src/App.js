@@ -31,6 +31,9 @@ import NotFound from "./components/not-found/NotFound";
 //import PopularExam from "./components/layout/Popular-Exam";
 //import Team from "./components/layout/team";
 import Aboutus from "./components/about/about-us";
+
+// course library start
+
 import ManagementBusiness from "./components/Course_Library/Management_Business";
 import ManagementAndBusiness from "./components/Course_Library/ManagementandBusiness";
 import BusinessAdministration from "./components/Course_Library/Business_Administration";
@@ -112,6 +115,8 @@ import BscAvaition from "./components/Course_Library/bsc_avaition";
 import Pharmacy from "./components/Course_Library/pharmecy";
 import BOPharmacy from "./components/Course_Library/bachelor_pharmercy";
 
+// exam library start
+
 import Engineering11 from "./components/Exam_Library/Engineering1";
 import JEEMain from "./components/Exam_Library/jee-main";
 import JEEAdvance from "./components/Exam_Library/jee-advance";
@@ -130,17 +135,23 @@ import NATA from "./components/Exam_Library/nata";
 import SRMJEEE from "./components/Exam_Library/srmjeee";
 import MOUET from "./components/Exam_Library/muoet";
 import IIFT from "./components/Exam_Library/iift";
+
 import Management1 from "./components/Exam_Library/Management11";
 import ATMA from "./components/Exam_Library/atma";
 import CAT from "./components/Exam_Library/cat";
 import CMAT from "./components/Exam_Library/cmat";
-
 import IBSAT from "./components/Exam_Library/ibsat";
 import MAT from "./components/Exam_Library/mat";
 import MUOET from "./components/Exam_Library/muoet";
 import NMAT from "./components/Exam_Library/nmat";
 import XAT from "./components/Exam_Library/xat";
 import SNAP from "./components/Exam_Library/snap";
+// import ANCET from './components/Exam_Library/ancet';
+import IRMA from './components/Exam_Library/irma' ;
+// import KIITEE from './components/Exam_Library/kitee' ;
+import TANCET from "./components/Exam_Library/tancet";
+import MAHCET from "./components/Exam_Library/mahcet";
+
 
 import Compititive from "./components/Exam_Library/compititive_exam";
 import UPSCIAS from "./components/Exam_Library/upsc_ias";
@@ -152,8 +163,6 @@ import CTET from "./components/Exam_Library/ctet";
 import AskEdumonk from "./components/layout/ask_edumonk";
 import CreatePoll from "./components/layout/create_poll";
 //import Graduation from "./components/layout/graduation";
-import TANCET from "./components/Exam_Library/tancet";
-import MAHCET from "./components/Exam_Library/mahcet";
 
 import "./css/colors.css";
 import "./css/owl.carousel.css";
@@ -176,11 +185,23 @@ import Law_exams from "./components/Exam_Library/law_exams";
 import APLAW from "./components/Exam_Library/ap_lawcet";
 import CLAT from "./components/Exam_Library/clat";
 import AILET from "./components/Exam_Library/ailet";
-import ISAT from "./components/Exam_Library/lsat";
+import ISAT from "./components/Exam_Library/lsat";     
 import MHTCET from "./components/Exam_Library/mht_cet";
 import OtherExams from "./components/Exam_Library/other_exams";
 import COMEDK from "./components/Exam_Library/comedk_uget";
 import "./css/bootstrap4.css";
+
+// import the collage library
+
+import Engineering_collage from './components/collage_library/Engineering/engineering_collage'
+import Management_collage from "./components/collage_library/management/management";
+import Medical_collage from './components/collage_library/medical/medical_collage';
+import Law_Collage from './components/collage_library/law/law_collage';
+import Commerce_Collage from './components/collage_library/commerce/commerce_collage';
+import Science_Collage from './components/collage_library/science/science_collage';
+import Arts_Collage from './components/collage_library/arts/arts_collage';
+import Pharmacy_Collage from './components/collage_library/pharmacy/pharmacy_collage';
+// import Law_Collage from "./components/collage_library/law/law_collage";
 
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
@@ -229,6 +250,7 @@ class App extends Component {
               <Route exact path="/ojee" component={OJEE} />
               <Route exact path="/jcece" component={JCECE} />
               <Route exact path="/webjee" component={WBJEE} />
+              <Route exact path="/irma" component={IRMA} />
               <Route exact path="/vitee" component={VITEE} />
               <Route exact path="/gate" component={GATE} />
               <Route exact path="/upsee" component={UPSEE} />
@@ -433,6 +455,16 @@ class App extends Component {
                 path="/chartedAccountent"
                 component={ChartedAccountant}
               />
+              {/* Route for the collage library */}
+
+              <Route exact path="/list_collage_engineering" component={Engineering_collage} />
+              <Route exact path="/list_collage_management" component={Management_collage} />
+              <Route exact path="/list_collage_medical" component ={Medical_collage} />
+              <Route exact path="/list_collage_law" component={Law_Collage} />
+              <Route exact path="/list_collage_commerce" component={Commerce_Collage} />
+              <Route exact path="/list_collage_science" component={Science_Collage} />
+              <Route exact path="/list_collage_arts" component={Arts_Collage} />
+              <Route exact path="/list_collage_pharmacy" component={Pharmacy_Collage} />
               <Route exact path="/diploma_fineArts" component={DFineart} />
               <br />
               <Switch>
