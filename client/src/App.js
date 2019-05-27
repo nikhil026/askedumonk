@@ -201,8 +201,21 @@ import Commerce_Collage from './components/collage_library/commerce/commerce_col
 import Science_Collage from './components/collage_library/science/science_collage';
 import Arts_Collage from './components/collage_library/arts/arts_collage';
 import Pharmacy_Collage from './components/collage_library/pharmacy/pharmacy_collage';
+import Fashion_Collage from './components/collage_library/fashion/fashion_collage';
+import Media_Collage from './components/collage_library/media/media_collage';
+import Paramedical_Collage from './components/collage_library/paramedical/paramedical_collage';
+import Dental_Collage from './components/collage_library/dental/dental_collage';
+import Veterinary_Science_Collage from './components/collage_library/veterinary_sciences/veterinary_sciences_collage';
+import Aviation_Collage from './components/collage_library/aviation/aviation_collage';
+import Education_Collage from './components/collage_library/education/education_collage';
+import Vocational_Collage from './components/collage_library/vocational/vocational_collage';
+import Architecture_Collage from './components/collage_library/architecture/architecture_collage';
+import Agriculture_Collage from './components/collage_library/agriculture/agriculture_collage';
+import Hotel_Management_Collage from './components/collage_library/hotel_management/hotel_management_collage';
 // import Law_Collage from "./components/collage_library/law/law_collage";
+// importing collage from their names 
 
+import IIT_DELHI from './components/collage_library/Engineering/iit_delhi';
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
 
@@ -465,8 +478,21 @@ class App extends Component {
               <Route exact path="/list_collage_science" component={Science_Collage} />
               <Route exact path="/list_collage_arts" component={Arts_Collage} />
               <Route exact path="/list_collage_pharmacy" component={Pharmacy_Collage} />
+              <Route exact path="/list_collage_hotel_management" component={Hotel_Management_Collage} />
+              <Route exact path="/list_collage_fashion" component={Fashion_Collage} />
+              <Route exact path="/list_collage_media" component={Media_Collage} />
+              <Route exact path="/list_collage_paramedical" component={Paramedical_Collage} />
+              <Route exact path="/list_collage_dental" component={Dental_Collage} />
+              <Route exact path="/list_collage_aviation" component={Aviation_Collage} />
+              <Route exact path="/list_collage_architecture" component={Architecture_Collage} />
+              <Route exact path="/list_collage_education" component={Education_Collage} />
+              <Route exact path="/list_collage_vocational" component={Vocational_Collage} />
+              <Route exact path="/list_collage_veterinary_science" component={Veterinary_Science_Collage} />
+              <Route exact path="/list_collage_agriculture" component={Agriculture_Collage} />
               <Route exact path="/diploma_fineArts" component={DFineart} />
               <br />
+              {/* ROUTES FOR THE PARTICULAR COLLAGE */}
+              <Route exact path="/list_collage_engineering/iit_delhi_detail" component={IIT_DELHI} />
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>

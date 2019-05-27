@@ -334,55 +334,55 @@ class Navbar extends Component {
                                     <Link to="/list_collage_pharmacy" className="dropdown-header">Pharmacy</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/10.png" alt="img" /><br />4576 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Hotel Management</Link>
+                                    <Link to="/list_collage_hotel_management" className="dropdown-header">Hotel Management</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/11.png" alt="img" /><br />750 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Fashion</Link>
+                                    <Link to="/list_collage_fashion" className="dropdown-header">Fashion</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/12.png" alt="img" /><br />276 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item24">
-                                    <Link to="/engineering/engineering/engineering/engineering" className="dropdown-header">Media & Mass<br /> Communication</Link>
+                                    <Link to="/list_collage_media" className="dropdown-header">Media & Mass<br /> Communication</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/13.png" alt="img" /><br />1229 Colleges</Link>
                                 
-                                    <Link to="/engineering/engineering/engineering" className="dropdown-header">Agriculture</Link>
+                                    <Link to="/list_collage_agriculture" className="dropdown-header">Agriculture</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/14.png" alt="img" /><br />716 Colleges</Link>
                                 
-                                    <Link to="/engineering/engineering" className="dropdown-header">Education</Link>
+                                    <Link to="/list_collage_education" className="dropdown-header">Education</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/15.png" alt="img" /><br />2751 Colleges</Link>
                                
-                                    <Link to="/engineering" className="dropdown-header">Aviation</Link>
+                                    <Link to="/list_collage_aviation" className="dropdown-header">Aviation</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/16.png" alt="img" /><br />144 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item25">
-                                    <Link to="/engineering" className="dropdown-header">Diploma And <br />Certificate Courses</Link>
+                                    <Link to="/list_collage_engineering" className="dropdown-header">Diploma And <br />Certificate Courses</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/17.png" alt="img" /><br />714 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Hotel Management</Link>
+                                    <Link to="/list_collage_hotel_management" className="dropdown-header">Hotel Management</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/18.png" alt="img" /><br />750 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Mnagement</Link>
+                                    <Link to="/list_collage_management" className="dropdown-header">Management</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/19.png" alt="img" /><br />6014 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Architecture</Link>
+                                    <Link to="/list_collage_architecture" className="dropdown-header">Architecture</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/20.png" alt="img" /><br />516 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item26">
-                                    <Link to="/engineering" className="dropdown-header">Dental</Link>
+                                    <Link to="/list_collage_dental" className="dropdown-header">Dental</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/21.png" alt="img" /><br />393 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Paramedical</Link>
+                                    <Link to="/list_collage_paramedical" className="dropdown-header">Paramedical</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/22.png" alt="img" /><br />997 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Veterinary Science</Link>
+                                    <Link to="/list_collage_veterinary_science" className="dropdown-header">Veterinary Science</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/23.png" alt="img" /><br />97 Colleges</Link>
                                 
-                                    <Link to="/engineering" className="dropdown-header">Vocational Course</Link>
+                                    <Link to="/list_collage_vocational" className="dropdown-header">Vocational Course</Link>
                                     <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/24.png" alt="img" /><br />714 Colleges</Link>
                                 </div>
                             </div>
