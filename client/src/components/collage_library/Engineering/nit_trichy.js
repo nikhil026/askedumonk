@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIT_MADRAS extends Component {
+class NIT_TRICHY extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -10,18 +10,18 @@ class IIT_MADRAS extends Component {
               <div className="col-md-2 col-xs-2">
                 <img className="fit_center"
                   alt="Bachelor of Architecture"
-                  src="/images/iitm.webp"
+                  src="/images/nitt.webp"
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Technology Madras</h3>
+                <h3> National Institute of Technology Tiruchirapalli</h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
                   Under Goverment of India
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 1
+                  Rank: 10
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,41 +43,41 @@ class IIT_MADRAS extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras is a public engineering institute that was set up in the year 1959 in Madras through an Act of Parli
-                      IIT Madras Admissions are entirely based on the marks in National level entrance exams such as IIT JAM, JEE Advanced, CAT etc.
-                       IIT Madras was the third Indian Institute of Technology after IIT Bombay and IIT Kharagpur. 
-                      The 617.8-Acre campus is one of India’s most prestigious institute to gain 
-                      recognition as an Institute of National Importance by Government of India.
+                      The National Institute of Technology previously known as Regional Engineering College is situated in Tiruchirapalli, Tamil Nadu 
+                      and it is also known as NIT Trcihy. The institution was started in the year 1984 as a 
+                      joint venture of Government of India and Government of Tamil Nadu. NIT Trichy was given the status of Deemed University and
+                       it is UGC/AICTE approved. The institute offers Undergraduate, Postgraduate courses and also conducts Research programs. 
+                      The NIT Trichy admission is based on various national entrance examinations.
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Courses</span>
+                    <span>NIT TRICHY Courses</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras offers Undergraduate, Postgraduate and 
+                      NIT TRICHY offers Undergraduate, Postgraduate and 
                       Research programs in streams like Engineering, Sciences, 
                       Humanities, and Management.
                       </span>
                     </p>
                     <p>
-                    <img className="fit_center" src="/images/IITD 1.png" alt="course img" />
+                    <img className="fit_center" src="/images/nitt1.png" alt="course img" />
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>NIT TRICHY Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      NIT TRICHY Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -98,7 +98,7 @@ class IIT_MADRAS extends Component {
                             </tr>
                           </td>
                           <td>10+2 in Science Stream with minimum required marks from a reputed board</td>
-                          <td>JEE Main and JEE Advanced Score</td>
+                          <td>JEE Main </td>
                         </tr>
                         <tr>
                           <td>M.Tech</td>
@@ -145,92 +145,43 @@ class IIT_MADRAS extends Component {
                   </div>
                 </div>
                 
+               
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Ranking</span>
-                  </h2>
-                  <div className="container">
-                    <p className="align-middle">
-                    <table class="thead-dark">
-                      <thead>
-                        <tr>
-                        <th scope="col">Magazine/ Body</th>
-                          <th scope="col">Rank</th>
-                          <th scope="col">Year</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-
-                        <tr>
-                         <td>Brics Ranking</td>
-                          <td>17</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>Asian University Ranking</td>
-                          <td>48</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>NIRF</td>
-                          <td>1</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>OUTLOOK</td>
-                          <td>3</td>
-                          <td>2019</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    </p>
-                  </div>
-                </div>
-
-                </div>
-                <div id="section-5" className="detail-content coursedessside">
-                  <h2 className="heading-new">
-                    <span>IIT MADRAS Placements</span>
+                    <span>NIT TRICHY Placements</span>
                   </h2>
                   <div className="container">
                     <p>
-                      <img className="fit_center" src="/images/iitm1.webp" alt="placement statictics" />
+                    NIT Trichy placement process is excellent and supportive for the students. 
+                    The aspirants get their desired job as the institute invites approximately 220 companies every year. 
+                    The average salary offered is over 6 Lakhs and $ 125,000 per annum.
                     </p>
                   </div>
                 </div>
+                <div className="container">
+                    <p>
+                    <img className="fit_center" src="/images/nitt2.webp" alt="course img" />
+                    </p>
+                  </div>
               </div>
               
               <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Scholarship</span>
-                  </h2>
+                    <span>NIT TRICHY Scholarship</span>
+                  </h2> 
                   <div className="container">
                     <p>
-                    Scholarships are offered to students so that they aspire to excellence.
-                     It is a reward to them for their hard work.
-                      IIT Madras is quite generous in its offerings for diligent students.
-                     Scholarship names are given below:
+                    NIT Trichy scholarships are offered to the candidates on the basis of merit, reservation etc.
                     </p>
-                  </div>
-                  
-                  
-                  <div className="container">
-                    <p>
-                    <ul className="lister">
-                      <li>AERB Scholarship</li>
-                      <li>Girish Ready Scholarship</li>
-                      <li>Prof. Narasimhan Fellowship</li>
-                      <li>Institute Merit-cum-Means Scholarship</li>
-                     </ul>
-                    </p>
-                 
+ 
               </div>
               
               </div>
               </div>
             </div>
           </div>
+          </div>
     );
   }
 }
-export default IIT_MADRAS;
+export default NIT_TRICHY;

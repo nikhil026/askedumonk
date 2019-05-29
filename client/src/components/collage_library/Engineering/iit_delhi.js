@@ -8,9 +8,9 @@ class IIT_DELHI extends Component {
           <div className="container1">
             <div className="row">
               <div className="col-md-2 col-xs-2">
-                <img
+                <img className="fit_center"
                   alt="Bachelor of Architecture"
-                  src={require("../.././images/bachelor-of-computer-applications.computers-and-it.jpg")}
+                  src="/images/col27802.jpeg"
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
@@ -40,7 +40,7 @@ class IIT_DELHI extends Component {
                   <h2 className="heading-new">
                     <span>Overview</span>
                   </h2>
-                  <div className="coursecontdes">
+                  <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       IIT Delhi is an Autonomous and Finest University was established in the year 1961.
@@ -52,9 +52,15 @@ class IIT_DELHI extends Component {
                           It is just 10 km from Delhi airport and 14 km from New Delhi railway station.
                       </span>
                     </p>
+                  </div>
+                </div>
+                <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading-new">
+                    <span>IIT Delhi Courses</span>
+                  </h2>
+                  <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                        IIT Delhi Courses
                         The list of Courses offered by IIT Delhi includes B.Tech, B.Tech+M.Tech
                         , M.Tech, M.Des, M.Sc, M.Sc (Research), MBA, PG Diploma and Ph.D. 
                         The institutes offer these courses in many specializations such as
@@ -62,785 +68,260 @@ class IIT_DELHI extends Component {
                       </span>
                     </p>
                     <p>
-                      <span style={{ "font-size": "14px" }}>
-                        This course develops you to pursue your career in:
-                      </span>
+                    <img className="fit_center" src="/images/IITD 1.png" alt="course img" />
                     </p>
-                    <ul>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Software development</strong>
-                        </span>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            System management
-                          </span>
-                        </strong>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Web designing or computer hardware</strong>
-                        </span>
-                      </li>
-                    </ul>
                   </div>
                 </div>
-                <div id="section-6" className="detail-content coursedessside">
+                <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>Courses &amp; Eligibility</span>
+                    <span>IIT Delhi Admission Criteria</span>
                   </h2>
-                  <div className="coursecontdes">
+                  <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                        For{" "}
-                        <strong>Bachelor in Computer Application (BCA)</strong>{" "}
-                        course, a candidate must be from Maths stream. The
-                        following educational eligibilities are required for the
-                        course of <strong>BCA</strong>:
+                      The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
+                      IIT Delhi Admission is done through national level entrance exam scores.
                       </span>
                     </p>
-                    <ul>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>12th</strong> passed with not less than
-                          <strong>&nbsp;50% marks&nbsp;</strong>from a
-                          <strong>&nbsp;Recognized Board</strong>
-                        </span>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          12th pass with&nbsp;
-                        </span>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            Physics, Chemistry &amp; Mathematics&nbsp;
-                          </span>
-                        </strong>
-                        <span style={{ "font-size": "14px" }}>
-                          as core subjects
-                        </span>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            Minimum age{" "}
-                          </span>
-                        </strong>
-                        <span style={{ "font-size": "14px" }}>
-                          to join this course is
-                        </span>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}> 18 years</span>
-                        </strong>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div id="section-7" className="detail-content coursedessside">
-                  <h2 className="heading-new">
-                    <span>Course Curriculum</span>
-                  </h2>
-                  <div className="coursecontdes">
-                    <p>
-                      <span style={{ "font-size": "14px" }}>
-                        The syllabus of the course of <strong>BCA&nbsp;</strong>
-                        <Link to="/B.com" />
-                        may differ from college to college, but the structure is
-                        the same. A definite syllabus of the same is as per the
-                        following:
-                      </span>
-                    </p>
-                    <p>
-                      <br />
-                    </p>
-                    <table style={{ width: "98%", marginright: "calc(2%)" }}>
+                    <p className="align-middle">
+                    <table class="thead-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Program</th>
+                          <th scope="col">Minimum Eligibility</th>
+                          <th scope="col">Selection Criteria</th>
+                        </tr>
+                      </thead>
                       <tbody>
                         <tr>
-                          <td
-                            style={{
-                              width: "33.3333%",
-                              textalign: "center",
-                              verticalalign: "top",
-                              backgroundColor: "rgb(239, 239, 239)"
-                            }}
-                          >
-                            <span style={{ color: "rgb(85, 57, 130)" }}>
-                              <strong>
-                                <u>
-                                  <span
-                                    style={{
-                                      "font-size": "18px",
-                                      fontfamily: "Tahoma, Geneva, sans-serif"
-                                    }}
-                                  >
-                                    Semester-I
-                                  </span>
-                                </u>
-                              </strong>
-                            </span>
+                          <td>B.Tech</td>
+                          <td>10+2 in Science Stream with minimum required marks from a reputed board</td>
+                          <td>JEE Main and JEE Advanced Score</td>
+                        </tr>
+                        <tr>
+                          <td>M.Tech</td>
+                          <td>B.Tech/ M.Sc degree with minimum 60% marks <br/> OR <br />B.Tech. from IITs with CGPA of 8.00 without GATE are also eligible for admission</td>
+                          <td>GATE Score followed by Written Test and/or Interview</td>
+                        </tr>
+                        <tr>
+                          <td>M.Sc</td>
+                          <td>Bachelor’s degree in relevant stream with at least 55% marks from a recognized University/ Institute</td>
+                          <td>IIT JAM</td>
+                        </tr>
+                        <tr>
+                          <td>M.Des</td>
+                          <td>B.Tech/ M.Sc degree with minimum 60% marks</td>
+                          <td>CEED followed by Written Test and/or Interview</td>
+                        </tr>
+                        <tr>
+                          <td>MBA</td>
+                          <td>	
+                            Bachelor’s degree in Engineering /Technology/ Architecture /Pharmacy / B.Sc.
                             <br />
+                            Agri. Engg. (Minimum 4 year after 10+2) with at least 60% marks
                             <br />
-                            <span style={{ "font-size": "14px" }}>
-                              <br />
-                              Business Communication
-                              <br />
-                              Principles of Management
-                              <br />
-                              Programming Principles and Algorithms
-                              <br />
-                              Computer Fundamental and Office Automation
-                              <br />
-                              Computer Laboratory and Practical Work (OA+PPA)
-                              <br />
-                              Business Accounting
-                            </span>
+                            OR
                             <br />
-                          </td>
-                          <td
-                            style={{
-                              width: "33.3333%",
-                              verticalalign: "top",
-                              textalign: "center"
-                            }}
-                          >
-                            <span
-                              style={{
-                                color: "rgb(226, 8, 65)",
-                                "font-size": "18px",
-                                fontfamily: "Tahoma, Geneva, sans-serif"
-                              }}
-                            >
-                              <strong>
-                                <u>Semester-II</u>
-                              </strong>
-                            </span>
+                            Master’s degree in any branch of Chemistry/ Computer Application, Physics/ Mathematics/ Statistics/ Environmental Science or Computational/ Information Sciences/ Electronics Sciences/ Agriculture/ Economics/ Commerce with minimum 60% marls
+                            </td>
+                          <td>CAT, Group Discussion and Interview Round</td>
+                        </tr>
+                        <tr>
+                          <td>Ph.D</td>
+                          <td>Master’s degree in Engineering/ Technology/ Sciences/ Humanities <br />or <br/>equivalent degree with at least 60% marks from a recognized Institute or University</td>
+                          <td>GATE/ UGC-NET/ CSIR-NET/ ICAR or ICMR score
                             <br />
+                              OR
+                              <br />
 
-                            <span style={{ "font-size": "14px" }}>
-                              Organizational Behaviour
-                              <br />
-                              Elements of Statistics
-                              <br />
-                              ‘C’ Programming
-                              <br />
-                              File Structure and Database Concepts
-                              <br />
-                              Cost Accounting
-                              <br />
-                              Computer Laboratory and Practical Work (C.P.+DBMS)
-                            </span>
-                          </td>
-                          <td
-                            style={{
-                              width: "33.3333%",
-                              verticalalign: "top",
-                              textalign: " center",
-                              backgroundcolor: " rgb(239, 239, 239)"
-                            }}
-                          >
-                            <span style={{ color: "rgb(41, 105, 176)" }}>
-                              <strong>
-                                <u>
-                                  <span
-                                    style={{
-                                      fontfamily: "Tahoma, Geneva, sans-serif",
-                                      fontsize: "18px"
-                                    }}
-                                  >
-                                    Semester-III
-                                  </span>
-                                </u>
-                              </strong>
-                            </span>
-                            <br />
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Data Structure using C<br />
-                              Numerical Methods
-                              <br />
-                              Computer Laboratory and Practical Work
-                              (D.S.+RDBMS)
-                              <br />
-                              Software Engineering
-                              <br />
-                              Management Accounting
-                              <br />
-                              RDBMS
-                            </span>
-                          </td>
+                              Written Test and Interview
+                              </td>
                         </tr>
                       </tbody>
                     </table>
-                    <table style={{ width: "98%", marginright: "calc(2%)" }}>
-                      <tbody>
+                    </p>
+                  </div>
+                </div>
+                <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading-new">
+                    <span>IIT Delhi Reservation Criteria</span>
+                  </h2>
+                  <div className="container">
+                    <p className="align-middle">
+                    <table class="thead-dark">
+                      <thead>
                         <tr>
-                          <td
-                            style={{
-                              width: "33.3333%",
-                              verticalalign: "top",
-                              textalign: " center",
-                              backgroundcolor: " rgb(239, 239, 239)"
-                            }}
-                          >
-                            <span style={{ color: "rgb(41, 105, 176)" }}>
-                              <strong>
-                                <u>
-                                  <span
-                                    style={{
-                                      fontfamily: "Tahoma, Geneva, sans-serif",
-                                      fontsize: "18px"
-                                    }}
-                                  >
-                                    Semester-IV
-                                  </span>
-                                </u>
-                              </strong>
-                            </span>
-                            <br />
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Visual Basic
-                              <br />
-                              Networking
-                              <br />
-                              Inventory Management (SAD)
-                              <br />
-                              Object Oriented Programming using C++
-                              <br />
-                              Human Resource Management
-                              <br />
-                              Computer Laboratory and Practical Work (VB+ C++)
-                            </span>
-                          </td>
-                          <td
-                            style={{
-                              width: "33.3333%",
-                              verticalalign: "top",
-                              textalign: "center"
-                            }}
-                          >
-                            <span
-                              style={{
-                                color: "rgb(226, 8, 65)",
-                                "font-size": "18px",
-                                fontfamily: "Tahoma, Geneva, sans-serif"
-                              }}
-                            >
-                              <strong>
-                                <u>Semester-V</u>
-                              </strong>
-                            </span>
-                            <br />
+                          <th scope="col">Category</th>
+                          <th scope="col">Reservation Criteria</th>
+                        </tr>
+                      </thead>
+                      <tbody>
 
-                            <span style={{ "font-size": "14px" }}>
-                              Internet Programming and Cyber Law
-                              <br />
-                              NET Frameworks
-                              <br />
-                              Principals of Marketing
-                              <br />
-                              Computer Laboratory and Practical Work (NET + Core
-                              Java)
-                              <br />
-                              Core Java
-                              <br />
-                              Project Work (VB)
-                            </span>
-                          </td>
-                          <td
-                            style={{
-                              width: "33.3333%",
-                              verticalalign: "top",
-                              textalign: " center",
-                              backgroundcolor: " rgb(239, 239, 239)"
-                            }}
-                          >
-                            <span style={{ color: "rgb(41, 105, 176)" }}>
-                              <strong>
-                                <u>
-                                  <span
-                                    style={{
-                                      fontfamily: "Tahoma, Geneva, sans-serif",
-                                      fontsize: "18px"
-                                    }}
-                                  >
-                                    Semester-VI
-                                  </span>
-                                </u>
-                              </strong>
-                            </span>
-                            <br />
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Introduction to System Pro and Operating Systems
-                              <br />
-                              Multimedia Systems
-                              <br />
-                              Advance Java
-                              <br />
-                              e-commerce
-                              <br />
-                              Computer Laboratory and Practical Work (Multimedia
-                              + Advanced Java)
-                              <br />
-                              Project Work
-                            </span>
-                          </td>
+                        <tr>
+                          <td>SC</td>
+                          <td>15%</td>
+                        </tr>
+                        <tr>
+                          <td>ST</td>
+                          <td>7.5%</td>
+                        </tr>
+                        <tr>
+                          <td>OBC (Non-creamy layer)</td>
+                          <td>27%</td>
+                        </tr>
+                       
+                      </tbody>
+                    </table>
+                    </p>
+                  </div>
+                </div>
+                <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading-new">
+                    <span>IIT Delhi Ranking</span>
+                  </h2>
+                  <div className="container">
+                    <p className="align-middle">
+                    <table class="thead-dark">
+                      <thead>
+                        <tr>
+                        <th scope="col">Magazine/ Body</th>
+                          <th scope="col">Rank</th>
+                          <th scope="col">Year</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                        <tr>
+                         <td>World University Ranking</td>
+                          <td>172</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr>
+                         <td>Brics Ranking</td>
+                          <td>18</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr>
+                          <td>Asian University Ranking</td>
+                          <td>40</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr>
+                          <td>NIRF</td>
+                          <td>2</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr>
+                          <td>OUTLOOK</td>
+                          <td>1</td>
+                          <td>2019</td>
                         </tr>
                       </tbody>
                     </table>
-                    <p>
-                      <br />
                     </p>
                   </div>
                 </div>
-                <div id="section-8" className="detail-content coursedessside">
+                <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>Career Prospect</span>
+                    <span>IIT Delhi Ranking on Various Parameters by NIRF</span>
                   </h2>
-                  <div className="coursecontdes">
-                    <p>
-                      <span style={{ "font-size": "14px" }}>
-                        The following are the job profiles for{" "}
-                        <strong>BCA Graduate:</strong>
-                      </span>
-                    </p>
-                    <ul>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>System engineer</strong>
-                        </span>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            Programmer
-                          </span>
-                        </strong>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            Web developer
-                          </span>
-                        </strong>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            System Administrator
-                          </span>
-                        </strong>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            Software developer
-                          </span>
-                        </strong>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ "font-size": "14px" }}>
-                            Testing Engineering
-                          </span>
-                        </strong>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Technical Write</strong>
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div id="section-9" className="detail-content coursedessside">
-                  <h2 className="heading-new">
-                    <span>Pay &amp; Remuneration</span>
-                  </h2>
-                  <div className="coursecontdes">
-                    <p>
-                      <span style={{ "font-size": "14px" }}>
-                        Employees with a{" "}
-                        <strong>Bachelor in Computer Application&nbsp;</strong>
-                        Degree, the average minimum salary ranges by the
-                        position of job and their experience and also the
-                        company and condition of the company.
-                      </span>
-                    </p>
-                    <p>
-                      <span style={{ "font-size": "14px" }}>
-                        Salary of a <strong>BCA</strong> Graduate may be{" "}
-                        <strong>Rs. 25,000 - 40,000/- per month</strong> for
-                        fresher. It may increase with working experience and
-                        eligibility of employee.
-                      </span>
-                    </p>
-                  </div>
-                </div>
-                <div id="section-10" className="detail-content coursedessside">
-                  <h2 className="heading-new">
-                    <span>Famous Personalities</span>
-                  </h2>
-                  <div className="coursecontdes">
-                    <p>
-                      <span style={{ "font-size": "14px" }}>
-                        Some of the famous personalities in the field of{" "}
-                        <strong>Computer Application</strong> are as follows:
-                      </span>
-                    </p>
-                    <ul>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Barbara Liskov&nbsp;</strong>(7 November 1939)
-                        </span>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Elon Musk</strong> (28 June 1971)
-                        </span>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Larry Page</strong> (26 March 1973)
-                        </span>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Carl Sassenrath</strong> (1957)
-                        </span>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Tim Berners-Lee</strong> (8 June 1955)
-                        </span>
-                      </li>
-                      <li>
-                        <span style={{ "font-size": "14px" }}>
-                          <strong>Bill Gates</strong> (28 October 1955)
-                        </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div id="section-11" className="detail-content coursedessside">
-                  {" "}
-                  <h2 className="heading-new">
-                    <span>Top Colleges in India</span>
-                  </h2>
-                  <div className="coursecontdes">
-                    <p>
-                      <span style={{ "font-size": "14px" }}>
-                        There are various colleges available for the course of{" "}
-                        <strong>BCA</strong> across India. Some of the famous
-                        and top colleges are as follows:
-                      </span>
-                    </p>
-                    <table style={{ width: "100%" }}>
-                      <tbody>
+                  <div className="container">
+                    <p className="align-middle">
+                    <table class="thead-dark">
+                      <thead>
                         <tr>
-                          <td
-                            colspan="2"
-                            style={{
-                              width: "99.248%",
-                              verticalalign: " top",
-                              textalign: "center"
-                            }}
-                          >
-                            <span style={{ "font-size": " 18px" }}>
-                              <span style={{ color: " rgb(85, 57, 130)" }}>
-                                <strong>
-                                  <u>
-                                    <span
-                                      style={{
-                                        fontfamily:
-                                          "                                    Tahoma, Geneva, sans-serif"
-                                      }}
-                                    >
-                                      Top colleges for BCA
-                                    </span>
-                                  </u>
-                                </strong>
-                              </span>
-                            </span>
-                            <span style={{ "font-size": "14px" }}>
-                              <br />
-                            </span>
-                          </td>
+                          <th scope="col">Parameters</th>
+                          <th scope="col">Marks</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                        <tr>
+                          <td>TLR (Teaching, Learning & Resources)</td>
+                          <td>55.45  </td>
                         </tr>
                         <tr>
-                          <td
-                            style={{
-                              width: "50%",
-                              verticalalign: "top",
-                              textalign: "center ",
-                              backgroundcolor: "rgb(239, 239, 239)"
-                            }}
-                          >
-                            <span style={{ "font-size": "14px" }}>
-                              Christ University, <strong>Bangalore</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Institute of Management Studies,{" "}
-                              <strong>Noida</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Kristu Jayanti College, <strong>Bengaluru</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Women's Christian College,{" "}
-                              <strong>Chennai</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Department of Computer Science, Banasthali
-                              University, <strong>Rajasthan</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              DAV College, <strong>Chandigarh</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              University College-Kurukshetra,{" "}
-                              <strong>Kurukshetra</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              IIFA LANCASTER Degree College,{" "}
-                              <strong>Bengaluru</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Department of Computer Applications, SRM
-                              University, <strong>Chennai</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Madras Christian College, <strong>Chennai</strong>
-                            </span>
-                            <br />
-                            <div data-empty="true">
-                              <span style={{ "font-size": "14px" }}>
-                                Symbiosis Institute of C.S. and Research,{" "}
-                                <strong>Pune</strong>
-                              </span>
-                            </div>
-                          </td>
-                          <td
-                            style={{
-                              width: "50%",
-                              verticalalign: "top",
-                              "text-align": "center"
-                            }}
-                          >
-                            <span style={{ "font-size": "14px" }}>
-                              Birla Institute of Technology,{" "}
-                              <strong>Jharkhand</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Stella Maris College, <strong>Tamil Nadu</strong>
-                            </span>
-                            <br />
-                            <span style={{ "font-size": "14px" }}>
-                              Xavier Institute of Computer Application,{" "}
-                              <strong>Ahmedabad</strong>
-                            </span>
-                            <br />
-
-                            <br />
-                            <div data-empty="true">
-                              <br />
-                            </div>
-                          </td>
+                          <td>RP (Research and Professional Practice)</td>
+                          <td>68.48</td>
+                        </tr>
+                        <tr>
+                          <td>GO (Graduation Outcome)</td>
+                          <td>65.92</td>
+                        </tr>
+                        <tr>
+                          <td>OI (Outreach and Inclusivity)</td>
+                          <td>68.69</td>
+                        </tr>
+                        <tr>
+                          <td>PR (Perception)</td>
+                          <td>69.53</td>
                         </tr>
                       </tbody>
                     </table>
-                    <p>
-                      <br />
                     </p>
                   </div>
-                </div>{" "}
-                <div id="section-12" className="detail-content coursedessside">
+                </div>
+                <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>Other Details</span>
+                    <span>IIT Delhi Placements</span>
                   </h2>
-                  <div className="coursecontdes">
+                  <div className="container">
                     <p>
-                      <span style={{ "font-size": "14px" }}>
-                        Advance Course after <strong>BCA:</strong>
-                      </span>
+                      <img className="fit_center" src="/images/IITD 3.png" alt="placement statictics" />
                     </p>
-                    <ul>
-                      <li>
-                        <Link to="http://careerpotli.com/course-details/master-of-computer-applications">
-                          <strong>
-                            <span style={{ "font-size": "14px" }}>
-                              MCA (Master of Computer Application)
-                            </span>
-                          </strong>
-                        </Link>
-                      </li>
+                  </div>
+                </div>
+              </div>
+              <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading-new">
+                    <span>IIT Delhi Stream-wise Placement</span>
+                  </h2>
+                  <div className="container">
+                    <p>
+                      <img className="fit_center" src="/images/IITD 4.png" alt="stream wise placement statictics" />
+                    </p>
+                  </div>
+              </div>
+              <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading-new">
+                    <span>IIT Delhi Scholarship</span>
+                  </h2>
+                  <div className="container">
+                    <p>
+                    IIT Delhi provides different scholarships for undergraduate and postgraduate students. The institute offers the variety of scholarships under different categories.
+                    </p>
+                  </div>
+                  <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading_res">
+                    <span>IIT Delhi Undergraduate Scholarship</span>
+                  </h2>
+                  <div className="container">
+                    <p>
+                    <ul className="lister">
+                      <li>Institute Free Studentship-U.G</li>
+                      <li>Institute Merit-cum-Means (MCM) Scholarships</li>
+                      <li>Institute Merit Prizes and Certi­ficates</li>
+                      <li>Scholarship provision for SC/ST students</li>
+                      <li>Donor Scholarship</li>
+                      <li>IIT Delhi Alumni Sponsored Scholarships (Loan Scholarship)</li>
                     </ul>
+                    </p>
                   </div>
-                </div>
-                <div
-                  id="section-recruit"
-                  className="detail-conten recruiterscrs clearfix coursedessside"
-                >
-                  <h2 className="heading-new">
-                    <span>Top Recruiters</span>
+              </div>
+              <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading_res">
+                    <span>IIT Delhi Postgraduate Scholarship</span>
                   </h2>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://hexaware.com/"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/hexaware-technologies-limited.jpg"
-                        alt=""
-                      />
-                      <p>Hexaware Technologies Limited</p>
-                    </Link>
+                  <div className="container">
+                  <p>
+                    <ul className="lister">
+                      <li>For M.Sc Program - Merit-cum-Means (MCM) Scholarships</li>
+                      <li>For M.Tech., M.S. (Research) and M.Des. Students</li>
+                      <li>For Ph.D candidates </li>
+                    </ul>
+                    </p>
                   </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="http://www1.ap.dell.com/content/default.aspx?c=in&amp;l=en&amp;s=gen&amp;~ck=cr"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/dell.jpg"
-                        alt=""
-                      />
-                      <p>Dell</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="http://www.niit.com/pages/default.aspx"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/niit.jpg"
-                        alt=""
-                      />
-                      <p>NIIT</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.syntelinc.com/"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/syntel.jpg"
-                        alt=""
-                      />
-                      <p>Syntel</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.cognizant.com/"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/cognizant.jpg"
-                        alt=""
-                      />
-                      <p>Cognizant</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.infosys.com/"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/infosys.jpg"
-                        alt=""
-                      />
-                      <p>Infosys</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.hcltech.com/"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/hcl-technologies.jpg"
-                        alt=""
-                      />
-                      <p>HCL Technologies</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.tcs.com/"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/tcs.png"
-                        alt=""
-                      />
-                      <p>Tata Consultancy Services Ltd.</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.techmahindra.com"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/tech-mahindra.jpg"
-                        alt=""
-                      />
-                      <p>Tech Mahindra</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.wipro.com/"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/wipro-technologies-limited.jpg"
-                        alt=""
-                      />
-                      <p>Wipro Technologies Limited</p>
-                    </Link>
-                  </div>
-                  <div className="col-md-3">
-                    <Link
-                      to="https://www.accenture.com"
-                      target="_blank"
-                      className="clearfix"
-                    >
-                      <img
-                        src="https://www.careerpotli.com/afterrecruitmentimage/accenture.jpg"
-                        alt=""
-                      />
-                      <p>Accenture</p>
-                    </Link>
-                  </div>
-                </div>
+              </div>
               </div>
             </div>
           </div>

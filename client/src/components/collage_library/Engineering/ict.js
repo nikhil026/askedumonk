@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIT_MADRAS extends Component {
+class ICT extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -10,18 +10,18 @@ class IIT_MADRAS extends Component {
               <div className="col-md-2 col-xs-2">
                 <img className="fit_center"
                   alt="Bachelor of Architecture"
-                  src="/images/iitm.webp"
+                  src="/images/ict.webp"
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Technology Madras</h3>
+                <h3>Institute of Chemical Technology (ICT)</h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
                   Under Goverment of India
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 1
+                  Rank: 12
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,41 +43,40 @@ class IIT_MADRAS extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras is a public engineering institute that was set up in the year 1959 in Madras through an Act of Parli
-                      IIT Madras Admissions are entirely based on the marks in National level entrance exams such as IIT JAM, JEE Advanced, CAT etc.
-                       IIT Madras was the third Indian Institute of Technology after IIT Bombay and IIT Kharagpur. 
-                      The 617.8-Acre campus is one of India’s most prestigious institute to gain 
-                      recognition as an Institute of National Importance by Government of India.
+                      Institute of Chemical Technology (ICT), Mumbai is one of the prestigious institutes was set up by the Department of Chemical Technology in the year 1933. 
+                      The Institute is providing the best facilities and has been imparting best of education since its inception. 
+                      The Institute was granted ‘Deemed to be Status’ by the MHRD
+                       because of the proposal of Mumbai University and the Government of Maharashtra on 12th of September 2008.<br/><br/>
+
+                        ICT Mumbai has well qualified and experienced faculty members which provide the high level of education.
+                         The college offers the variety of UG, PG and Ph.D. Courses. Admission to all courses is based on entrance test. The university also accepts MHT CET/ JEE Main/ GATE score.
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Courses</span>
+                    <span>ICT Courses</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras offers Undergraduate, Postgraduate and 
-                      Research programs in streams like Engineering, Sciences, 
-                      Humanities, and Management.
+                      The institute offers various undergraduate, postgraduate and research programs in multiple disciplines.
+                       The duration of UG courses is between 3 to 5 years while PG programs consist 2 years of duration.
                       </span>
                     </p>
-                    <p>
-                    <img className="fit_center" src="/images/IITD 1.png" alt="course img" />
-                    </p>
+                   
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>ICT Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      ICT Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -110,11 +109,7 @@ class IIT_MADRAS extends Component {
                           <td>Bachelor’s degree in relevant stream with at least 55% marks from a recognized University/ Institute</td>
                           <td>IIT JAM</td>
                         </tr>
-                        <tr>
-                          <td>M.Des</td>
-                          <td>B.Tech/ M.Sc degree with minimum 60% marks</td>
-                          <td>CEED followed by Written Test and/or Interview</td>
-                        </tr>
+                       
                         <tr>
                           <td>MBA</td>
                           <td>	
@@ -145,92 +140,43 @@ class IIT_MADRAS extends Component {
                   </div>
                 </div>
                 
+              
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Ranking</span>
-                  </h2>
-                  <div className="container">
-                    <p className="align-middle">
-                    <table class="thead-dark">
-                      <thead>
-                        <tr>
-                        <th scope="col">Magazine/ Body</th>
-                          <th scope="col">Rank</th>
-                          <th scope="col">Year</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-
-                        <tr>
-                         <td>Brics Ranking</td>
-                          <td>17</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>Asian University Ranking</td>
-                          <td>48</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>NIRF</td>
-                          <td>1</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>OUTLOOK</td>
-                          <td>3</td>
-                          <td>2019</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    </p>
-                  </div>
-                </div>
-
-                </div>
-                <div id="section-5" className="detail-content coursedessside">
-                  <h2 className="heading-new">
-                    <span>IIT MADRAS Placements</span>
+                    <span>ICT Placements</span>
                   </h2>
                   <div className="container">
                     <p>
-                      <img className="fit_center" src="/images/iitm1.webp" alt="placement statictics" />
+                    ICT Mumbai is one of the best institutes in terms of placements. It gathers best placement opportunities for its students. There is no chemical and allied industry in the country that does not employ graduates of ICT. A placement cell participates with UDCT Alumni Association (UAA) to assist campus placement which begins
+                     in the month of July, and continues throughout the year, before the student's graduate. The institute placed their students in reputed organizations such as Galaxy, SRF, ITC, Loreal etc
                     </p>
-                  </div>
+                  
                 </div>
               </div>
               
               <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Scholarship</span>
-                  </h2>
-                  <div className="container">
-                    <p>
-                    Scholarships are offered to students so that they aspire to excellence.
-                     It is a reward to them for their hard work.
-                      IIT Madras is quite generous in its offerings for diligent students.
-                     Scholarship names are given below:
-                    </p>
-                  </div>
-                  
-                  
+                    <span>ICT Scholarship</span>
+                  </h2> 
                   <div className="container">
                     <p>
                     <ul className="lister">
-                      <li>AERB Scholarship</li>
-                      <li>Girish Ready Scholarship</li>
-                      <li>Prof. Narasimhan Fellowship</li>
-                      <li>Institute Merit-cum-Means Scholarship</li>
-                     </ul>
+                      <li>M. S. Patel Trust Merit-cum-Means Scholarship</li>
+                      <li>Smt. Badami Devi Chiranjilal Murarka Charity Trust Merit-cum-Means Scholarship</li>
+                      <li>Rushmi-Druman Merit-cum-Means Scholarship</li>
+                      <li>Druman M. Trivedi Merit-cum-Means Scholarship</li>
+                      <li>Prof. A.N. Kothare Scholarship</li>
+                    </ul>
                     </p>
-                 
-              </div>
-              
+                  </div>
               </div>
               </div>
             </div>
-          </div>
+            </div>
+            </div>
+            </div>
+            
     );
   }
 }
-export default IIT_MADRAS;
+export default ICT;

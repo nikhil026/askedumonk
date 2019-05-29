@@ -302,3 +302,24 @@ input#prosearch {
   flex: none;
   max-width: none;
 }
+.fit_center {
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  width: 70%;
+}
+.coursedessside .heading_res {
+  border-bottom: 1px solid #e9e9e9;
+  text-align: left;
+  font-variant: all-small-caps;
+  font-weight: 700;
+  line-height: 36px;
+  padding-bottom: 2px;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-top: 0px;
+  padding-left: 44px;
+}
+.lister {
+  padding-left:60px;
+}

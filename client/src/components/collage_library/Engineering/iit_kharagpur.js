@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIT_MADRAS extends Component {
+class IIT_KHARAGPUR extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -14,14 +14,14 @@ class IIT_MADRAS extends Component {
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Technology Madras</h3>
+                <h3>Indian Institute of Technology Kharagpur</h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
                   Under Goverment of India
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 1
+                  Rank: 4
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,23 +43,26 @@ class IIT_MADRAS extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras is a public engineering institute that was set up in the year 1959 in Madras through an Act of Parli
-                      IIT Madras Admissions are entirely based on the marks in National level entrance exams such as IIT JAM, JEE Advanced, CAT etc.
-                       IIT Madras was the third Indian Institute of Technology after IIT Bombay and IIT Kharagpur. 
-                      The 617.8-Acre campus is one of India’s most prestigious institute to gain 
-                      recognition as an Institute of National Importance by Government of India.
+                      Indian Institute Of Technology, Kharagpur, popularly known as IIT Kharagpur or 
+                      IIT KGP, was established in the year 1951. 
+                      It is a Public Engineering Institute and is located in Kharagpur,
+                       West Bengal. The institute offers B.Tech, B.Arch., Integrated, LLB, LLM, M.Tech., 
+                       MCP, M.Sc., MBA, EMBA, MMST, and Ph.D. program to the aspirants.
+                        IIT Kharagpur Admissions are based on the marks secured by the students in the following entrance tests 
+                        - JEE Main/ Advanced for B.Tech./ B.Arch., GATE for M.Tech., JAM for M.Sc., CAT for MBA/ MHRM and 
+                        Entrance Tests conducted by the Institute for LLB, LLM, MMST and Ph.D. applicants.
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Courses</span>
+                    <span>IIT KHARAGPUR Courses</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras offers Undergraduate, Postgraduate and 
+                      IIT KHARAGPUR offers Undergraduate, Postgraduate and 
                       Research programs in streams like Engineering, Sciences, 
                       Humanities, and Management.
                       </span>
@@ -71,13 +74,13 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>IIT KHARAGPUR Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      IIT KHARAGPUR Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -147,7 +150,7 @@ class IIT_MADRAS extends Component {
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Ranking</span>
+                    <span>IIT KHARAGPUR Ranking</span>
                   </h2>
                   <div className="container">
                     <p className="align-middle">
@@ -163,22 +166,22 @@ class IIT_MADRAS extends Component {
 
                         <tr>
                          <td>Brics Ranking</td>
-                          <td>17</td>
+                          <td>23</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>Asian University Ranking</td>
-                          <td>48</td>
+                          <td>53</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>NIRF</td>
-                          <td>1</td>
+                          <td>4</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>OUTLOOK</td>
-                          <td>3</td>
+                          <td>4</td>
                           <td>2019</td>
                         </tr>
                       </tbody>
@@ -190,11 +193,18 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Placements</span>
+                    <span>IIT KHARAGPUR Placements</span>
                   </h2>
                   <div className="container">
                     <p>
-                      <img className="fit_center" src="/images/iitm1.webp" alt="placement statictics" />
+                    IIT Kharagpur offers Placements opportunities to candidates through their Central Placement Cell, 
+                    a working body which counsels and provides training to the job aspirants before appearing for an interview. 
+                    Following graph depicts the Placement Trend of IIT Kharagpur.
+                    </p>
+                  </div>
+                  <div className="container">
+                    <p>
+                      <img className="fit_center" src="/images/iitk.png" alt="placement statictics" />
                     </p>
                   </div>
                 </div>
@@ -202,25 +212,19 @@ class IIT_MADRAS extends Component {
               
               <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Scholarship</span>
+                    <span>IIT KHARAGPUR Scholarship</span>
                   </h2>
-                  <div className="container">
-                    <p>
-                    Scholarships are offered to students so that they aspire to excellence.
-                     It is a reward to them for their hard work.
-                      IIT Madras is quite generous in its offerings for diligent students.
-                     Scholarship names are given below:
-                    </p>
-                  </div>
+                
+                  
                   
                   
                   <div className="container">
                     <p>
                     <ul className="lister">
-                      <li>AERB Scholarship</li>
-                      <li>Girish Ready Scholarship</li>
-                      <li>Prof. Narasimhan Fellowship</li>
-                      <li>Institute Merit-cum-Means Scholarship</li>
+                      <li>Merit-cum-means scholarship of INR.1000 p.m. & a tuition fee waiver is awarded to 25% of students admitted under B.Tech, B.Arch, Integrated M.Sc. and 2-year M.Sc program</li>
+                      <li>Assistantship of INR 10000 per month to MMST students
+</li>
+                      <li>Students admitted to Dual Degree program are provided scholarships at par with B.Tech. students upto 4th year and at par with M.Tech in their 5th year.</li>
                      </ul>
                     </p>
                  
@@ -233,4 +237,4 @@ class IIT_MADRAS extends Component {
     );
   }
 }
-export default IIT_MADRAS;
+export default IIT_KHARAGPUR;

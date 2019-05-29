@@ -216,6 +216,19 @@ import Hotel_Management_Collage from './components/collage_library/hotel_managem
 // importing collage from their names 
 
 import IIT_DELHI from './components/collage_library/Engineering/iit_delhi';
+import IIT_BOMBAY from './components/collage_library/Engineering/iit_bombay';
+import IIT_MADRAS from './components/collage_library/Engineering/iit_madras';
+import IIT_KHARAGPUR from './components/collage_library/Engineering/iit_kharagpur';
+import IIT_KANPUR from './components/collage_library/Engineering/iit_kanpur';
+import IIT_GUWAHATI from './components/collage_library/Engineering/iit_guwahati';
+import IIT_ROORKEE from './components/collage_library/Engineering/iit_roorkee';
+import IIT_HYDERABAD from './components/collage_library/Engineering/iit_hyderabad';
+import ANNA_UNI from './components/collage_library/Engineering/anna_university';
+import NIT_TRICHY from './components/collage_library/Engineering/nit_trichy';
+import IIT_BHU from './components/collage_library/Engineering/iit_bhu';
+import ICT from './components/collage_library/Engineering/ict';
+import IIT_INDORE from './components/collage_library/Engineering/iit_indore';
+import JADAV_UNI from './components/collage_library/Engineering/jadavur_university';
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
 
@@ -493,6 +506,20 @@ class App extends Component {
               <br />
               {/* ROUTES FOR THE PARTICULAR COLLAGE */}
               <Route exact path="/list_collage_engineering/iit_delhi_detail" component={IIT_DELHI} />
+              <Route exact path="/list_collage_engineering/iit_bombay_detail" component={IIT_BOMBAY} />
+              <Route exact path="/list_collage_engineering/iit_madras_detail" component={IIT_MADRAS} />
+              <Route exact path="/list_collage_engineering/iit_kanpur_detail" component={IIT_KANPUR} />
+              <Route exact path="/list_collage_engineering/iit_kharagpur_detail" component={IIT_KHARAGPUR} />
+              <Route exact path="/list_collage_engineering/iit_guwahati_detail" component={IIT_GUWAHATI} />
+              <Route exact path="/list_collage_engineering/iit_roorkee_detail" component={IIT_ROORKEE} />
+              <Route exact path="/list_collage_engineering/iit_hyderabad_detail" component={IIT_HYDERABAD} />
+              <Route exact path="/list_collage_engineering/anna_uni_detail" component={ ANNA_UNI} />
+              <Route exact path="/list_collage_engineering/nit_trichy_detail" component={NIT_TRICHY} />
+              <Route exact path="/list_collage_engineering/iit_bhu_detail" component={ IIT_BHU} />
+              <Route exact path="/list_collage_engineering/ict_detail" component={ICT} />
+              <Route exact path="/list_collage_engineering/iit_indore_detail" component={ IIT_INDORE} />
+              <Route exact path="/list_collage_engineering/jadavpur_uni_detail" component={ JADAV_UNI} />
+              
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>

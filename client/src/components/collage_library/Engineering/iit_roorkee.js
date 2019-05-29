@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIT_MADRAS extends Component {
+class IIT_ROORKEE extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -14,14 +14,14 @@ class IIT_MADRAS extends Component {
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Technology Madras</h3>
+                <h3>Indian Institute of Technology Roorkee</h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
                   Under Goverment of India
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 1
+                  Rank: 4
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,23 +43,24 @@ class IIT_MADRAS extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras is a public engineering institute that was set up in the year 1959 in Madras through an Act of Parli
-                      IIT Madras Admissions are entirely based on the marks in National level entrance exams such as IIT JAM, JEE Advanced, CAT etc.
-                       IIT Madras was the third Indian Institute of Technology after IIT Bombay and IIT Kharagpur. 
-                      The 617.8-Acre campus is one of India’s most prestigious institute to gain 
-                      recognition as an Institute of National Importance by Government of India.
+                      Indian Institute of Technology (IIT Roorkee) is seventh Indian Institute of Technology, was established by James Thomason as Thomason College of Civil Engineering in 1847. 
+                      In 1949, It became a university and was remained the University of Roorkee till 2001. It was converted into IIT in 2001
+                       by an act of Government of India and an ordinance is now converted into the act by parliament to make IIT, Roorkee an
+                        Institution of National Importance. It has 21 academic departments covering engineering, applied sciences, humanities & social sciences academic centers
+                        , 3 centers of excellence and some supporting units. The Institute offers various UG, PG, Integrated and Ph.D. Courses in Engineering, Management, Science, and Architecture. 
+                      IIT Roorkee Admission for all courses is based on National Entrance exams such as JEE Advanced, GATE, IIT JAM or NATA.
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Courses</span>
+                    <span>IIT Roorkee Courses</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras offers Undergraduate, Postgraduate and 
+                      IIT Roorkee offers Undergraduate, Postgraduate and 
                       Research programs in streams like Engineering, Sciences, 
                       Humanities, and Management.
                       </span>
@@ -71,13 +72,13 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>IIT Roorkee Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      IIT Roorkee Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -147,7 +148,7 @@ class IIT_MADRAS extends Component {
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Ranking</span>
+                    <span>IIT Roorkee Ranking</span>
                   </h2>
                   <div className="container">
                     <p className="align-middle">
@@ -163,22 +164,22 @@ class IIT_MADRAS extends Component {
 
                         <tr>
                          <td>Brics Ranking</td>
-                          <td>17</td>
+                          <td>47</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>Asian University Ranking</td>
-                          <td>48</td>
+                          <td>86</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>NIRF</td>
-                          <td>1</td>
+                          <td>6</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>OUTLOOK</td>
-                          <td>3</td>
+                          <td>6</td>
                           <td>2019</td>
                         </tr>
                       </tbody>
@@ -190,47 +191,28 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Placements</span>
+                    <span>IIT Roorkee Placements</span>
                   </h2>
                   <div className="container">
                     <p>
-                      <img className="fit_center" src="/images/iitm1.webp" alt="placement statictics" />
+                    Department of Management Studies (DOMS) of IIT Roorkee is well known for its placements.
+                     It Consists two sessions for placement. In 2017, IIT Roorkee made 91% placement record in session 1 and 97% placement record in session 2.
+
+                    The following chart presents IIT Roorkee Sector Wise Placement throughout the year:
+                    </p>
+                  </div>
+                  <div className="container">
+                    <p>
+                      <img className="fit_center" src="/images/iitr.png" alt="placement statictics" />
                     </p>
                   </div>
                 </div>
               </div>
               
-              <div id="section-5" className="detail-content coursedessside">
-                  <h2 className="heading-new">
-                    <span>IIT MADRAS Scholarship</span>
-                  </h2>
-                  <div className="container">
-                    <p>
-                    Scholarships are offered to students so that they aspire to excellence.
-                     It is a reward to them for their hard work.
-                      IIT Madras is quite generous in its offerings for diligent students.
-                     Scholarship names are given below:
-                    </p>
-                  </div>
-                  
-                  
-                  <div className="container">
-                    <p>
-                    <ul className="lister">
-                      <li>AERB Scholarship</li>
-                      <li>Girish Ready Scholarship</li>
-                      <li>Prof. Narasimhan Fellowship</li>
-                      <li>Institute Merit-cum-Means Scholarship</li>
-                     </ul>
-                    </p>
-                 
-              </div>
-              
-              </div>
               </div>
             </div>
           </div>
     );
   }
 }
-export default IIT_MADRAS;
+export default IIT_ROORKEE;

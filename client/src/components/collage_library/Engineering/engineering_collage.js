@@ -170,7 +170,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_engineering/nit_triuchi_detail">
+                      <Link to="/list_collage_engineering/nit_trichy_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> National Institute of Technology Tiruchirappalli
                         </p>

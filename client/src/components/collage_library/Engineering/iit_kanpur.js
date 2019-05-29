@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIT_MADRAS extends Component {
+class IIT_KANPUR extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -14,14 +14,14 @@ class IIT_MADRAS extends Component {
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Technology Madras</h3>
+                <h3>Indian Institute of Technology Kanpur</h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
                   Under Goverment of India
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 1
+                  Rank: 4
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,23 +43,25 @@ class IIT_MADRAS extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras is a public engineering institute that was set up in the year 1959 in Madras through an Act of Parli
-                      IIT Madras Admissions are entirely based on the marks in National level entrance exams such as IIT JAM, JEE Advanced, CAT etc.
-                       IIT Madras was the third Indian Institute of Technology after IIT Bombay and IIT Kharagpur. 
-                      The 617.8-Acre campus is one of India’s most prestigious institute to gain 
-                      recognition as an Institute of National Importance by Government of India.
+                      Indian Institute of Technology, Kanpur, popularly known as IIT Kanpur,
+                       was established in the year 1959. It offers various undergraduate, postgraduate,
+                        integrated and research programs in the field of Engineering, Science, Management, and Design. 
+                        IIT Kanpur Admissions to B.Tech, B.S, and dual degree courses are offered through 
+                        JEE Advanced, and for M.Sc programs admission is offered through JAM.
+                        A valid GATE score is required for admission to the M.Tech./ MS program and for M.Des.
+                         course it is offered on the basis of CEED score.
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Courses</span>
+                    <span>IIT Kanpur Courses</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras offers Undergraduate, Postgraduate and 
+                      IIT Kanpur offers Undergraduate, Postgraduate and 
                       Research programs in streams like Engineering, Sciences, 
                       Humanities, and Management.
                       </span>
@@ -71,13 +73,13 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>IIT Kanpur Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      IIT Kanpur Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -147,7 +149,7 @@ class IIT_MADRAS extends Component {
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Ranking</span>
+                    <span>IIT Kanpur Ranking</span>
                   </h2>
                   <div className="container">
                     <p className="align-middle">
@@ -163,22 +165,22 @@ class IIT_MADRAS extends Component {
 
                         <tr>
                          <td>Brics Ranking</td>
-                          <td>17</td>
+                          <td>25</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>Asian University Ranking</td>
-                          <td>48</td>
+                          <td>61</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>NIRF</td>
-                          <td>1</td>
+                          <td>5</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>OUTLOOK</td>
-                          <td>3</td>
+                          <td>5</td>
                           <td>2019</td>
                         </tr>
                       </tbody>
@@ -190,37 +192,36 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Placements</span>
+                    <span>IIT Kanpur Placements</span>
                   </h2>
                   <div className="container">
                     <p>
-                      <img className="fit_center" src="/images/iitm1.webp" alt="placement statictics" />
+                    IIT Kanpur has been the ‘first stop’ choice for a large number of organizations and industries. 
+                    Over the years IIT Kanpur Placements has witnessed tremendous response from the top-notch companies in India. 
+                    The students’ placement office (SPO) takes care of the placement process at the Institute. 
+                    Several Guest lectures, Mock tests, pre-placement talks, seminars are organized by the Placement team 
+                    before the candidates appear for their final interviews.
                     </p>
                   </div>
+                  
                 </div>
               </div>
               
               <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Scholarship</span>
+                    <span>IIT Kanpur Scholarship</span>
                   </h2>
-                  <div className="container">
-                    <p>
-                    Scholarships are offered to students so that they aspire to excellence.
-                     It is a reward to them for their hard work.
-                      IIT Madras is quite generous in its offerings for diligent students.
-                     Scholarship names are given below:
-                    </p>
-                  </div>
+                
+                  
                   
                   
                   <div className="container">
                     <p>
                     <ul className="lister">
-                      <li>AERB Scholarship</li>
-                      <li>Girish Ready Scholarship</li>
-                      <li>Prof. Narasimhan Fellowship</li>
-                      <li>Institute Merit-cum-Means Scholarship</li>
+                      <li>Merit-cum-Means Scholarships for Undergraduate Students (full tuition waiver/ INR1000 pm)</li>
+                      <li>Merit-cum-Means Scholarships given by alumni of IIT Kanpur (INR 2000 pm)</li>
+                      <li>National Prizes for UG and PG Students & up to INR 400</li>
+                      <li>Sports Scholarships and prizes (Up to INR 2000)</li>
                      </ul>
                     </p>
                  
@@ -233,4 +234,4 @@ class IIT_MADRAS extends Component {
     );
   }
 }
-export default IIT_MADRAS;
+export default IIT_KANPUR;

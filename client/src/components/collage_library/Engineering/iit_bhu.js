@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIT_MADRAS extends Component {
+class IIT_BHU extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -10,18 +10,18 @@ class IIT_MADRAS extends Component {
               <div className="col-md-2 col-xs-2">
                 <img className="fit_center"
                   alt="Bachelor of Architecture"
-                  src="/images/iitm.webp"
+                  src="/images/iitbhu.webp"
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Technology Madras</h3>
+                <h3>Indian Institute of Technology BHU</h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
                   Under Goverment of India
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 1
+                  Rank: 11
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,23 +43,23 @@ class IIT_MADRAS extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras is a public engineering institute that was set up in the year 1959 in Madras through an Act of Parli
-                      IIT Madras Admissions are entirely based on the marks in National level entrance exams such as IIT JAM, JEE Advanced, CAT etc.
-                       IIT Madras was the third Indian Institute of Technology after IIT Bombay and IIT Kharagpur. 
-                      The 617.8-Acre campus is one of India’s most prestigious institute to gain 
-                      recognition as an Institute of National Importance by Government of India.
+                      Indian Institute of Technology (Banaras Hindu University) Varanasi (abbreviated IIT (BHU)) is a public engineering institution located in Varanasi, Uttar Pradesh.
+                       Founded in 1919 as the Banaras Engineering College, it became the Institute of Technology, Banaras Hindu University in 1968.
+                        IIT (BHU) Varanasi has 14 departments and three inter-disciplinary schools. Admission to IIT (BHU) is entirely based on the ranks obtained in JEE Advanced, 
+                        GATE or GPAT. IIT (BHU) has collaborated with University of Cambridge (UK), University of Oxford (UK), University of Sheffield (UK).
+                       It provides Undergraduate, Postgraduate and Doctoral programs in Engineering and Pharmacy
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Courses</span>
+                    <span>IIT BHU Courses</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras offers Undergraduate, Postgraduate and 
+                      IIT BHU offers Undergraduate, Postgraduate and 
                       Research programs in streams like Engineering, Sciences, 
                       Humanities, and Management.
                       </span>
@@ -71,13 +71,13 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>IIT BHU Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      IIT BHU Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -147,7 +147,7 @@ class IIT_MADRAS extends Component {
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Ranking</span>
+                    <span>IIT BHU Ranking</span>
                   </h2>
                   <div className="container">
                     <p className="align-middle">
@@ -161,26 +161,13 @@ class IIT_MADRAS extends Component {
                       </thead>
                       <tbody>
 
-                        <tr>
-                         <td>Brics Ranking</td>
-                          <td>17</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>Asian University Ranking</td>
-                          <td>48</td>
-                          <td>2019</td>
-                        </tr>
+                       
                         <tr>
                           <td>NIRF</td>
-                          <td>1</td>
+                          <td>11</td>
                           <td>2019</td>
                         </tr>
-                        <tr>
-                          <td>OUTLOOK</td>
-                          <td>3</td>
-                          <td>2019</td>
-                        </tr>
+
                       </tbody>
                     </table>
                     </p>
@@ -188,49 +175,54 @@ class IIT_MADRAS extends Component {
                 </div>
 
                 </div>
-                <div id="section-5" className="detail-content coursedessside">
-                  <h2 className="heading-new">
-                    <span>IIT MADRAS Placements</span>
-                  </h2>
-                  <div className="container">
-                    <p>
-                      <img className="fit_center" src="/images/iitm1.webp" alt="placement statictics" />
-                    </p>
-                  </div>
-                </div>
-              </div>
               
               <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Scholarship</span>
+                    <span>IIT BHU Scholarship</span>
+                  </h2> 
+                  <div className="container">
+                    <p>
+                    IIT (BHU) offers Merit-cum-Means scholarships to 25% undergraduate students. Besides, there are several endowment scholarships 
+                    offered by the Institute. All the students (non-sponsored)
+                     admitted to M.Tech./ M.Pharm. programs are provided financial Assistance equivalent to the Junior Research Fellowships.
+                    </p>
+                  </div>
+                  <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading_res">
+                    <span>International Scholarship</span>
                   </h2>
                   <div className="container">
                     <p>
-                    Scholarships are offered to students so that they aspire to excellence.
-                     It is a reward to them for their hard work.
-                      IIT Madras is quite generous in its offerings for diligent students.
-                     Scholarship names are given below:
+                    <ul className="lister">
+                      <li>Chinese Govt. Scholarship</li>
+                      <li>Korean Govt. Scholarship</li>
+                      <li>Japanese Govt Scholarship</li>
+                    </ul>
                     </p>
                   </div>
-                  
-                  
+              </div>
+              <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading_res">
+                    <span>B.Tech/ B.Pharm/ IDD and IMD</span>
+                  </h2>
                   <div className="container">
                     <p>
                     <ul className="lister">
-                      <li>AERB Scholarship</li>
-                      <li>Girish Ready Scholarship</li>
-                      <li>Prof. Narasimhan Fellowship</li>
-                      <li>Institute Merit-cum-Means Scholarship</li>
-                     </ul>
+                      <li>Merit-cum-Means Scholarship</li>
+                      <li>Top Class education scheme for SC students</li>
+                      <li>National Fellowship and Scholarship for Higher Education of ST Students - Scholarship (Formally Rajiv Gandhi National Fellowship for ST Students)</li>
+                      <li>State Scholarships</li>
+                      <li>Endowment Scholarships</li>
+                    </ul>
                     </p>
-                 
+                  </div>
               </div>
-              
               </div>
               </div>
             </div>
-          </div>
-    );
+            </div>
+            </div>
+      );
   }
 }
-export default IIT_MADRAS;
+export default IIT_BHU;

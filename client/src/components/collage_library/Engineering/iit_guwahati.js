@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIT_MADRAS extends Component {
+class IIT_GUWAHATI extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -10,18 +10,18 @@ class IIT_MADRAS extends Component {
               <div className="col-md-2 col-xs-2">
                 <img className="fit_center"
                   alt="Bachelor of Architecture"
-                  src="/images/iitm.webp"
+                  src="/images/iitg.webp"
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Technology Madras</h3>
+                <h3>Indian Institute of Technology Guwahati</h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
                   Under Goverment of India
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 1
+                  Rank: 4
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,23 +43,23 @@ class IIT_MADRAS extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras is a public engineering institute that was set up in the year 1959 in Madras through an Act of Parli
-                      IIT Madras Admissions are entirely based on the marks in National level entrance exams such as IIT JAM, JEE Advanced, CAT etc.
-                       IIT Madras was the third Indian Institute of Technology after IIT Bombay and IIT Kharagpur. 
-                      The 617.8-Acre campus is one of India’s most prestigious institute to gain 
-                      recognition as an Institute of National Importance by Government of India.
+                      Indian Institute of Technology, Guwahati, popularly known as IIT Guwahati, was established in the year 1994. 
+                      It is an Autonomous University which is approved by University Grants Commission (UGC). 
+                      The institute has been recognized as the Institute of National Importance by the Government of India. 
+                      Currently, it has 11 departments and 5 academic centers. 
+                      IIT Guwahati is one of the prestigious institutes ranked among top 10 institutes in India. 
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Courses</span>
+                    <span>IIT GUWAHATI Courses</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIT Madras offers Undergraduate, Postgraduate and 
+                      IIT GUWAHATI offers Undergraduate, Postgraduate and 
                       Research programs in streams like Engineering, Sciences, 
                       Humanities, and Management.
                       </span>
@@ -71,13 +71,13 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>IIT GUWAHATI Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      IIT GUWAHATI Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -147,7 +147,7 @@ class IIT_MADRAS extends Component {
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Ranking</span>
+                    <span>IIT GUWAHATI Ranking</span>
                   </h2>
                   <div className="container">
                     <p className="align-middle">
@@ -163,22 +163,22 @@ class IIT_MADRAS extends Component {
 
                         <tr>
                          <td>Brics Ranking</td>
-                          <td>17</td>
-                          <td>2019</td>
-                        </tr>
-                        <tr>
-                          <td>Asian University Ranking</td>
                           <td>48</td>
                           <td>2019</td>
                         </tr>
                         <tr>
+                          <td>Asian University Ranking</td>
+                          <td>107</td>
+                          <td>2019</td>
+                        </tr>
+                        <tr>
                           <td>NIRF</td>
-                          <td>1</td>
+                          <td>7</td>
                           <td>2019</td>
                         </tr>
                         <tr>
                           <td>OUTLOOK</td>
-                          <td>3</td>
+                          <td>7</td>
                           <td>2019</td>
                         </tr>
                       </tbody>
@@ -190,40 +190,48 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Placements</span>
+                    <span>IIT GUWAHATI Placements</span>
                   </h2>
                   <div className="container">
                     <p>
-                      <img className="fit_center" src="/images/iitm1.webp" alt="placement statictics" />
+                    IIT Guwahati Placements are offered to the deserving students in the well-reputed companies such as Adobe, Amazon, Infosys, Microsoft, and Google etc. 
+                    The institute has a great placement record.
                     </p>
                   </div>
+                  <div id="section-5" className="detail-content coursedessside">
+                  <h2 className="heading_res">
+                    <span>IIT Guwahati Placement Process</span>
+                  </h2>
+                  <div className="container">
+                    <p>
+                    <ul className="lister">
+                      <li>CCD office sends invitation to organizations/ companies along with relevant information</li>
+                      <li>Interested companies register and create account on the online placement portal of IIT Guwahati</li>
+                      <li>Companies fill an online Job Application Form</li>
+                      <li>If the organization or company is interested in conducting a Pre-Placement Talk (PPT) they can send a request along with the preferred dates to CCD office</li>
+                      <li>Job Application Form along with all the required information prescribed by the company is provided to eligible candidates</li>
+                      <li>The resumes of all interested candidates become available to the company for downloading or viewing through their placement account</li>
+                      <li>Companies will shortlist the candidates on the basis of their resumes. The organization can also maintain the waitlist of students.</li>
+                      <li>The placement process starts in the first week of December and ends in May. CCD Office prescribed dates for recruitment procedure by considering factors like number of students, job profile etc.</li>
+                      <li>All the participating companies and organizations visit the campus on prescribed dates and conduct interview or tests according to their selection criteria</li>
+                      <li>After the successful completion of selection process, all the companies submit the list of selected candidates to CCD office</li>
+                    </ul>
+                    </p>
+                  </div>
+              </div>
+                  
                 </div>
               </div>
               
               <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Scholarship</span>
-                  </h2>
+                    <span>IIT GUWAHATI Scholarship</span>
+                  </h2> 
                   <div className="container">
                     <p>
-                    Scholarships are offered to students so that they aspire to excellence.
-                     It is a reward to them for their hard work.
-                      IIT Madras is quite generous in its offerings for diligent students.
-                     Scholarship names are given below:
+                    Indian Institute of Technology Guwahati (IITG) offer scholarships to its graduate and postgraduate students. The institute provides various scholarships under different categories. 
                     </p>
-                  </div>
-                  
-                  
-                  <div className="container">
-                    <p>
-                    <ul className="lister">
-                      <li>AERB Scholarship</li>
-                      <li>Girish Ready Scholarship</li>
-                      <li>Prof. Narasimhan Fellowship</li>
-                      <li>Institute Merit-cum-Means Scholarship</li>
-                     </ul>
-                    </p>
-                 
+ 
               </div>
               
               </div>
@@ -233,4 +241,4 @@ class IIT_MADRAS extends Component {
     );
   }
 }
-export default IIT_MADRAS;
+export default IIT_GUWAHATI;
