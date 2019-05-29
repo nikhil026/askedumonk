@@ -229,6 +229,12 @@ import IIT_BHU from './components/collage_library/Engineering/iit_bhu';
 import ICT from './components/collage_library/Engineering/ict';
 import IIT_INDORE from './components/collage_library/Engineering/iit_indore';
 import JADAV_UNI from './components/collage_library/Engineering/jadavur_university';
+import IIEST from "./components/collage_library/Engineering/iiest";
+import IIT_MANDI from "./components/collage_library/Engineering/iit_mandi";
+import IIT_BHUBANESWAR from "./components/collage_library/Engineering/iit_bhubaneswar";
+import IIT_DHANBAD from "./components/collage_library/Engineering/iit_dhanbad";
+import NIT_ROURKELA from "./components/collage_library/Engineering/nit_rourkela";
+import VIT from "./components/collage_library/Engineering/vit";
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
 
@@ -519,6 +525,12 @@ class App extends Component {
               <Route exact path="/list_collage_engineering/ict_detail" component={ICT} />
               <Route exact path="/list_collage_engineering/iit_indore_detail" component={ IIT_INDORE} />
               <Route exact path="/list_collage_engineering/jadavpur_uni_detail" component={ JADAV_UNI} />
+              <Route exact path="/list_collage_engineering/iit_bhubaneswar_detail" component={IIT_BHUBANESWAR} />
+              <Route exact path="/list_collage_engineering/nit_rourkela_detail" component={ NIT_ROURKELA} />
+              <Route exact path="/list_collage_engineering/vit_detail" component={ VIT} />
+              <Route exact path="/list_collage_engineering/iiest_detail" component={IIEST} />
+              <Route exact path="/list_collage_engineering/iit_mandi_detail" component={ IIT_MANDI} />
+              <Route exact path="/list_collage_engineering/iit_dhanbad_detail" component={IIT_DHANBAD} />
               
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
