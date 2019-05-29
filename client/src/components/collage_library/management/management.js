@@ -88,7 +88,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_delhi_detail">
+                      <Link to="/list_collage_engineering/iit_delhi_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Indian Institute of Technology Delhi
                         </p>
@@ -140,7 +140,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_kharagpur_detail">
+                      <Link to="/list_collage_engineering/iit_kharagpur_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Indian Institute of Technology Kharagpur
                         </p>
@@ -150,7 +150,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/xlri_detail">
+                      <Link to="/list_collage_management/xavier_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Xavier Labour Relations Institute
                         </p>
@@ -170,17 +170,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_delhi_detail">
-                        <p className="brnchname">
-                          <i className="fa fa-database" /> Indian Institute of Technology Delhi
-                        </p>
-                        <p>
-                          <i className="fa fa-angle-right" />
-                        </p>
-                      </Link>
-                    </div>
-                    <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_bombay_detail">
+                      <Link to="/list_collage_engineering/iit_bombay_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Indian Institute of Technology Bombay
                         </p>
@@ -190,7 +180,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_roorkee_detail">
+                      <Link to="/list_collage_engineering/iit_roorkee_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Indian Institute of Technology Roorkee
                         </p>
@@ -231,7 +221,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_madras_detail">
+                      <Link to="/list_collage_engineering/iit_madras_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Indian Institute of Technology Madras
                         </p>
@@ -251,7 +241,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/nit_tiruchi_detail">
+                      <Link to="/list_collage_engineering/nit_trichy_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> 	National Institute of Technology Tiruchirappalli
                         </p>
@@ -305,7 +295,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_kanpur_detail">
+                      <Link to="/list_collage_engineering/iit_kanpur_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Indian Institute of Technology Kanpur
                         </p>
@@ -406,7 +396,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/iit_dhanbad_detail">
+                      <Link to="/list_collage_engineering/iit_dhanbad_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Indian Institute of Technology (Indian School of Mines) Dhanbad
                         </p>
@@ -521,7 +511,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/au_detail">
+                      <Link to="/list_collage_engineering/anna_uni_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Anna University
                         </p>
@@ -551,7 +541,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/vit_detail">
+                      <Link to="/list_collage_engineering/vit_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Vellore Institute of Technology
                         </p>

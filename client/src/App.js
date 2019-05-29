@@ -235,6 +235,15 @@ import IIT_BHUBANESWAR from "./components/collage_library/Engineering/iit_bhuban
 import IIT_DHANBAD from "./components/collage_library/Engineering/iit_dhanbad";
 import NIT_ROURKELA from "./components/collage_library/Engineering/nit_rourkela";
 import VIT from "./components/collage_library/Engineering/vit";
+//management collage
+
+import IIM_BANGALORE from "./components/collage_library/management/iim_bangalore";
+import IIM_AHMEDABAD from "./components/collage_library/management/iim_ahmedabad";
+import IIM_CALCUTTA from "./components/collage_library/management/iim_calcutta";
+import IIM_LUCKNOW from "./components/collage_library/management/iim_lucknow";
+import IIM_INDORE from "./components/collage_library/management/iim_indore";
+import XAVIER from "./components/collage_library/management/xavier";
+
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
 
@@ -531,7 +540,15 @@ class App extends Component {
               <Route exact path="/list_collage_engineering/iiest_detail" component={IIEST} />
               <Route exact path="/list_collage_engineering/iit_mandi_detail" component={ IIT_MANDI} />
               <Route exact path="/list_collage_engineering/iit_dhanbad_detail" component={IIT_DHANBAD} />
-              
+              {/* management collages */}
+              <Route exact path="/list_collage_management/iim_bangalore_detail" component={IIM_BANGALORE} />
+              <Route exact path="/list_collage_management/iim_ahmedabad_detail" component={IIM_AHMEDABAD} />
+              <Route exact path="/list_collage_management/iim_calcutta_detail" component={IIM_CALCUTTA} />
+              <Route exact path="/list_collage_management/iim_lucknow_detail" component={IIM_LUCKNOW} />
+              <Route exact path="/list_collage_management/iim_indore_detail" component={IIM_INDORE} />
+              <Route exact path="/list_collage_management/xavier_detail" component={XAVIER} />
+
+
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>
