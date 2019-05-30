@@ -78,7 +78,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     {this.state.activePage === 1? 
                     <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/aiims_detail">
+                      <Link to="/list_collage_medical/aiims_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> All India Institute of Medical Sciences
                         </p>
@@ -88,7 +88,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/pgimer_detail">
+                      <Link to="/list_collage_medical/pgimer_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Post Graduate Institute of Medical Education and Research
                         </p>
@@ -98,7 +98,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/cmc_detail">
+                      <Link to="/list_collage_medical/cmc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Christian Medical College
                         </p>
@@ -108,7 +108,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/sgpims_detail">
+                      <Link to="/list_collage_medical/sgpims_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Sanjay Gandhi Postgraduate Institute of Medical Sciences
                         </p>
@@ -119,7 +119,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                    
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/avv_detail">
+                      <Link to="/list_collage_medical/avv_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Amrita Vishwa Vidyapeetham
                         </p>
@@ -130,7 +130,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                     
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/bhu_detail">
+                      <Link to="/list_collage_medical/bhu_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Banaras Hindu University
                         </p>
@@ -140,7 +140,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/kmc_detail">
+                      <Link to="/list_collage_medical/kmc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Kasturba Medical College
                         </p>
@@ -150,7 +150,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/jipgmer_detail">
+                      <Link to="/list_collage_medical/jipgmer_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Jawaharlal Institute of Post Graduate Medical Education & Research
                         </p>
@@ -160,7 +160,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/ilbs_detail">
+                      <Link to="/list_collage_medical/ilbs_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Institute of Liver and Biliary Sciences
                         </p>
@@ -170,7 +170,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/kgmu_detail">
+                      <Link to="/list_collage_medical/kgmu_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> King George`s Medical University
                         </p>
@@ -184,7 +184,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     {this.state.activePage === 2? 
                       <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/sriher_detail">
+                      <Link to="/list_collage_medical/sriher_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Sri Ramachandra Institute of Higher Education and Research
                         </p>
@@ -194,7 +194,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/sjmc_detail">
+                      <Link to="/list_collage_medical/sjmc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> St. John's Medical College
                         </p>
@@ -205,7 +205,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                     
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/amu_detail">
+                      <Link to="/list_collage_medical/amu_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Aligarh Muslim University
                         </p>
@@ -215,7 +215,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/mamc_detail">
+                      <Link to="/list_collage_medical/mamc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Maulana Azad Medical College
                         </p>
@@ -225,7 +225,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/jh_detail">
+                      <Link to="/list_collage_medical/jh_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Jamia Hamdard
                         </p>
@@ -235,7 +235,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/kamc_detail">
+                      <Link to="/list_collage_medical/kamc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Kasturba Medical College
                         </p>
@@ -245,7 +245,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/jssmc_detail">
+                      <Link to="/list_collage_medical/jssmc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />JSS Medical College
                         </p>
@@ -255,7 +255,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/cmc_detail">
+                      <Link to="/list_collage_medical/cmc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Christian Medical College
                         </p>
@@ -265,7 +265,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/vmmcsh_detail">
+                      <Link to="/list_collage_medical/vmmcsh_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Vardhman Mahavir Medical College & Safdarjung Hospital
                         </p>
@@ -275,7 +275,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/ddypv_detail">
+                      <Link to="/list_collage_medical/ddypv_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Dr. D. Y. Patil Vidyapeeth
                         </p>
@@ -288,7 +288,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     {this.state.activePage === 3? 
                       <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/soa_detail">
+                      <Link to="/list_collage_medical/soa_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Siksha `O` Anusandhan
                         </p>
@@ -298,7 +298,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/srmist_detail">
+                      <Link to="/list_collage_medical/srmist_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> SRM Institute of Science and Technology
                         </p>
@@ -308,7 +308,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/ucms_detail">
+                      <Link to="/list_collage_medical/ucms_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> University College of Medical Sciences
                         </p>
@@ -318,7 +318,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/dmc_detail">
+                      <Link to="/list_collage_medical/dmc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Dayanand Medical College
                         </p>
@@ -329,7 +329,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                     
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/simts_detail">
+                      <Link to="/list_collage_medical/simts_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Saveetha Institute of Medical and Technical Sciences
                         </p>
@@ -339,7 +339,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/anau_detail">
+                      <Link to="/list_collage_medical/anau_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Annamalai University
                         </p>
@@ -349,7 +349,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/msrmc_detail">
+                      <Link to="/list_collage_medical/msrmc_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />M. S. Ramaiah Medical College
                         </p>
@@ -359,7 +359,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/rims_detail">
+                      <Link to="/list_collage_medical/rims_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />Regional Institute of Medical Sciences
                         </p>
@@ -369,7 +369,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/svims_detail">
+                      <Link to="/list_collage_medical/svims_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Sri Venkateswara Institute of Medical Sciences
                         </p>
@@ -379,7 +379,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_management/kiit_detail">
+                      <Link to="/list_collage_medical/kiit_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> 	Kalinga Institute of Industrial Technology
                         </p>

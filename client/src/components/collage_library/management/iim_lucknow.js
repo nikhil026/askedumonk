@@ -131,7 +131,7 @@ class IIM_LUCKNOW extends Component {
                      In 2017, IIM Lucknow has achieved 100 % Placement record. Almost 435 students have been placed. More than 70 domestic and international companies have participated in campus placement. 
                      </p>
                      <p>
-                         <img src="/images/iimluck1.png" alt="placement"/>
+                         <img className="fit_center" src="/images/iimluck1.png" alt="placement"/>
                      </p>
                   </div>
                 </div>

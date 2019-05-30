@@ -243,6 +243,15 @@ import IIM_CALCUTTA from "./components/collage_library/management/iim_calcutta";
 import IIM_LUCKNOW from "./components/collage_library/management/iim_lucknow";
 import IIM_INDORE from "./components/collage_library/management/iim_indore";
 import XAVIER from "./components/collage_library/management/xavier";
+import IIM_KOZHIKODE from "./components/collage_library/management/iim_kozhikode";
+import MDI from "./components/collage_library/management/mdi";
+import IIM_UDAIPUR from "./components/collage_library/management/iim_udaipur";
+import IIM_TRICHY from "./components/collage_library/management/iim_trichy";
+import SPJIM from "./components/collage_library/management/spjim";
+import GLIM from "./components/collage_library/management/glim";
+import IIM_RAIPUR from "./components/collage_library/management/iim_raipur";
+//medical collages
+import AIIMS_C from './components/collage_library/medical/aiims'
 
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
@@ -547,7 +556,15 @@ class App extends Component {
               <Route exact path="/list_collage_management/iim_lucknow_detail" component={IIM_LUCKNOW} />
               <Route exact path="/list_collage_management/iim_indore_detail" component={IIM_INDORE} />
               <Route exact path="/list_collage_management/xavier_detail" component={XAVIER} />
-
+              <Route exact path="/list_collage_management/iim_kozhikode_detail" component={IIM_KOZHIKODE} />
+              <Route exact path="/list_collage_management/mdi_detail" component={MDI} />
+              <Route exact path="/list_collage_management/iim_udaipur_detail" component={IIM_UDAIPUR} />
+              <Route exact path="/list_collage_management/iim_tiruchi_detail" component={IIM_TRICHY} />
+              <Route exact path="/list_collage_management/spjim_detail" component={SPJIM} />
+              <Route exact path="/list_collage_management/glim_detail" component={GLIM} />
+              <Route exact path="/list_collage_management/iim_raipur_detail" component={IIM_RAIPUR} />
+              {/* medical collages */}
+              <Route exact path="/list_collage_medical/aiims_detail" component={AIIMS_C} />
 
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />

@@ -137,7 +137,7 @@ class XAVIER extends Component {
                     The highest international package offered this year was 63.45 LPA while the highest domestic package stood at 33.04 LPA. The average CTC for the batch was 18.17 LPA, which is a 12% increase from the previous year. The gender diversity during placement could be seen as the placement was 39% for females and 61% for males. More than 200 companies came for recruitment for the batch 2016-2018. The institute is a preferred recruitment destination for the corporate world as shown below-
                     </p>
                     <p className="align-middle">
-                   <img src="/images/iimi1.png" alt="placements"/>
+                   <img className="fit_center" src="/images/iimi1.png" alt="placements"/>
                     </p>
                   </div>
                 </div>

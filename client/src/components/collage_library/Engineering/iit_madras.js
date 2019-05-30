@@ -71,13 +71,13 @@ class IIT_MADRAS extends Component {
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIT MADRAS Admission Criteria</span>
+                    <span>IIT Madras Admission Criteria</span>
                   </h2>
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
                       The institute offers the variety of undergraduate, postgraduate and doctoral courses in multiple disciplines. 
-                      IIT MADRAS Admission is done through national level entrance exam scores.
+                      IIT Madras Admission is done through national level entrance exam scores.
                       </span>
                     </p>
                     <p className="align-middle">
@@ -91,12 +91,7 @@ class IIT_MADRAS extends Component {
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
-                            <tr>
-                              <td>B.Tech</td>
-                              <td>B.Tech+M.Tech</td>
-                            </tr>
-                          </td>
+                          <td>B.Tech</td>
                           <td>10+2 in Science Stream with minimum required marks from a reputed board</td>
                           <td>JEE Main and JEE Advanced Score</td>
                         </tr>
@@ -144,6 +139,7 @@ class IIT_MADRAS extends Component {
                     </p>
                   </div>
                 </div>
+                
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">

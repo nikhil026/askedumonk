@@ -91,12 +91,7 @@ class NIT_TRICHY extends Component {
                       </thead>
                       <tbody>
                         <tr>
-                          <td>
-                            <tr>
-                              <td>B.Tech</td>
-                              <td>B.Tech+M.Tech</td>
-                            </tr>
-                          </td>
+                          <td>B.Tech</td>  
                           <td>10+2 in Science Stream with minimum required marks from a reputed board</td>
                           <td>JEE Main </td>
                         </tr>

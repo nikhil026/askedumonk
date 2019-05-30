@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class IIM_INDORE extends Component {
+class MDI extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -8,20 +8,20 @@ class IIM_INDORE extends Component {
           <div className="container1">
             <div className="row">
               <div className="col-md-2 col-xs-2">
-                <img className="fit_center"
+                <img  className="fit_center"
                   alt="Bachelor of Architecture"
-                  src="/images/iimi.webp"
+                  src="/images/mdi.webp"
                 />
               </div>
               <div className="col-md-6 col-xs-10 clgprofiledes">
-                <h3>Indian Institute of Management Indore</h3>
+                <h3>Management Development Institute </h3>
                 <h6 className="locationclg">
                   <i className="fa fa-graduation-cap" />
-                  under Goverment of India
+                    An Institution
                 </h6>
                 <h6 className="locationclg">
                   <i className="fa fa-book" />
-                  Rank: 6 in Management
+                  Rank: 10 in Management
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
@@ -43,16 +43,23 @@ class IIM_INDORE extends Component {
                   <div className="container">
                     <p>
                       <span style={{ "font-size": "14px" }}>
-                      IIM Indore is a self-governing public business school located in Indore, Madhya Pradesh.  IIM Indore was established in 1996. It is the sixth expansion to the Indian Institute of Management group of business schools. The 193 acre campus has a picturesque view as it is situated atop a scenic hill. It provides an ideal space for contemplative learning. The campus is beautiful with all the modern facilities which provide an enriching atmosphere for student learning.<br />
-
-                        IIM Indore has been accredited by the Association of MBAs (AMBA, a UK-based accreditation agency) for four full time programs- Two Year Post Graduate Programme in Management (both at Indore and Mumbai), One Year Full Time Executive Post Graduate Programme in Management (EPGP) and Five Year Integrated Programme in Management (IPM, 4th and 5th Year).
+                      Management Development Institute (MDI), is a private autonomous institute which is located in Gurgaon. It’s the first Indian B-school accredited by the internationally coveted Association of MBA’s (AMBA) London. MDI was formed in association with numerous global institutions like UNIDO, UNDP, ILO, and World Bank with an initial grant customary from KFW, West Germany, and with the lively backing of the Industrial Finance Corporation of India (IFCI). MDI offers many post graduate, Execute post graduate program and fellow programs. Admission is based on CAT, GMAT and MDI also conduct its own entrance test.<br />
+                      MDI has student exchange programs for students in order to expose them to cross-cultural global environment. Few of the B-schools that MDI collaborates with includes-<br />
+                      <ul className="lister">
+                          <li>University of Connecticut, USA</li>
+                          <li>Warsaw School of Economics, Warsaw</li>
+                          <li>Solvay Business School, Brussels</li>
+                          <li>Copenhagen Business School, Copenhagen</li>
+                          <li>University of Waterloo, Waterloo</li>
+                          <li>Queensland University of Technology, Brisbane</li>
+                      </ul>
                       </span>
                     </p>
                   </div>
                 </div>
                 <div id="section-5" className="detail-content coursedessside">
                     <h2 className="heading-new">
-                        <span>IIM Indore Courses </span>
+                        <span>MDI Courses </span>
                     </h2>
                     <div id="section-5" className="detail-content coursedessside">
                         <h2 className="heading_res">
@@ -60,7 +67,7 @@ class IIM_INDORE extends Component {
                         </h2>
                         <div className="container">
                             <p>
-                            It is a  two-year full-time residential course for graduates who wish to choose a career in management. Candidates seeking admission to the two-year PGP at Indore campus of IIM Indore have to appear in the Common Admission Test (CAT).
+                            It is a  two-year full-time residential course for graduates who wish to choose a career in management. Candidates seeking admission to the two-year PGP at Kozhikode campus of MDI have to appear in the Common Admission Test (CAT).
                             </p>
                         </div>
                     </div>
@@ -70,7 +77,7 @@ class IIM_INDORE extends Component {
                         </h2>
                         <div className="container">
                             <p>
-                            EPGP is an intensive one-year residential program of IIM Indore. The candidate is required to have 50% in Bachelor’s degree or an equivalent discipline. A valid GMAT score. The GMAT score should be within 05 years on the date of submission of application. Minimum 5 years of managerial/ entrepreneurial/ professional experience after graduation as on the date of submission of application.
+                            EPGP is an intensive one-year residential program of MDI. The candidate is required to have 50% in Bachelor’s degree or an equivalent discipline. A valid GMAT score. The GMAT score should be within 05 years on the date of submission of application. Minimum 5 years of managerial/ entrepreneurial/ professional experience after graduation as on the date of submission of application.
                             </p>
                             <p>
                                 <ul className="lister">
@@ -83,18 +90,46 @@ class IIM_INDORE extends Component {
                     </div>
                     <div id="section-5" className="detail-content coursedessside">
                         <h2 className="heading_res">
-                            <span>IIM Indore EXECUTIVE PROGRAMMES</span>
+                            <span>FPM (Fellowship Programme in Management) </span>
                         </h2>
+                        <div className="container">
+                            <p>
+                            Eligibility- The candidate is required to have a Master’s degree in a relevant discipline from a recognized university. Selection for FPM program is based on the previous academic and CAT, GMAT, GRE, GATE, or UGC / CSIR JRF exam (As per the area of specialization). 
+                            </p>
+                            <p>
+                            Other programmes include-
+                            </p>
+                        </div>
                         <div className="container">
                             <p>
                                 <ul className="lister">
                                     <li>Management Development Programme (MDP)</li>
-                                    <li>Post Graduate Programme in Management-MX, Mumbai (PGPMX-Mumbai)</li>
+                                    <li><b>FDP</b> (Faculty Development Programme)</li>
                                 </ul>
                             </p>
+                            
+                        </div>
+                    </div>
+                      <div id="section-5" className="detail-content coursedessside">
+                        <h2 className="heading_res">
+                            <span>FPM (Fellowship Programme in Management) </span>
+                        </h2>
+                        <div className="container">
                             <p>
-                            At IIM Indore it is possible to gain expertise in various fields such as Operations, Finance, Marketing, etc.  Various Management Development programmes (MDP’s) and certificate programmes are also offered.
+                            Eligibility- The candidate is required to have a Master’s degree in a relevant discipline from a recognized university. Selection for FPM program is based on the previous academic and CAT, GMAT, GRE, GATE, or UGC / CSIR JRF exam (As per the area of specialization). 
                             </p>
+                            <p>
+                            Other programmes include-
+                            </p>
+                        </div>
+                        <div className="container">
+                            <p>
+                                <ul className="lister">
+                                    <li>Management Development Programme (MDP)</li>
+                                    <li><b>FDP</b> (Faculty Development Programme)</li>
+                                </ul>
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
@@ -103,7 +138,7 @@ class IIM_INDORE extends Component {
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIM_INDORE Ranking</span>
+                    <span>MDI Ranking</span>
                   </h2>
                   <div className="container">
                     <p className="align-middle">
@@ -118,7 +153,7 @@ class IIM_INDORE extends Component {
                       <tbody>
                         <tr>
                           <td>NIRF</td>
-                          <td>6</td>
+                          <td>10</td>
                           <td>2019</td>
                         </tr>
                         
@@ -130,14 +165,14 @@ class IIM_INDORE extends Component {
                 
                 <div id="section-5" className="detail-content coursedessside">
                   <h2 className="heading-new">
-                    <span>IIM_INDORE Placements</span>
+                    <span>MDI Placements</span>
                   </h2>
                   <div className="container">
                     <p>
-                    The highest international package offered this year was 63.45 LPA while the highest domestic package stood at 33.04 LPA. The average CTC for the batch was 18.17 LPA, which is a 12% increase from the previous year. The gender diversity during placement could be seen as the placement was 39% for females and 61% for males. More than 200 companies came for recruitment for the batch 2016-2018. The institute is a preferred recruitment destination for the corporate world as shown below-
+                    MDI Gurgaon has emerged among the premier Business School in the nation through its phenomenal Final Placements for the group of 2015 – 2017. The Highest package offered for the current batch is 55 LPA which is the highest overall CTC offered in this season and 143 companies have participated this year. MDI Gurgaon average package offered is 18.9 LPA.
                     </p>
-                    <p className="align-middle">
-                   <img className="fit_center" src="/images/iimi1.png" alt="placements"/>
+                    <p>
+                        <img className="fit_center"  src="/images/mdi1.png" alt="placement"/>
                     </p>
                   </div>
                 </div>
@@ -149,4 +184,4 @@ class IIM_INDORE extends Component {
     );
   }
 }
-export default IIM_INDORE;
+export default MDI;
