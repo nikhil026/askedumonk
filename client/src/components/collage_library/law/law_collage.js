@@ -98,7 +98,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_law/nsul_detail">
+                      <Link to="/list_collage_law/nul_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Nalsar University of Law
                         </p>
@@ -108,7 +108,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/list_collage_law/iit_kharagpur_detail">
+                      <Link to="/list_collage_engineering/iit_kharagpur_detail">
                         <p className="brnchname">
                           <i className="fa fa-database" />	Indian Institute of Technology Kharagpur
                         </p>

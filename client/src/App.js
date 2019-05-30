@@ -252,6 +252,25 @@ import GLIM from "./components/collage_library/management/glim";
 import IIM_RAIPUR from "./components/collage_library/management/iim_raipur";
 //medical collages
 import AIIMS_C from './components/collage_library/medical/aiims'
+import PGIMER from './components/collage_library/medical/pgimer'
+import CMC from './components/collage_library/medical/cmc'
+import SGPIMS from './components/collage_library/medical/sgpims'
+import AVV from './components/collage_library/medical/avv'
+import BHU from './components/collage_library/medical/bhu'
+import KMC from './components/collage_library/medical/kmc'
+import JIPGMER from './components/collage_library/medical/jipgmer'
+import ILBS from './components/collage_library/medical/ilbs'
+import KGMU from './components/collage_library/medical/kgmu'
+//LAW collage
+import NLSIU from './components/collage_library/law/nlsiu'
+import NLU from './components/collage_library/law/nlu'
+import NUL from './components/collage_library/law/nul'
+import WBNUJS from './components/collage_library/law/wbnujs'
+import SLS from './components/collage_library/law/sls'
+import JMI from './components/collage_library/law/jmi'
+import GNLU from './components/collage_library/law/gnlu'
+import RGNUL from './components/collage_library/law/rgnul'
+import NLIU from './components/collage_library/law/nliu'
 
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
@@ -565,6 +584,25 @@ class App extends Component {
               <Route exact path="/list_collage_management/iim_raipur_detail" component={IIM_RAIPUR} />
               {/* medical collages */}
               <Route exact path="/list_collage_medical/aiims_detail" component={AIIMS_C} />
+              <Route exact path="/list_collage_medical/pgimer_detail" component={PGIMER} />
+              <Route exact path="/list_collage_medical/cmc_detail" component={CMC} />
+              <Route exact path="/list_collage_medical/sgpims_detail" component={SGPIMS} />
+              <Route exact path="/list_collage_medical/avv_detail" component={AVV} />
+              <Route exact path="/list_collage_medical/bhu_detail" component={BHU} />
+              <Route exact path="/list_collage_medical/kmc_detail" component={KMC} />
+              <Route exact path="/list_collage_medical/jipgmer_detail" component={JIPGMER} />
+              <Route exact path="/list_collage_medical/ilbs_detail" component={ILBS} />
+              <Route exact path="/list_collage_medical/kgmu_detail" component={KGMU} />
+              {/* law colleges */}
+              <Route exact path="/list_collage_law/nlsiu_detail" component={NLSIU} />
+              <Route exact path="/list_collage_law/nlu_detail" component={NLU} />
+              <Route exact path="/list_collage_law/nul_detail" component={NUL} />
+              <Route exact path="/list_collage_law/wbnujs_detail" component={WBNUJS} />
+              <Route exact path="/list_collage_law/sls_detail" component={SLS} />
+              <Route exact path="/list_collage_law/jmi_detail" component={JMI} />
+              <Route exact path="/list_collage_law/gnlu_detail" component={GNLU} />
+              <Route exact path="/list_collage_law/rgnul_detail" component={RGNUL} />
+              <Route exact path="/list_collage_law/nliu_detail" component={NLIU} />
 
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
