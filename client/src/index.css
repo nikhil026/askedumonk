@@ -135,6 +135,12 @@ input#prosearch {
   justify-content: space-evenly;
   margin-left: 150px;
 }
+.box_feat h3 {
+  font-weight: normal
+}
+.box_feat img {
+  border-radius: 0%;
+}
 } 
 @media (min-width:700px) {
   .col-md-2.col-sm-12{
@@ -144,11 +150,23 @@ input#prosearch {
     flex: none;
     max-width: none;
   }
+  .box_feat h3 {
+    font-weight: normal
+  }
+  .box_feat img {
+    border-radius: 0%;
+  }
 }
 @media (min-width: 769px) {
   .flex-container-logo-again {
     justify-content: space-evenly;
     margin-left: 100px;
+  }
+  .box_feat h3 {
+    font-weight: normal
+  }
+  .box_feat img {
+    border-radius: 0%;
   }
   .col-md-2.col-sm-12{
     max-width: none;
@@ -169,6 +187,12 @@ input#prosearch {
     margin-right: 400px;
     margin-left: -180px;
     margin-top: 20px;
+}
+.box_feat h3 {
+  font-weight: normal
+}
+.box_feat img {
+  border-radius: 0%;
 }
 .col-md-4.mrgn-branches {
   flex: none;
@@ -254,6 +278,12 @@ input#prosearch {
     flex: none;
     max-width: none;
   }
+  .box_feat h3 {
+    font-weight: normal
+  }
+  .box_feat img {
+    border-radius: 0%;
+  }
 } 
 @media (max-width:700px) {
   .col-md-2.col-sm-12{
@@ -272,6 +302,12 @@ input#prosearch {
     flex: none;
     max-width: none;
   }
+  .box_feat h3 {
+    font-weight: normal
+  }
+  .box_feat img {
+    border-radius: 0%;
+  }
 }
 .box_feat1 {
   width: 150px;
@@ -286,18 +322,6 @@ input#prosearch {
 .heading_s1 {
   text-align: center;
 }
-/* .col-md-2.col-sm-12{
-  flex:none;
-  max-width: none;
-}
-.col-md-3.col-sm-12 {
-  flex:none;
-  max-width: none;
-}
-.col-md-3.col-sm-12.footerabt{
-  flex:none;
-  max-width: none;
-} */
 .col-md-4.mrgn-branches {
   flex: none;
   max-width: none;
@@ -323,3 +347,22 @@ input#prosearch {
 .lister {
   padding-left:60px;
 }
+div.col-lg-2.box_feat a.h3 {
+  font-weight: normal
+}
+img {
+  border-radius: 0%;
+}
+img.homestressbox  {
+  width: 60%;
+  margin: 64px;
+}
+.heading {
+  max-width:100%;
+  background-color: red;
+  text-align: center;
+}
+.testexplainboxh.col-md-6.info h3{
+  color: white;
+  text-align: center;
+} 

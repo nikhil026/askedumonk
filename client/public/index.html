@@ -114,9 +114,8 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
     />
-
     <!-- Optional theme -->
-
+    <!-- <script async="async" src="https://static.mobilemonkey.com/js/2229029307312970.js"></script>  -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -163,5 +162,29 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div class="fb-customerchat"
+      page_id="2229029307312970"
+      theme_color="#459645"
+      logged_in_greeting="Hi! How can we help you?"
+      logged_out_greeting="GoodBye!... Hope to see you soon."
+      minimized="false">
+    </div>
+    <script>
+    window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '2015199145383303',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
   </body>
 </html>

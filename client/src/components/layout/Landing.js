@@ -103,61 +103,6 @@ class Landing extends Component {
           <section className="forwhomcp">
             <div className="container">
               <div className="1 margin_120_95">
-                <div className="flex-container-logo">
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <p
-                        className="purchsetestbtnfrree"
-                        style={{ "marginTop": "30px", padding: "10px" }}
-                      >
-                        Recognized By
-                      </p>
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/1.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r1.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r4.png")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r3.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner"  src={require("../.././images/r2.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section className="forwhomcp">
-            <div className="container">
-              <div className="1 margin_120_95">
                 <div className="row">
                   <div className="heading_s1">
                     <h2>Explore Everything You Need</h2>
@@ -311,61 +256,6 @@ class Landing extends Component {
               </div>
             </div>
           </section>
-          <section className="forwhomcp">
-            <div className="container">
-              <div className="1 margin_120_95">
-                <div className="flex-container-logo">
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <p
-                        className="purchsetestbtnfrree"
-                        style={{ "marginTop": "30px", padding: "10px" }}
-                      >
-                      Academic Partners
-                      </p>
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/1.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r1.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r4.png")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r3.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner"  src={require("../.././images/r2.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
           <section className="testexplainboxh assessment-ex-area">
             <div className="container">
               <div className="col-md-12 info">
@@ -400,8 +290,8 @@ class Landing extends Component {
                   <div className="col-lg-2">
                     <div className="box_feat">
                       <Link to="/">
-                        <img src={require("../.././images/e1.png")} alt="" />
-                        <h3>Course Library</h3>
+                        <img src="/images/thinking.png" alt="online" />
+                        <h3>Take the Online Assessment</h3>
                       </Link>
                     </div>
                   </div>
@@ -411,8 +301,8 @@ class Landing extends Component {
                     <div className="box_feat">
                       {" "}
                       <Link to="/">
-                        <img src={require("../.././images/e2.png")} alt="" />
-                        <h3>Exam Library</h3>
+                        <img src="/images/our.png" alt="find" />
+                        <h3>Find Out Who You Really Are</h3>
                       </Link>
                     </div>
                   </div>
@@ -422,8 +312,8 @@ class Landing extends Component {
                     <div className="box_feat">
                       {" "}
                       <Link to="/">
-                        <img src={require("../.././images/e3.png")} alt="" />
-                        <h3>College Admission</h3>
+                        <img src="/images/guidance.png" alt="guidence" />
+                        <h3>Get Personalized Guidence from Experts</h3>
                       </Link>
                     </div>
                   </div>
@@ -439,15 +329,8 @@ class Landing extends Component {
           <section className=" assessment-ex-area">
             <div className="container">
               <div className="row">
-                <div className="col-md-6">
-                  <img
-                    src={require("../.././images/prepare_yourself.png")}
-                    className="homestressbox"
-                    alt=""
-                  />
-                </div>
                 <div className=" testexplainboxh col-md-6 info">
-                  <h3>Prepare Yourself For the Future With Confidence</h3>
+                  <h3 className="heading">Take the Online Assessment</h3>
                   <p>
                     <span style={{ "fontSize": "16px" }}>
                       Our <strong>SIDCAT Career Report</strong> is a map of the
@@ -464,15 +347,6 @@ class Landing extends Component {
                   <br />
                   
                   <div className="flex-container-text">
-                    <div className="flex-item-text">
-                  <br />
-                  <a
-                    href="free-online-stress-test.php"
-                    className="purchsetestbtnfrree1"
-                  >
-                  Get Sample Report
-                  </a>
-                  </div>
                   <div className="flex-item-text">
                   <br />
                   <a
@@ -494,60 +368,12 @@ class Landing extends Component {
                     </span>
                   </p>
                 </div>
-              </div>
-            </div>
-          </section>
-          <section className="forwhomcp">
-            <div className="container">
-              <div className="1 margin_120_95">
-                <div className="flex-container-logo">
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <p
-                        className="purchsetestbtnfrree"
-                        style={{ "marginTop": "30px", padding: "10px" }}
-                      >
-                      Industry Partners
-                      </p>
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/1.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r1.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r4.png")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner" src={require("../.././images/r3.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flex-item-logo">
-                  <div className="col-lg-2">
-                    <div className="box_feat1">
-                      <img className="patner"  src={require("../.././images/r2.jpg")} alt="" />
-                    </div>
-                  </div>
-                  </div>
+                <div className="col-md-6">
+                  <img
+                    src="/images/thinking.png"
+                    className="homestressbox"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -555,17 +381,16 @@ class Landing extends Component {
           <section className=" assessment-ex-area">
             <div className="container">
               <div className="row">
-                <div className="col-md-6">
+              <div className="col-md-6">
                   <img
-                    src={require("../.././images/webinar.png")}
-                    className="homestressbox"
+                    src="/images/our.png"
+                    className="homestressbox lower"
                     alt=""
                   />
                 </div>
-                <div className=" testexplainboxh col-md-6 info">
-                  <h3>
-                    Attend <span style={{ color: "red" }}>Live Webinars</span>
-                    To Ask & Discuss Career Queries With Edumonk
+                <div className=" testexplainboxh col-md-6 info lowernew">
+                  <h3 className="heading">
+                  Find Out Who You Really Are
                   </h3>
                   <p>
                     <span style={{ "fontSize": "16px" }}>
@@ -581,15 +406,6 @@ class Landing extends Component {
                   <br />
                    
                   <div className="flex-container-text">
-                    <div className="flex-item-text">
-                  <br />
-                  <a
-                    href="free-online-stress-test.php"
-                    className="purchsetestbtnfrree1"
-                  >
-                  Upcoming Webinars
-                  </a>
-                  </div>
                   <div className="flex-item-text">
                   <br />
                   <a
@@ -610,6 +426,59 @@ class Landing extends Component {
                       below.
                     </span>
                   </p>
+                </div>
+                
+              </div>
+            </div>
+          </section>{" "}
+          <section className=" assessment-ex-area">
+            <div className="container">
+              <div className="row">
+                <div className=" testexplainboxh col-md-6 info">
+                  <h3 className="heading">
+                  Get Personalized Guidence from Experts
+                  </h3>
+                  <p>
+                    <span style={{ "fontSize": "16px" }}>
+                      We conduct public as well as private Webinars for School
+                      Students. College Students as well as Working
+                      professionals. These Counselling Event & Webinars are
+                      meant for discussing and addressing most of the queries
+                      people face in choosing their career, deciding which study
+                      stream to opt for or which colleges they should take
+                      adimission.
+                    </span>
+                  </p>
+                  <br />
+                   
+                  <div className="flex-container-text">
+                  <div className="flex-item-text">
+                  <br />
+                  <a
+                    href="free-online-stress-test.php"
+                    className="purchsetestbtnfrree1"
+                  >
+                    Book 15 Mins Free Call
+                  </a>
+                  </div>
+                  </div>
+                  &nbsp;
+                  <br />
+                  <p>
+                    <span style={{ "fontSize": "16px" }}>
+                      Book your free slots with the nearest
+                      <strong> #AskEdumonk Career Lab</strong> near your
+                      location from the list of centers mentaioned in the list
+                      below.
+                    </span>
+                  </p>
+                </div>
+                <div className="col-md-6">
+                  <img
+                    src="/images/guidance.png"
+                    className="homestressbox"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
