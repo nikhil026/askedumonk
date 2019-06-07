@@ -299,98 +299,98 @@ class Navbar extends Component {
                             <div className="flex-item" >
                                 <div className="flex-item21">
                                     <Link to="/list_collage_engineering" className="dropdown-header">Engineering</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/1.png" alt="img" /><br />4636 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_engineering"><img src="/images/1.png" alt="img" /><br />4636 Colleges</Link>
                                 
                                     <Link to="/list_collage_management" className="dropdown-header">Management & <br/>Business</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/2.png" alt="img" /><br />6014 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_management"><img src="/images/2.png" alt="img" /><br />6014 Colleges</Link>
                                 
                                     <Link to="/list_collage_engineering" className="dropdown-header">Computer Application</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/3.png" alt="img" /><br />3934 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_engineering"><img src="/images/3.png" alt="img" /><br />3934 Colleges</Link>
                                 
                                     <Link to="/list_collage_medical" className="dropdown-header">Medical & Health Care</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/4.png" alt="img" /><br />1534 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_medical"><img src="/images/4.png" alt="img" /><br />1534 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item22">
                                     <Link to="/list_collage_law" className="dropdown-header">Law</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/5.png" alt="img" /><br />1052 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_law"><img src="/images/5.png" alt="img" /><br />1052 Colleges</Link>
                                 
                                     <Link to="/list_collage_commerce" className="dropdown-header">Commerce</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/6.png" alt="img" /><br />3833 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_commerce"><img src="/images/6.png" alt="img" /><br />3833 Colleges</Link>
                                 
                                     <Link to="/list_collage_science" className="dropdown-header">Science</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/7.png" alt="img" /><br />4920 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_science"><img src="/images/7.png" alt="img" /><br />4920 Colleges</Link>
                                 
                                     <Link to="/list_collage_arts" className="dropdown-header">Arts</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/8.png" alt="img" /><br />4222 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_arts"><img src="/images/8.png" alt="img" /><br />4222 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item23">
-                                    <Link to="/engineering" className="dropdown-header">Diploma In <br />Engineering</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/9.png" alt="img" /><br />4576 Colleges</Link>
+                                    <Link to="/list_collage_engineering" className="dropdown-header">Diploma In <br />Engineering</Link>
+                                    <Link className="dropdown-item" to="/list_collage_engineering"><img src="/images/9.png" alt="img" /><br />4576 Colleges</Link>
                                 
                                     <Link to="/list_collage_pharmacy" className="dropdown-header">Pharmacy</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/10.png" alt="img" /><br />4576 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_pharmacy"><img src="/images/10.png" alt="img" /><br />4576 Colleges</Link>
                                 
                                     <Link to="/list_collage_hotel_management" className="dropdown-header">Hotel Management</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/11.png" alt="img" /><br />750 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_hotel_management"><img src="/images/11.png" alt="img" /><br />750 Colleges</Link>
                                 
                                     <Link to="/list_collage_fashion" className="dropdown-header">Fashion</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/12.png" alt="img" /><br />276 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_fashion"><img src="/images/12.png" alt="img" /><br />276 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item24">
                                     <Link to="/list_collage_media" className="dropdown-header">Media & Mass<br /> Communication</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/13.png" alt="img" /><br />1229 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_media"><img src="/images/13.png" alt="img" /><br />1229 Colleges</Link>
                                 
                                     <Link to="/list_collage_agriculture" className="dropdown-header">Agriculture</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/14.png" alt="img" /><br />716 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_agriculture"><img src="/images/14.png" alt="img" /><br />716 Colleges</Link>
                                 
                                     <Link to="/list_collage_education" className="dropdown-header">Education</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/15.png" alt="img" /><br />2751 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_education"><img src="/images/15.png" alt="img" /><br />2751 Colleges</Link>
                                
                                     <Link to="/list_collage_aviation" className="dropdown-header">Aviation</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/16.png" alt="img" /><br />144 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_aviation"><img src="/images/16.png" alt="img" /><br />144 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item25">
                                     <Link to="/list_collage_engineering" className="dropdown-header">Diploma And <br />Certificate Courses</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/17.png" alt="img" /><br />714 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_engineering"><img src="/images/17.png" alt="img" /><br />714 Colleges</Link>
                                 
                                     <Link to="/list_collage_hotel_management" className="dropdown-header">Hotel Management</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/18.png" alt="img" /><br />750 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_hotel_management"><img src="/images/18.png" alt="img" /><br />750 Colleges</Link>
                                 
                                     <Link to="/list_collage_management" className="dropdown-header">Management</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/19.png" alt="img" /><br />6014 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_management"><img src="/images/19.png" alt="img" /><br />6014 Colleges</Link>
                                 
                                     <Link to="/list_collage_architecture" className="dropdown-header">Architecture</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/20.png" alt="img" /><br />516 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_architecture"><img src="/images/20.png" alt="img" /><br />516 Colleges</Link>
                                 </div>
                             </div>
                             <div className="flex-item" >
                                 <div className="flex-item26">
                                     <Link to="/list_collage_dental" className="dropdown-header">Dental</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/21.png" alt="img" /><br />393 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_dental"><img src="/images/21.png" alt="img" /><br />393 Colleges</Link>
                                 
                                     <Link to="/list_collage_paramedical" className="dropdown-header">Paramedical</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/22.png" alt="img" /><br />997 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_paramedical"><img src="/images/22.png" alt="img" /><br />997 Colleges</Link>
                                 
                                     <Link to="/list_collage_veterinary_science" className="dropdown-header">Veterinary Science</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/23.png" alt="img" /><br />97 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_veterinary_science"><img src="/images/23.png" alt="img" /><br />97 Colleges</Link>
                                 
                                     <Link to="/list_collage_vocational" className="dropdown-header">Vocational Course</Link>
-                                    <Link className="dropdown-item" to="/courses/search?interest=1-2-3-4-5-6-7-8-9-40-41-49"><img src="/images/24.png" alt="img" /><br />714 Colleges</Link>
+                                    <Link className="dropdown-item" to="/list_collage_vocational"><img src="/images/24.png" alt="img" /><br />714 Colleges</Link>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="#">Community</Link>
+                    <Link className="nav-link" to="https://edumonk.org/">Community</Link>
                 </li>
                 {isAuthenticated ? authLinks : guestLinks}
         </ul>

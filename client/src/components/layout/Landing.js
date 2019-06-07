@@ -63,16 +63,6 @@ class Landing extends Component {
                       </li>
                       </ul>
                       </div>
-                      <div className="flex-itemer" >
-                    <ul className="nav nav-pills text-center form-tabs">
-                      <li className="searchtype active">
-                        <a data-toggle="tab" href="#courses">
-                          <div className="courses" />
-                          &nbsp;Scholarships
-                        </a>
-                      </li>
-                      </ul>
-                </div>
                 </div>
                 </div>
                 <div >
@@ -240,10 +230,13 @@ class Landing extends Component {
                   </p>
                   <br />
                   <a
-                    href="free-online-stress-test.php"
+                    href={process.env.PUBLIC_URL + '/SIDCAT Career Report(2).pdf'}
+                    download
                     className="purchsetestbtnfrree1"
+                    target="_blank"
+                    type="application/pdf"
                   >
-                    Book 15 Mins Free Call
+                    Get SIDCAT Sample Career Report
                   </a>
                 </div>
                 <div className="col-md-6">

@@ -125,7 +125,7 @@ div.search-bar {
 }
 .flex-itemer {
   padding: 0px;
-  margin:0px;
+  margin:-20px;
   font-size: 12px;
 }
 input#prosearch {
@@ -229,7 +229,7 @@ div.search-bar {
 }
 .flex-itemer {
   padding: 0px;
-  margin:0px;
+  margin:-20px;
   font-size: 12px;
 }
 input#prosearch {
@@ -245,7 +245,7 @@ div.search-bar {
 }
 .flex-itemer {
   padding: 0px;
-  margin:0px;
+  margin:-20px;
   font-size: 12px;
 }
 .input-group {
