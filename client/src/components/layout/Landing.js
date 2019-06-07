@@ -350,10 +350,13 @@ class Landing extends Component {
                   <div className="flex-item-text">
                   <br />
                   <a
-                    href="free-online-stress-test.php"
+                    href={process.env.PUBLIC_URL + '/SIDCAT Career Report(2).pdf'}
+                    download
                     className="purchsetestbtnfrree1"
+                    target="_blank"
+                    type="application/pdf"
                   >
-                    Book 15 Mins Free Call
+                    Get SIDCAT Sample Career Report
                   </a>
                   </div>
                   </div>
@@ -409,10 +412,13 @@ class Landing extends Component {
                   <div className="flex-item-text">
                   <br />
                   <a
-                    href="free-online-stress-test.php"
+                    href={process.env.PUBLIC_URL + '/SIDCAT Career Report(2).pdf'}
+                    download
                     className="purchsetestbtnfrree1"
+                    target="_blank"
+                    type="application/pdf"
                   >
-                    Book 15 Mins Free Call
+                    Get SIDCAT Sample Career Report
                   </a>
                   </div>
                   </div>
@@ -455,10 +461,13 @@ class Landing extends Component {
                   <div className="flex-item-text">
                   <br />
                   <a
-                    href="free-online-stress-test.php"
+                    href={process.env.PUBLIC_URL + '/SIDCAT Career Report(2).pdf'}
+                    download
                     className="purchsetestbtnfrree1"
+                    target="_blank"
+                    type="application/pdf"
                   >
-                    Book 15 Mins Free Call
+                    Get SIDCAT Sample Career Report
                   </a>
                   </div>
                   </div>
