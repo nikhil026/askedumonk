@@ -10,6 +10,7 @@ import store from "./store";
 
 import PrivateRoute from "./components/common/PrivateRoute";
 
+import Abroad_Info from './components/abroad_study/abroad_info'
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Landing from "./components/layout/Landing";
@@ -307,6 +308,7 @@ class App extends Component {
               <Route exact path="/Landing" component={Landing} />
               <Route exact path="/register" component={Register} />
               <br />
+              <Route exact path="/abroad_study" component={Abroad_Info} />
               <Route exact path="/login" component={Login} />
               <br />
               <Route exact path="/profiles" component={Profiles} />
