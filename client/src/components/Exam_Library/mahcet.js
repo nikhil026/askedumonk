@@ -1105,7 +1105,7 @@ style={{width: "91%", "margin-right": "calc(9%)"}}
                                   <span style={{color: "rgb(226, 8, 65)","font-family": "Tahoma, Geneva, sans-serif", "font-size": "18px"}}
 >
                                     <u>
-                                      No. Collages / Institutes under University
+                                      No. colleges / Institutes under University
                                     </u>
                                   </span>
                                 </strong>

@@ -114,7 +114,8 @@ i{
   padding: 12px;
 }
 .flex-container-search {
-  justify-content: center;
+  justify-content: left;
+  margin-left: 400px;
 }
 .searchtype {
   margin: 20px;
@@ -127,6 +128,7 @@ div.search-bar {
   padding: 0px;
   margin:-20px;
   font-size: 12px;
+  margin-left: -23px; 
 }
 input#prosearch {
   width: 345px;
@@ -211,7 +213,8 @@ input#prosearch {
   max-width: 25%;
 }
 .flex-container-search{
-  justify-content: center;
+  justify-content: left;
+  margin-left: 400px;
 }
 .flex-container-logo-again {
   justify-content: space-evenly;
@@ -231,6 +234,7 @@ div.search-bar {
   padding: 0px;
   margin:-20px;
   font-size: 12px;
+  margin-left:-23px;
 }
 input#prosearch {
   width: 345px;
@@ -247,6 +251,7 @@ div.search-bar {
   padding: 0px;
   margin:-20px;
   font-size: 12px;
+  margin-left: -23px;
 }
 .input-group {
   justify-content: center;
@@ -283,6 +288,9 @@ input#prosearch {
   }
   .box_feat img {
     border-radius: 0%;
+  }
+  .flex-itemer {
+    margin-left: -25px;
   }
 } 
 @media (max-width:700px) {
@@ -366,3 +374,71 @@ img.homestressbox  {
   color: white;
   text-align: center;
 } 
+@media (max-width:1400px) {
+  .col-md-6.imp-image1 {
+    display:none;
+  }
+}
+@media (max-width:1040px) {
+  .flex-container-search {
+    justify-content: left;
+    margin-left:270px;
+  }
+  .col-md-6.imp-image1 {
+    display:none;
+  }
+}
+@media (max-width:780px) {
+  .flex-container-search {
+    justify-content: left;
+    margin-left:140px;
+  }
+}
+@media (max-width:420px) {
+  .flex-container-search {
+    justify-content: left;
+    margin-left:40px;
+  }
+  .col-md-6.imp-image1 {
+    display:block;
+  }
+  .col-md-6.imp-image {
+    display:none;
+  }
+}
+@media (max-width:380px) {
+  .flex-container-search {
+    justify-content: left;
+    margin-left:25px;
+  }
+  .col-md-6.imp-image1 {
+    display:block;
+  }
+  .col-md-6.imp-image {
+    display:none;
+  }
+}
+@media (max-width:370px) {
+  .flex-container-search {
+    justify-content: left;
+    margin-left:15px;
+  }
+  .col-md-6.imp-image1 {
+    display:block;
+  }
+  .col-md-6.imp-image {
+    display:none;
+  }
+}
+@media (max-width:340px) {
+  .flex-container-search {
+    justify-content: left;
+    margin-left:0px;
+  }
+  .col-md-6.imp-image1 {
+    display:block;
+  }
+  .col-md-6.imp-image {
+    display:none;
+  }
+}

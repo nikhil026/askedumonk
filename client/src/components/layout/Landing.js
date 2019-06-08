@@ -377,7 +377,7 @@ class Landing extends Component {
           <section className=" assessment-ex-area">
             <div className="container">
               <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 imp-image">
                   <img
                     src="/images/our.png"
                     className="homestressbox lower"
@@ -426,7 +426,13 @@ class Landing extends Component {
                     </span>
                   </p>
                 </div>
-                
+                <div className="col-md-6 imp-image1">
+                  <img
+                    src="/images/our.png"
+                    className="homestressbox lower"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </section>{" "}
