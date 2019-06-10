@@ -15,10 +15,10 @@ class Abroad_Info extends Component {
                         </b>
                         </h3>
                         <h3 align="center" style={{ "fontSize": "25px" }}><hr />
-                        <b>A Edumonk Initiative</b>
+                        <b>Study & Work Abroad</b>
                         </h3>
                         <h3 align="center" style={{ "fontSize": "25px" }}>
-                        <b>Study with Guidance of Experts</b>
+                        <b>United Kids Of The World </b>
                         </h3>
 
                         <p align="center">
@@ -44,13 +44,15 @@ class Abroad_Info extends Component {
                                 "fontSize": "20px"
                                 }}
                             >
-                                <strong>Study Abroad</strong>&nbsp;&nbsp;
+                                <strong>United Kids Of The World</strong>&nbsp;&nbsp;
                             </span>
                             <b>
                                 <span style={{ "fontSize": "18px" }}>
-                                is an intiative taken by Edumonk Foundation to address the
-                                growing needs of <br />
-                                sustainable guidance effective process of study abroad.
+                                is an initiative by Edumonk Foundation to establish the pillar of cultural
+                                  exchange between the individuals of different geographies studying and working<br />
+                                   together in abroad countries. Our self tailored study and work abroad<br />
+                                    programs which are delivered by the Career Planners at Edumonk improves your<br /> 
+                                    selection procedure in Top Colleges for different courses all across the world
                                 </span>
                             </b>
                             </p>
@@ -102,7 +104,7 @@ class Abroad_Info extends Component {
                                 <div className="box_feat">
                                 {" "}
                                 <Link to="/france">
-                                    <img src="/images/france.jpg" alt="france" />
+                                    <img src="/images/france.jpg" alt="france"/>
                                     <h3>FRANCE</h3>
                                 </Link>
                                 </div>
@@ -113,7 +115,7 @@ class Abroad_Info extends Component {
                                 <div className="box_feat">
                                 {" "}
                                 <Link to="/canada">
-                                    <img src="/images/canada.jpg" alt="canada" />
+                                    <img src="/images/canada.jpg" alt="canada"/>
                                     <h3>CANADA</h3>
                                 </Link>
                                 </div>
@@ -124,7 +126,7 @@ class Abroad_Info extends Component {
                                 <div className="box_feat">
                                 {" "}
                                 <Link to="/austrlia">
-                                    <img src="/images/austrlia.jpg" alt="austrlia" />
+                                    <img src="/images/austrlia.jpg" alt="austrlia"/>
                                     <h3> AUSTRLIA </h3>
                                 </Link>
                                 </div>
@@ -135,7 +137,7 @@ class Abroad_Info extends Component {
                                 <div className="box_feat">
                                 {" "}
                                 <Link to="/new_zealand">
-                                    <img src="/images/new_zealland.jpg" alt="new_zealand" />
+                                    <img src="/images/new_zealland.jpg" alt="new_zealand"/>
                                     <h3>NEW ZEALAND</h3>
                                 </Link>
                                 </div>

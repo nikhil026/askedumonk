@@ -175,7 +175,7 @@ export default () => {
               <li>
                 <Link to="/">
                   <i className="fa fa-paper-plane" />
-                  support@edumonk.com
+                  support@askedumonk.com
                 </Link>
               </li>
             </ul>

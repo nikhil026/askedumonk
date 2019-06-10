@@ -338,9 +338,7 @@ class Landing extends Component {
                       and counting the number of ridges. Its just like the
                       sacnning we having during our{" "}
                       <strong>Aadhar Card Registration</strong> in India.
-                      THereafter, the scan are analyzed our proprietary software
-                      which generates a 78 page detailed career report
-                      predicting the succes factor in different fields.
+                      Thereafter, the scan are analyzed our success factors.
                     </span>
                   </p>
                   <br />

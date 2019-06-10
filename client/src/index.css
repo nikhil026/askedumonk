@@ -393,6 +393,7 @@ img.homestressbox  {
     justify-content: left;
     margin-left:140px;
   }
+
 }
 @media (max-width:420px) {
   .flex-container-search {
@@ -511,4 +512,25 @@ div#searcher {
   font-family: Ubuntu !important;
   margin-top: 53px;
   margin-left:15px;
+}
+@media only screen and (max-width: 736px) {
+
+#collagesearch,#coursesearch,#examssearch {
+  flex-direction: column;
+  margin: auto 0;
+  align-items:center;
+}
+div#horizontal1,div#horizontal2,div#horizontal3 {
+ width:100%;
+ border-radius:25%;
+}
+div#searcher {
+  font-size: 13px;
+  margin-top: 0px;
+  padding: 7px;
+}
+#boder{
+  font-size: 10px;
+  padding: 3px;
+}
 }
