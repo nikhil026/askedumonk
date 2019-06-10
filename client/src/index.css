@@ -448,3 +448,67 @@ img.homestressbox  {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.coverflow__container__1P-xE  {
+  background: steelblue;
+}
+.coverflow__cover__25-7e {
+  height:150px;
+}
+#boder {
+  margin: 10px;
+  border-radius: 20px;
+  border: 0.5px solid white;
+  padding:5px;
+  color: white;
+}
+
+#collagesearch{
+  background-image: linear-gradient(to right, rgba(216, 193, 131, 0),rgb(236, 172, 112));
+  display: flex;
+  border-radius: 20px;
+}
+#examssearch{
+  background-image: linear-gradient(to right, rgba(151, 221, 215, 0),rgb(112, 232, 236));
+  display: flex;
+  border-radius: 20px;
+}
+#coursesearch{
+  background-image: linear-gradient(to right, rgba(168, 230, 127, 0),rgb(167, 236, 77));
+  display: flex;
+  border-radius: 20px;
+}
+div#horizontal1 {
+  width: 30%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#horizontal2 {
+  width: 30%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#horizontal3 {
+  width: 30%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#searcher {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Ubuntu !important;
+  margin-top: 53px;
+  margin-left:15px;
+}

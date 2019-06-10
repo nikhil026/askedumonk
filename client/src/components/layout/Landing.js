@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { PropTypes } from "prop-types";
 import { connect } from "react-redux";
+import Coverflows from "./coverflows";
 
 class Landing extends Component {
   componentDidMount() {
@@ -90,6 +91,11 @@ class Landing extends Component {
               </div>
             </div>
           </div>
+          
+            <div>
+              <Coverflows />
+            </div>
+        
           <section className="forwhomcp">
             <div className="container">
               <div className="1 margin_120_95">
