@@ -6,8 +6,12 @@ const path = require("path");
 const users = require("./routes/api/users");
 const profile = require("./routes/api/profile");
 const posts = require("./routes/api/posts");
+const compression = require('compression');
 
 const app = express();
+
+//for compression of static files
+app.use(compression());
 
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
