@@ -9,6 +9,10 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 import PrivateRoute from "./components/common/PrivateRoute";
+//for search purpose
+import College_Search from './components/search_items/college_search';
+import Course_Search from './components/search_items/course_search';
+import Exams_Search from './components/search_items/exams_search';
 
 import Abroad_Info from './components/abroad_study/abroad_info'
 import Navbar from "./components/layout/Navbar";
@@ -526,6 +530,10 @@ class App extends Component {
                 path="/chartedAccountent"
                 component={ChartedAccountant}
               />
+              {/* Route for the search purpose */}
+              <Route exact path="/college_search" component={College_Search} />
+              <Route exact path="/course_search" component={Course_Search} />
+              <Route exact path="/exams_search" component={Exams_Search} />
               {/* Route for the college library */}
 
               <Route exact path="/list_college_engineering" component={Engineering_college} />
