@@ -26,7 +26,7 @@ class BusinessAdministration extends Component {
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
                 <Link
-                  to="https://www.careerpotli.com/course-category/12/management--business"
+                  to="/ManagementandBusiness"
                   className="crssidebtn"
                 >
                   All Management &amp; Business Courses
@@ -114,7 +114,7 @@ class BusinessAdministration extends Component {
                 <p dir="ltr">
                   <strong>
                     After BBA, one can go for an advanced course of{" "}
-                    <Link to="http://careerpotli.com/course-details/master-of-business-administration">
+                    <Link to="/ManagementandBusiness">
                       Masters of Business Administration (MBA)
                     </Link>
                     , which is a 2-year post graduation course, other than that

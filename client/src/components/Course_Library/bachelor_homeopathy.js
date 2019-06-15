@@ -112,7 +112,7 @@ class BOHomeopathy extends Component {
                           <strong>Entrance Exam&nbsp;</strong>such as
                           <strong>&nbsp;</strong>
                           <span style={{ "font-size": "14px" }}>
-                            <a href="http://careerpotli.com/exam-details/neet">
+                            <a href="/neet">
                               <strong>NEET</strong>
                             </a>
                             <span style={{ "font-size": "14px" }}>

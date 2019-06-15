@@ -17,7 +17,7 @@ class TopCourse extends Component {
               <div className="tagcourseexam">
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/media-pg"
+                  to="media-pg"
                   target="_blank"
                   title="Media PG course in india"
                 >
@@ -26,7 +26,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/msc-aviation"
+                  to="msc-aviation"
                   target="_blank"
                   title="M.Sc. Aviation course in india"
                 >
@@ -35,7 +35,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/diploma-in-fine-arts"
+                  to="diploma-in-fine-arts"
                   target="_blank"
                   title="Diploma in Fine Arts course in india"
                 >
@@ -44,7 +44,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-law"
+                  to="master-of-law"
                   target="_blank"
                   title="Master of Law course in india"
                 >
@@ -53,7 +53,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-design"
+                  to="master-of-design"
                   target="_blank"
                   title="Master of Design course in india"
                 >
@@ -62,7 +62,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/computer-science-engineering"
+                  to="computer-science-engineering"
                   target="_blank"
                   title="Computer Science Engineering course in india"
                 >
@@ -71,7 +71,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/bachelor-of-hotel-management"
+                  to="bachelor-of-hotel-management"
                   target="_blank"
                   title="Bachelor of Hotel Management course in india"
                 >
@@ -80,7 +80,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/logistics-and-supply-chain-management"
+                  to="logistics-and-supply-chain-management"
                   target="_blank"
                   title="Logistics and Supply Chain Management course in india"
                 >
@@ -89,7 +89,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/mass-communication"
+                  to="mass-communication"
                   target="_blank"
                   title="Mass Communication course in india"
                 >
@@ -98,7 +98,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/fashion-design-courses"
+                  to="fashion-design-courses"
                   target="_blank"
                   title="Fashion Design Courses course in india"
                 >
@@ -107,7 +107,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/information-technology-engineering"
+                  to="information-technology-engineering"
                   target="_blank"
                   title="Information Technology Engineering course in india"
                 >
@@ -116,7 +116,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/tourism-management"
+                  to="tourism-management"
                   target="_blank"
                   title="Tourism Management course in india"
                 >
@@ -125,7 +125,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/mba-in-marketing"
+                  to="mba-in-marketing"
                   target="_blank"
                   title="MBA in Marketing course in india"
                 >
@@ -134,7 +134,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/bachelor-of-computer-applications"
+                  to="bachelor-of-computer-applications"
                   target="_blank"
                   title="Bachelor of Computer Applications course in india"
                 >
@@ -143,7 +143,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/masters-in-education"
+                  to="masters-in-education"
                   target="_blank"
                   title="Masters in Education course in india"
                 >
@@ -152,7 +152,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/diploma-in-computer-engineering"
+                  to="diploma-in-computer-engineering"
                   target="_blank"
                   title="Diploma in Computer Engineering course in india"
                 >
@@ -161,7 +161,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-pharmacy"
+                  to="master-of-pharmacy"
                   target="_blank"
                   title="Master of Pharmacy course in india"
                 >
@@ -170,7 +170,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/bachelor-of-ayurveda-medicine-and-surgery"
+                  to="bachelor-of-ayurveda-medicine-and-surgery"
                   target="_blank"
                   title="Bachelor of Ayurveda, Medicine and Surgery course in india"
                 >
@@ -179,7 +179,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-arts"
+                  to="master-of-arts"
                   target="_blank"
                   title="Master of Arts course in india"
                 >
@@ -188,7 +188,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-dental-surgery"
+                  to="master-of-dental-surgery"
                   target="_blank"
                   title="Master of Dental Surgery course in india"
                 >
@@ -197,7 +197,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/mining-engineering"
+                  to="mining-engineering"
                   target="_blank"
                   title="Mining engineering course in india"
                 >
@@ -206,7 +206,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/masters-of-architecture"
+                  to="masters-of-architecture"
                   target="_blank"
                   title="Masters of Architecture course in india"
                 >
@@ -215,7 +215,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-commerce"
+                  to="master-of-commerce"
                   target="_blank"
                   title="Master of Commerce course in india"
                 >
@@ -224,7 +224,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-computer-applications"
+                  to="master-of-computer-applications"
                   target="_blank"
                   title="Master of Computer Applications course in india"
                 >
@@ -233,7 +233,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/electrical-engineering"
+                  to="electrical-engineering"
                   target="_blank"
                   title="Electrical  Engineering course in india"
                 >
@@ -242,7 +242,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/bachelor-of-architecture"
+                  to="bachelor-of-architecture"
                   target="_blank"
                   title="Bachelor of Architecture course in india"
                 >
@@ -251,7 +251,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/masters-of-physiotherapy"
+                  to="masters-of-physiotherapy"
                   target="_blank"
                   title="Masters of Physiotherapy course in india"
                 >
@@ -260,7 +260,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/mba-in-human-resource-management"
+                  to="mba-in-human-resource-management"
                   target="_blank"
                   title="MBA in Human Resource Management course in india"
                 >
@@ -269,7 +269,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/masters-in-aeronautical-engineering"
+                  to="masters-in-aeronautical-engineering"
                   target="_blank"
                   title="Masters in Aeronautical Engineering course in india"
                 >
@@ -278,7 +278,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/electronics--tele-communication"
+                  to="electronics--tele-communication"
                   target="_blank"
                   title="Electronics &amp; Tele-communication course in india"
                 >
@@ -287,7 +287,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/m-tech-computer-science-engineering"
+                  to="m-tech-computer-science-engineering"
                   target="_blank"
                   title="M. Tech Computer Science Engineering course in india"
                 >
@@ -296,7 +296,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/mechanical-engineering"
+                  to="mechanical-engineering"
                   target="_blank"
                   title="Mechanical Engineering course in india"
                 >
@@ -305,7 +305,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/mba-in-finance"
+                  to="mba-in-finance"
                   target="_blank"
                   title="MBA in Finance course in india"
                 >
@@ -314,7 +314,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/bachelor-of-business-management"
+                  to="/ManagementandBusiness"
                   target="_blank"
                   title="Bachelor of Business Management course in india"
                 >
@@ -323,7 +323,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-science"
+                  to="master-of-science"
                   target="_blank"
                   title="Master of Science course in india"
                 >
@@ -332,7 +332,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/metallurgical-engineering"
+                  to="metallurgical-engineering"
                   target="_blank"
                   title="Metallurgical Engineering course in india"
                 >
@@ -341,7 +341,7 @@ class TopCourse extends Component {
 
                 <Link
                   rel=""
-                  to="https://www.careerpotli.com/course-details/master-of-business-administration"
+                  to="master-of-business-administration"
                   target="_blank"
                   title="Master of Business Administration course in india"
                 >

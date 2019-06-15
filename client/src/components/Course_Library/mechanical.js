@@ -99,7 +99,7 @@ class Mechanical extends Component {
                         entrance to the IIT's is through&nbsp;
                       </span>
                       <Link
-                        to="http://careerpotli.com/exam-details/jee-mains"
+                        to="/jeemain"
                         rel="noopener noreferrer"
                         target="_blank"
                       >

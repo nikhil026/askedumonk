@@ -59,7 +59,7 @@ class Architecture extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/agriculture-Architecture">
+                      <Link to="/agriculture-Architecture">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bacholar of
                           Technology

@@ -77,7 +77,7 @@ class ElectricalInstrumental extends Component {
                         engineering courses like
                       </span>
                       <Link
-                        to="http://careerpotli.com/exam-details/jee-mains"
+                        to="/jeemain"
                         rel="noopener noreferrer"
                         target="_blank"
                       >
@@ -89,7 +89,7 @@ class ElectricalInstrumental extends Component {
                         &nbsp;and{" "}
                         <strong>
                           <Link
-                            to="http://careerpotli.com/exam-details/jee-advance"
+                            to="/jee-advance"
                             rel="noopener noreferrer"
                             target="_blank"
                           >

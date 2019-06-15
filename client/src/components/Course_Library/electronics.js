@@ -138,7 +138,7 @@ class Electronics extends Component {
                           <strong>&nbsp;Entrance Exam</strong> such as{" "}
                           <span style={{ fontsize: "14px" }}>
                             <Link
-                              to="http://careerpotli.com/exam-details/jee-mains"
+                              to="/jeemain"
                               rel="noopener noreferrer"
                               target="_blank"
                             >
@@ -151,7 +151,7 @@ class Electronics extends Component {
                           </span>
                           <span style={{ fontsize: "14px" }}>
                             <Link
-                              to="http://careerpotli.com/exam-details/bitsat"
+                              to="/bitsat"
                               rel="noopener noreferrer"
                               target="_blank"
                             >
@@ -169,7 +169,7 @@ class Electronics extends Component {
                           </span>
                           <span style={{ fontsize: "14px" }}>
                             <Link
-                              to="http://careerpotli.com/exam-details/viteee"
+                              to="/viteee"
                               rel="noopener noreferrer"
                               target="_blank"
                             >

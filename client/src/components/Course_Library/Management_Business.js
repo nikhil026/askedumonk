@@ -26,7 +26,7 @@ class ManagementBusiness extends Component {
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
                 <Link
-                  to="https://www.careerpotli.com/course-category/12/management--business"
+                  to="/ManagementandBusiness"
                   className="crssidebtn"
                 >
                   All Management &amp; Business Courses

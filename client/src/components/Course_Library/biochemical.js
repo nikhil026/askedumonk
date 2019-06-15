@@ -1056,7 +1056,7 @@ class Biochemical extends Component {
                         <span tyle={{ "font-size": "14px" }}>
                           Entrance Exam (
                           <Link
-                            to="http://careerpotli.com/exam-details/jee-mains"
+                            to="/jeemain"
                             rel="noopener noreferrer"
                             target="_blank"
                           >

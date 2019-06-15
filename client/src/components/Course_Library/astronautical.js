@@ -95,7 +95,7 @@ class Astronautical extends Component {
                           Students also have to pass{" "}
                           <span style={{ "font-size": "14px" }}>
                             <Link
-                              to="http://careerpotli.com/exam-details/jee-mains"
+                              to="/jee-mains"
                               rel="noopener noreferrer"
                               target="_blank"
                             >

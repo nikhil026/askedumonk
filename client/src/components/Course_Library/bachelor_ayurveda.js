@@ -89,7 +89,7 @@ class BOAyurveda extends Component {
                         subjects to appear for{" "}
                         <strong>BAMS Entrance Exam</strong> i.e.&nbsp;
                       </span>
-                      <a href="http://careerpotli.com/exam-details/neet">
+                      <a href="/neet">
                         <span style={{ "font-size": "14px" }}>
                           <strong>
                             National Eligibility Cum Entrance Test (NEET)

@@ -200,7 +200,7 @@ class MAHCET extends Component {
                         <li>
                           <span style={{"font-size": "14px"}}>
                             <a
-                              href="http://careerpotli.com/course-details/master-of-business-administration"
+                              href="/ManagementandBusiness"
                               rel="noopener noreferrer"
                               target="_blank"
                             >

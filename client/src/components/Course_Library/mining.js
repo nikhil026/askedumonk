@@ -95,7 +95,7 @@ class Mining extends Component {
                         aggregate with Physics, Chemistry, Mathematics as
                         elected subjects. Independent entrance exams of{" "}
                         <Link
-                          to="http://careerpotli.com/exam-details/jee-mains"
+                          to="/jeemain"
                           rel="noopener noreferrer"
                           target="_blank"
                         >

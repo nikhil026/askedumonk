@@ -593,27 +593,27 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-business-administration">
+                                            <Link to="master-of-business-administration">
                                               Master of Business Administration
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mba-in-human-resource-management">
+                                            <Link to="mba-in-human-resource-management">
                                               MBA in Human Resource Management
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mba-in-finance">
+                                            <Link to="mba-in-finance">
                                               MBA in Finance
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mba-in-marketing">
+                                            <Link to="mba-in-marketing">
                                               MBA in Marketing
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/logistics-and-supply-chain-management">
+                                            <Link to="logistics-and-supply-chain-management">
                                               Logistics and Supply Chain
                                               Management
                                             </Link>
@@ -629,34 +629,34 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mtech-in-mechanical-engineering">
+                                            <Link to="mtech-in-mechanical-engineering">
                                               M.Tech in Mechanical Engineering
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-in-chemical-engineering">
+                                            <Link to="m-tech-in-chemical-engineering">
                                               M. Tech in Chemical Engineering
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-in-electrical-engineering">
+                                            <Link to="m-tech-in-electrical-engineering">
                                               M. Tech in Electrical Engineering
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-computer-science-engineering">
+                                            <Link to="m-tech-computer-science-engineering">
                                               M. Tech Computer Science
                                               Engineering
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/m-tech-in-electronics--communication-engineering">
+                                            <Link to="m-tech-in-electronics--communication-engineering">
                                               M. Tech in Electronics &amp;
                                               communication Engineering
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-in-aeronautical-engineering">
+                                            <Link to="masters-in-aeronautical-engineering">
                                               Masters in Aeronautical
                                               Engineering
                                             </Link>
@@ -672,7 +672,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-commerce">
+                                            <Link to="master-of-commerce">
                                               Master of Commerce
                                             </Link>
                                           </li>
@@ -687,7 +687,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-arts">
+                                            <Link to="master-of-arts">
                                               Master of Arts
                                             </Link>
                                           </li>
@@ -702,7 +702,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-computer-applications">
+                                            <Link to="master-of-computer-applications">
                                               Master of Computer Applications
                                             </Link>
                                           </li>
@@ -717,7 +717,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-of-architecture">
+                                            <Link to="masters-of-architecture">
                                               Masters of Architecture
                                             </Link>
                                           </li>
@@ -732,7 +732,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-law">
+                                            <Link to="master-of-law">
                                               Master of Law
                                             </Link>
                                           </li>
@@ -747,7 +747,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-in-education">
+                                            <Link to="masters-in-education">
                                               Masters in Education
                                             </Link>
                                           </li>
@@ -762,12 +762,12 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/mass-communication">
+                                            <Link to="mass-communication">
                                               Mass Communication
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/media-pg">
+                                            <Link to="media-pg">
                                               Media PG
                                             </Link>
                                           </li>
@@ -782,7 +782,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-pharmacy">
+                                            <Link to="master-of-pharmacy">
                                               Master of Pharmacy
                                             </Link>
                                           </li>
@@ -797,12 +797,12 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-dental-surgery">
+                                            <Link to="master-of-dental-surgery">
                                               Master of Dental Surgery
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/masters-of-physiotherapy">
+                                            <Link to="masters-of-physiotherapy">
                                               Masters of Physiotherapy
                                             </Link>
                                           </li>
@@ -817,7 +817,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-design">
+                                            <Link to="master-of-design">
                                               Master of Design
                                             </Link>
                                           </li>
@@ -832,7 +832,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/msc-aviation">
+                                            <Link to="msc-aviation">
                                               M.Sc. Aviation
                                             </Link>
                                           </li>
@@ -847,7 +847,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="https://www.careerpotli.com/course-details/master-of-science">
+                                            <Link to="master-of-science">
                                               Master of Science
                                             </Link>
                                           </li>

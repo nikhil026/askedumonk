@@ -95,7 +95,7 @@ class Aircraft extends Component {
                         topics) with minimal 50% aggregate marks. Independent
                         entrance exams of{" "}
                         <Link
-                          to="http://careerpotli.com/exam-details/jee-mains"
+                          to="/jee-mains"
                           rel="noopener noreferrer"
                           target="_blank"
                         >

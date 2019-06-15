@@ -4,7 +4,7 @@ import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
 import { setCurrentUser, logoutUser } from "./actions/authActions";
 import { clearCurrentProfile } from "./actions/profileActions";
-
+import { ReactiveBase  } from '@appbaseio/reactivesearch';
 import { Provider } from "react-redux";
 import store from "./store";
 
@@ -140,7 +140,6 @@ import NATA from "./components/Exam_Library/nata";
 import SRMJEEE from "./components/Exam_Library/srmjeee";
 import MOUET from "./components/Exam_Library/muoet";
 import IIFT from "./components/Exam_Library/iift";
-
 import Management1 from "./components/Exam_Library/Management11";
 import ATMA from "./components/Exam_Library/atma";
 import CAT from "./components/Exam_Library/cat";
@@ -150,35 +149,16 @@ import MAT from "./components/Exam_Library/mat";
 import MUOET from "./components/Exam_Library/muoet";
 import NMAT from "./components/Exam_Library/nmat";
 import XAT from "./components/Exam_Library/xat";
-import SNAP from "./components/Exam_Library/snap";
-// import ANCET from './components/Exam_Library/ancet';
+import SNAP from "./components/Exam_Library/snap"
 import IRMA from './components/Exam_Library/irma' ;
-// import KIITEE from './components/Exam_Library/kitee' ;
 import TANCET from "./components/Exam_Library/tancet";
 import MAHCET from "./components/Exam_Library/mahcet";
-
-
 import Compititive from "./components/Exam_Library/compititive_exam";
 import UPSCIAS from "./components/Exam_Library/upsc_ias";
 import KVPY from "./components/Exam_Library/kvpy";
 import IBPSPO from "./components/Exam_Library/ibps-po";
 import SBICLERK from "./components/Exam_Library/sbi-clerk";
 import CTET from "./components/Exam_Library/ctet";
-
-import AskEdumonk from "./components/layout/ask_edumonk";
-import CreatePoll from "./components/layout/create_poll";
-//import Graduation from "./components/layout/graduation";
-
-import "./css/colors.css";
-import "./css/owl.carousel.css";
-import "./css/slick-theme.css";
-//import "./css/responsive.css";
-import "./css/style.css";
-//import "./css/animate.css";
-import "./css/app.css";
-import "./css/ask.css";
-//import "./css/semantic.css";
-import "./css/common.css";
 import MEDICAL_EXAMS from "./components/Exam_Library/medical_exams";
 import AIIMS from "./components/Exam_Library/aiims";
 import NEET from "./components/Exam_Library/neet";
@@ -194,6 +174,23 @@ import ISAT from "./components/Exam_Library/lsat";
 import MHTCET from "./components/Exam_Library/mht_cet";
 import OtherExams from "./components/Exam_Library/other_exams";
 import COMEDK from "./components/Exam_Library/comedk_uget";
+
+//college 
+
+import AskEdumonk from "./components/layout/ask_edumonk";
+import CreatePoll from "./components/layout/create_poll";
+//import Graduation from "./components/layout/graduation";
+
+import "./css/colors.css";
+import "./css/owl.carousel.css";
+import "./css/slick-theme.css";
+//import "./css/responsive.css";
+import "./css/style.css";
+//import "./css/animate.css";
+import "./css/app.css";
+import "./css/ask.css";
+//import "./css/semantic.css";
+import "./css/common.css";
 import "./css/bootstrap4.css";
 
 // import the college library
@@ -299,6 +296,9 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
+      <ReactiveBase
+      app="askedumonk"
+				credentials="JZZt0FZHa:bd9c9f8b-2b9b-4ec9-9e34-fb9131c726a5">
         <Router>
           <div className="App">
             <Navbar />
@@ -324,7 +324,7 @@ class App extends Component {
               <Route exact path="/jee-advance" component={JEEAdvance} />
               <Route exact path="/ojee" component={OJEE} />
               <Route exact path="/jcece" component={JCECE} />
-              <Route exact path="/webjee" component={WBJEE} />
+              <Route exact path="/wbjee" component={WBJEE} />
               <Route exact path="/irma" component={IRMA} />
               <Route exact path="/vitee" component={VITEE} />
               <Route exact path="/gate" component={GATE} />
@@ -358,7 +358,7 @@ class App extends Component {
               <Route exact path="/aiims" component={AIIMS} />
               <Route exact path="/neet" component={NEET} />
               <Route exact path="/bhu_pmt" component={BHUPMT} />
-              <Route exact path="/jimper" component={JIMPER} />
+              <Route exact path="/jipmer" component={JIMPER} />
               <Route exact path="/pmet" component={PMET} />
               <Route exact path="/gujcet" component={GUJCET} />
               <Route exact path="/law_exams" component={Law_exams} />
@@ -656,6 +656,7 @@ class App extends Component {
             <Footer />
           </div>
         </Router>
+        </ReactiveBase>
       </Provider>
     );
   }

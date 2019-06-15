@@ -61,7 +61,7 @@ class Engineering extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/agriculture-engineering">
+                      <Link to="/agriculture">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Agriculture
                           Engineering
@@ -72,7 +72,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/information-technology-engineering">
+                      <Link to="/information">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Information
                           Technology Engineering
@@ -83,7 +83,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/electronics--tele-communication">
+                      <Link to="/electronics">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Electronics &amp;
                           Tele-communication
@@ -94,7 +94,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/chemical-engineering">
+                      <Link to="/chemical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Chemical Engineering
                         </p>
@@ -104,7 +104,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/biochemical-engineering">
+                      <Link to="/biochemical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Biochemical
                           Engineering
@@ -115,7 +115,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/metallurgical-engineering">
+                      <Link to="/metallurgical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Metallurgical
                           Engineering
@@ -126,7 +126,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/electrical-engineering">
+                      <Link to="/electrical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Electrical
                           Engineering
@@ -137,7 +137,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/mechanical-engineering">
+                      <Link to="/mechanical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Mechanical
                           Engineering
@@ -148,7 +148,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/civil-engineering">
+                      <Link to="/civil">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Civil Engineering
                         </p>
@@ -158,7 +158,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/aeronautical-engineering">
+                      <Link to="/aeronautical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Aeronautical
                           Engineering
@@ -169,7 +169,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/mining-engineering">
+                      <Link to="/mining">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Mining engineering
                         </p>
@@ -179,17 +179,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/genetic-engineering">
-                        <p className="brnchname">
-                          <i className="fa fa-database" /> Genetic Engineering
-                        </p>
-                        <p>
-                          <i className="fa fa-angle-right" />
-                        </p>
-                      </Link>
-                    </div>
-                    <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/electrical-and-instrumentation-engineering">
+                      <Link to="/electrical_instrumental">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Electrical and
                           Instrumentation Engineering
@@ -200,7 +190,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/astronautical-engineering">
+                      <Link to="/astronautical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Astronautical
                           Engineering
@@ -211,7 +201,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/aircraft-maintenance-engineering">
+                      <Link to="/aircraft">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Aircraft Maintenance
                           Engineering
@@ -222,7 +212,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/computer-science-engineering">
+                      <Link to="/computer">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Computer Science
                           Engineering

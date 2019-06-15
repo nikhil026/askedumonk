@@ -146,7 +146,7 @@ class Metallurgical extends Component {
                         For <strong>&nbsp;IITs, it is compulsory</strong> to
                         qualify in the{" "}
                         <Link
-                          to="http://careerpotli.com/exam-details/jee-mains"
+                          to="/jeemain"
                           rel="noopener noreferrer"
                           target="_blank"
                         >

@@ -156,7 +156,7 @@ class BArchitecture extends Component {
                         <span style={{ "font-size": "14px" }}>
                           Must have a valid score in<strong>&nbsp;</strong>
                           <span style={{ "font-size": "14px" }}>
-                            <Link to="http://careerpotli.com/exam-details/nata">
+                            <Link to="/nata">
                               <strong>NATA</strong>
                             </Link>
                             <span style={{ "font-size": "14px" }}>
@@ -857,7 +857,7 @@ class BArchitecture extends Component {
                         <span tyle={{ "font-size": "14px" }}>
                           Entrance Exam (
                           <Link
-                            to="http://careerpotli.com/exam-details/jee-mains"
+                            to="/jee-mains"
                             rel="noopener noreferrer"
                             target="_blank"
                           >

@@ -102,7 +102,7 @@ class Civil extends Component {
                         necessary to give an entrance exam for IIT's, you must
                         give
                         <Link
-                          to="http://careerpotli.com/exam-details/jee-mains"
+                          to="/jeemain"
                           rel="noopener noreferrer"
                           target="_blank"
                         >

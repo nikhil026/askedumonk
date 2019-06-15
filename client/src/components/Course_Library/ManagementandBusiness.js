@@ -56,7 +56,7 @@ class ManagementAndBusiness extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/bachelor-of-business-administration">
+                      <Link to="/ManagementandBusiness">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Business
                           Administration
@@ -67,7 +67,7 @@ class ManagementAndBusiness extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="https://www.careerpotli.com/course-details/bachelor-of-business-management">
+                      <Link to="/ManagementandBusiness">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Business
                           Management

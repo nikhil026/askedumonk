@@ -112,7 +112,7 @@ class Computer extends Component {
                         subjects. There is another option to get entrance to the
                         IIT's is through{" "}
                         <Link
-                          to="http://careerpotli.com/exam-details/jee-mains"
+                          to="/jeemain"
                           rel="noopener noreferrer"
                           target="_blank"
                         >

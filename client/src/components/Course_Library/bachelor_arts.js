@@ -124,7 +124,7 @@ class BOArts extends Component {
                           There is <strong>no Entrance Test&nbsp;</strong>for
                           B.A.
                         </span>
-                        <Link to="http://careerpotli.com/course-details/B.com" />
+                        <Link to="/B.com" />
                       </li>
                     </ul>
                   </div>
@@ -137,7 +137,7 @@ class BOArts extends Component {
                     <p>
                       <span style={{ "font-size": "14px" }}>
                         The syllabus of the course of <strong>B.A.</strong>{" "}
-                        <Link to="http://careerpotli.com/course-details/B.com" />
+                        <Link to="/B.com" />
                         may differ from college to college, but the structure is
                         the same. A definite syllabus of the same is as per the
                         following:

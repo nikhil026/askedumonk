@@ -119,7 +119,7 @@ class BOPhysiotherapy extends Component {
                           <strong> Common Entrance Test (CET),&nbsp;</strong>
                           <span style={{ "font-size": "14px" }}>
                             <strong>
-                              <Link to="http://careerpotli.com/exam-details/jipmer">
+                              <Link to="/jipmer">
                                 JIPMER
                               </Link>{" "}
                               etc.

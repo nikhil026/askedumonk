@@ -97,7 +97,6 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/astronautical">Astronautical Engineering</Link>
                                     <Link className="dropdown-item" to="/aircraft">Aircraft Maintenance Engineering</Link>
                                     <Link className="dropdown-item" to="/computer">Computer Science Engineering</Link>
-                                    <Link className="dropdown-item" to="/Management_Business">Bachelor Of Business Management</Link>
                                     <Link to="/teaching" className="dropdown-header"><i className="fa fa-youtube-play"></i>Teaching</Link>
                                     <Link className="dropdown-item" to="/bed">B.Ed</Link>
                                 </div>
@@ -232,7 +231,7 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/cmat">CMAT</Link>
                                     <Link className="dropdown-item" to="/atma">ATMA</Link>
                                     <Link className="dropdown-item" to="/iift">IIFT</Link>
-                                    <Link className="dropdown-item" to="/ancet">ANCET</Link>
+                                    <Link className="dropdown-item" to="/tancet">TANCET</Link>
                                     <Link className="dropdown-item" to="/mahcet">MAH-CET</Link>
                                     <Link className="dropdown-item" to="/irma">IRMA</Link>
                                     <Link className="dropdown-item" to="/kiitee-management">KIITEE MANAGEMENT</Link>
@@ -243,7 +242,7 @@ class Navbar extends Component {
                             </div>
                             <div className="flex-item">
                                 <div className="flex-item13">
-                                    <Link to="/cpmititive_exam" className="dropdown-header"><i className="fa fa-cog"></i>Compitive Exams</Link>
+                                    <Link to="/compititive_exam" className="dropdown-header"><i className="fa fa-cog"></i>Compitive Exams</Link>
                                     <Link className="dropdown-item" to="/upsc_ias">UPSC-IAS</Link>
                                     <Link className="dropdown-item" to="/ssc_cgl">SSC-CGL</Link>
                                     <Link className="dropdown-item" to="/ctet">CTET</Link>
@@ -277,13 +276,13 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/ap_lawcet">AP LAWCET 2019</Link>
                                     <Link className="dropdown-item" to="/clat">CLAT 2019</Link>
                                     <Link className="dropdown-item" to="/ailet">AILET 2019</Link>
-                                    <Link className="dropdown-item" to="/lsat">LSAT</Link>
-                                    <Link className="dropdown-item" to="/mh_cet">MH CET</Link>
+                                    <Link className="dropdown-item" to="/isat">ISAT</Link>
+                                    <Link className="dropdown-item" to="/mht_cet">MHTCET</Link>
                                 </div>
                             </div>
                             <div className="flex-item">
                                 <div className="flex-item16">
-                                    <Link to="/other_exams" className="dropdown-header"><i className="fa fa-cog"></i>Other Exams</Link>
+                                    <Link to="/OtherExams" className="dropdown-header"><i className="fa fa-cog"></i>Other Exams</Link>
                                     <Link className="dropdown-item" to="/comedk_uget">COMEDK-UGET</Link>
                                 </div>
                             </div>
