@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { PropTypes } from "prop-types";
 import { connect } from "react-redux";
 import Coverflows from "./coverflows";
-import { DataSearch  } from '@appbaseio/reactivesearch';
 
 class Landing extends Component {
   componentDidMount() {
@@ -522,34 +521,7 @@ class Landing extends Component {
               </div>
             </div>
           </section>
-          <section className="testexplainboxh assessment-ex-area">
-            <div className="container">
-              <div className="col-md-12 info">
-                <h3 className="heading" align="center" style={{ "color":"white" }} >
-                  <b>
-                    Study Abroad
-                  </b>
-                </h3>
-                <h3 align="center" style={{ "fontSize": "25px" }}><hr />
-                  <b>A Edumonk Initiative</b>
-                </h3>
-
-                <p align="center">
-                  <span style={{ "fontSize": "18px" }}>
-                  
-                  <DataSearch            
-                      componentId="Search Box"            
-                      dataField={["college_name.search"]}                      
-                      className="search-bar"            
-                      queryFormat="or"            
-                      placeholder="Search for colleges..."                  
-                  />
-                  </span>
-                </p>
-                
-              </div>
-            </div>
-          </section>
+          
         </div>
       </div>
       
@@ -563,6 +535,6 @@ Landing.propTypes = {
 
 const mapStateToProps = state => ({
   auth: state.auth
-});
+}); 
 
 export default connect(mapStateToProps)(Landing);

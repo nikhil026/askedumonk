@@ -4,7 +4,6 @@ import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
 import { setCurrentUser, logoutUser } from "./actions/authActions";
 import { clearCurrentProfile } from "./actions/profileActions";
-import { ReactiveBase  } from '@appbaseio/reactivesearch';
 import { Provider } from "react-redux";
 import store from "./store";
 
@@ -296,9 +295,6 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-      <ReactiveBase
-      app="askedumonk"
-				credentials="JZZt0FZHa:bd9c9f8b-2b9b-4ec9-9e34-fb9131c726a5">
         <Router>
           <div className="App">
             <Navbar />
@@ -656,7 +652,6 @@ class App extends Component {
             <Footer />
           </div>
         </Router>
-        </ReactiveBase>
       </Provider>
     );
   }
