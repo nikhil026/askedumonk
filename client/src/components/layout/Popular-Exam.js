@@ -17,364 +17,364 @@ class PopularExam extends Component {
             <div className="col-md-12 cafrightside">
               <div className="tagcourseexam">
                 <Link
-                  to="https://www.careerpotli.com/exam-details/xat"
+                  to="/xat"
                   target="_blank"
                 >
                   <span> XAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/muoet"
+                  to="/muoet"
                   target="_blank"
                 >
                   <span> MUOET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ies"
+                  to="/ies"
                   target="_blank"
                 >
                   <span> IES </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/jee-advance"
+                  to="/jee-advance"
                   target="_blank"
                 >
                   <span> JEE Advance </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ceed"
+                  to="/ceed"
                   target="_blank"
                 >
                   <span> CEED </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/upsee"
+                  to="/upsee"
                   target="_blank"
                 >
                   <span> UPSEE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/clat-2019"
+                  to="/clat-2019"
                   target="_blank"
                 >
                   <span> CLAT 2019 </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/bitsat"
+                  to="/bitsat"
                   target="_blank"
                 >
                   <span> BITSAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ibps-po"
+                  to="/ibps-po"
                   target="_blank"
                 >
                   <span> IBPS-PO </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/gate"
+                  to="/gate"
                   target="_blank"
                 >
                   <span> GATE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/kmat"
+                  to="/kmat"
                   target="_blank"
                 >
                   <span> KMAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/gujcet"
+                  to="/gujcet"
                   target="_blank"
                 >
                   <span> GUJCET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ibsat"
+                  to="/ibsat"
                   target="_blank"
                 >
                   <span> IBSAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/irma"
+                  to="/irma"
                   target="_blank"
                 >
                   <span> IRMA </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/wbjee"
+                  to="/wbjee"
                   target="_blank"
                 >
                   <span> WBJEE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/kvpy"
+                  to="/kvpy"
                   target="_blank"
                 >
                   <span> KVPY </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/iiith-pgee"
+                  to="/iiith-pgee"
                   target="_blank"
                 >
                   <span> IIITH PGEE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/hpu-mat"
+                  to="/hpu-mat"
                   target="_blank"
                 >
                   <span> HPU MAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/mah-cet"
+                  to="/mah-cet"
                   target="_blank"
                 >
                   <span> MAH-CET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/mat"
+                  to="/mat"
                   target="_blank"
                 >
                   <span> MAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/tsicet"
+                  to="/tsicet"
                   target="_blank"
                 >
                   <span> TSICET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/aeee"
+                  to="/aeee"
                   target="_blank"
                 >
                   <span> AEEE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/aiims"
+                  to="/aiims"
                   target="_blank"
                 >
                   <span> AIIMS </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/tancet"
+                  to="/tancet"
                   target="_blank"
                 >
                   <span> TANCET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/cmat"
+                  to="/cmat"
                   target="_blank"
                 >
                   <span> CMAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ssc-cgl"
+                  to="/ssc-cgl"
                   target="_blank"
                 >
                   <span> SSC-CGL </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/uptet"
+                  to="/uptet"
                   target="_blank"
                 >
                   <span> UPTET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/viteee"
+                  to="/viteee"
                   target="_blank"
                 >
                   <span> VITEEE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/srmjeee"
+                  to="/srmjeee"
                   target="_blank"
                 >
                   <span> SRMJEEE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ctet"
+                  to="/ctet"
                   target="_blank"
                 >
                   <span> CTET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/atma"
+                  to="/atma"
                   target="_blank"
                 >
                   <span> ATMA </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/comedk---uget"
+                  to="/comedk---uget"
                   target="_blank"
                 >
                   <span> COMEDK - UGET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/mh-cet"
+                  to="/mh-cet"
                   target="_blank"
                 >
                   <span> MH CET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/pmet"
+                  to="/pmet"
                   target="_blank"
                 >
                   <span> PMET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/neet"
+                  to="/neet"
                   target="_blank"
                 >
                   <span> NEET </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/upsc-ias"
+                  to="/upsc-ias"
                   target="_blank"
                 >
                   <span> UPSC-IAS </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/kiitee-management"
+                  to="/kiitee-management"
                   target="_blank"
                 >
                   <span> KIITEE MANAGEMENT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/nata"
+                  to="/nata"
                   target="_blank"
                 >
                   <span> NATA </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/nmat"
+                  to="/nmat"
                   target="_blank"
                 >
                   <span> NMAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/cat"
+                  to="/cat"
                   target="_blank"
                 >
                   <span> CAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/snap"
+                  to="/snap"
                   target="_blank"
                 >
                   <span> SNAP </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ntse"
+                  to="/ntse"
                   target="_blank"
                 >
                   <span> NTSE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ssc-chsl"
+                  to="/ssc-chsl"
                   target="_blank"
                 >
                   <span> SSC-CHSL </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/lsat"
+                  to="/lsat"
                   target="_blank"
                 >
                   <span> LSAT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/bcece"
+                  to="/bcece"
                   target="_blank"
                 >
                   <span> BCECE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/iift"
+                  to="/iift"
                   target="_blank"
                 >
                   <span> IIFT </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/jee-mains"
+                  to="/jee-mains"
                   target="_blank"
                 >
                   <span> JEE Mains </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/psu-through-gate"
+                  to="/psu-through-gate"
                   target="_blank"
                 >
                   <span> PSU Through GATE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/ojee"
+                  to="/ojee"
                   target="_blank"
                 >
                   <span> OJEE </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/sbi-clerk"
+                  to="/sbi-clerk"
                   target="_blank"
                 >
                   <span> SBI Clerk </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/jipmer"
+                  to="/jipmer"
                   target="_blank"
                 >
                   <span> JIPMER </span>
                 </Link>
 
                 <Link
-                  to="https://www.careerpotli.com/exam-details/jcece"
+                  to="/jcece"
                   target="_blank"
                 >
                   <span> JCECE </span>

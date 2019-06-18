@@ -24,13 +24,13 @@ class AllExam extends Component {
                 <div class="coursedessside detail-content-wrapper">
                   <div class="detail-content clearfix">
                     <h2 class="heading-new">
-                      <a href="https://www.careerpotli.com/exam-category/engineering">
+                      <a href="/Engineering">
                         <i class="fa fa-gears" />&nbsp;&nbsp;
                         <span>Engineering</span>
                       </a>
                     </h2>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/jee-mains">
+                      <a href="/jee-main">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/jee-mains.jee main.jpg")}
@@ -41,7 +41,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/jee-advance">
+                      <a href="/jee-advance">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/jee-advance.jee adv.jpg")}
@@ -52,7 +52,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/bitsat">
+                      <a href="/bitsat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/bitsat.bitsat.jpg")}
@@ -63,7 +63,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/viteee">
+                      <a href="/viteee">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/viteee.viteee.jpg")}
@@ -74,7 +74,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/wbjee">
+                      <a href="/wbjee">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/wbjee.wbjee.jpg")}
@@ -85,7 +85,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/jcece">
+                      <a href="/jcece">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/jcece.jcece.jpg")}
@@ -96,7 +96,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/upsee">
+                      <a href="/upsee">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/upsee.upsee.jpg")}
@@ -107,7 +107,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ojee">
+                      <a href="/ojee">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ojee.ojee.jpg")}
@@ -118,7 +118,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/bcece">
+                      <a href="/bcece">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/bcece.bcece.jpg")}
@@ -129,7 +129,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/gate">
+                      <a href="/gate">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/gate.gate.jpg")}
@@ -140,7 +140,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/srmjeee">
+                      <a href="/srmjeee">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/srmjeee.srmjeee.jpg")}
@@ -151,7 +151,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/aeee">
+                      <a href="/aeee">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/aeee.aeee.jpg")}
@@ -162,7 +162,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/nata">
+                      <a href="/nata">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/nata.nata.jpg")}
@@ -173,7 +173,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/muoet">
+                      <a href="/muoet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/muoet.mu oet.jpg")}
@@ -184,7 +184,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ceed">
+                      <a href="/ceed">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ceed.ceed.jpg")}
@@ -195,7 +195,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/iiith-pgee">
+                      <a href="/iiith-pgee">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/iiith-pgee.iiith pgee.jpg")}
@@ -209,13 +209,13 @@ class AllExam extends Component {
 
                   <div class="detail-content clearfix">
                     <h2 class="heading-new">
-                      <a href="https://www.careerpotli.com/exam-category/management">
+                      <a href="/Management11">
                         <i class="fa fa-bars" />&nbsp;&nbsp;
                         <span>Management</span>
                       </a>
                     </h2>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/cat">
+                      <a href="/cat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/cat.cat.jpg")}
@@ -226,7 +226,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/mat">
+                      <a href="/mat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/mat.mat.jpg")}
@@ -237,7 +237,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/xat">
+                      <a href="/xat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/xat.xat.jpg")}
@@ -248,7 +248,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/snap">
+                      <a href="/snap">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/snap.snap.jpg")}
@@ -259,7 +259,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/nmat">
+                      <a href="/nmat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/nmat.nmat.jpg")}
@@ -270,7 +270,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ibsat">
+                      <a href="/ibsat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ibsat.ibsat.jpg")}
@@ -281,7 +281,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/cmat">
+                      <a href="/cmat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/cmat.cmat.jpg")}
@@ -292,7 +292,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/atma">
+                      <a href="/atma">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/atma.atma.jpg")}
@@ -303,7 +303,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/iift">
+                      <a href="/iift">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/iift.iift.jpg")}
@@ -314,7 +314,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/tancet">
+                      <a href="/tancet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/tancet.tancet.jpg")}
@@ -325,7 +325,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/mah-cet">
+                      <a href="/mah-cet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/mah-cet.mah cet.jpg")}
@@ -336,7 +336,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/irma">
+                      <a href="/irma">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/irma.irma.jpg")}
@@ -347,7 +347,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/kiitee-management">
+                      <a href="/kiitee-management">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/kiitee-mgt.kiitee mgt.jpg")}
@@ -358,7 +358,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/kmat">
+                      <a href="/kmat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/kmat.kmat.jpg")}
@@ -369,7 +369,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/tsicet">
+                      <a href="/tsicet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/tsicet.ts icet.jpg")}
@@ -380,7 +380,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/hpu-mat">
+                      <a href="/hpu-mat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/hpu-mat.hpu mat.jpg")}
@@ -394,13 +394,13 @@ class AllExam extends Component {
 
                   <div class="detail-content clearfix">
                     <h2 class="heading-new">
-                      <a href="https://www.careerpotli.com/exam-category/compititive-exams">
+                      <a href="/compititive_exam">
                         <i class="fa fa-gears" />&nbsp;&nbsp;
                         <span>Compititive Exams</span>
                       </a>
                     </h2>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/upsc-ias">
+                      <a href="/upsc-ias">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/upsc---ias.upsc ias.jpg")}
@@ -411,7 +411,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ssc-cgl">
+                      <a href="/ssc-cgl">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ssc---cgl.ssc cgl.jpg")}
@@ -422,7 +422,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ctet">
+                      <a href="/ctet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ctet.ctet.jpg")}
@@ -433,7 +433,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/kvpy">
+                      <a href="/kvpy">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/kpvy.kvpy.jpg")}
@@ -444,7 +444,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ibps-po">
+                      <a href="/ibps-po">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ibps---po.ibps po.jpg")}
@@ -455,7 +455,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/sbi-clerk">
+                      <a href="/sbi-clerk">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/sbi-clerk.sbi clerk.jpg")}
@@ -466,7 +466,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ibps-clerk">
+                      <a href="/ibps-clerk">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ibps---clerk.ibps clerk.jpg")}
@@ -477,7 +477,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ies">
+                      <a href="/ies">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ies.ies.jpg")}
@@ -488,7 +488,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ntse">
+                      <a href="/ntse">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ntse.ntse.jpg")}
@@ -499,7 +499,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/psu-through-gate">
+                      <a href="/psu-through-gate">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/psu-through-gate.psu through gate.jpg")}
@@ -510,7 +510,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ssc-chsl">
+                      <a href="/ssc-chsl">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ssc---chsl.ssc chsl.jpg")}
@@ -521,7 +521,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/uptet">
+                      <a href="/uptet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/uptet.uptet.jpg")}
@@ -532,7 +532,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/icar-aieea">
+                      <a href="/icar-aieea">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/icar-aieea.icar aieea.jpg")}
@@ -543,7 +543,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/fddi---aist">
+                      <a href="/fddi---aist">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/fddi---aist.fddi aist.jpg")}
@@ -557,13 +557,13 @@ class AllExam extends Component {
 
                   <div class="detail-content clearfix">
                     <h2 class="heading-new">
-                      <a href="https://www.careerpotli.com/exam-category/medical-exams">
+                      <a href="/medical_exams">
                         <i class="fa fa-gears" />&nbsp;&nbsp;
                         <span>Medical Exams</span>
                       </a>
                     </h2>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/aiims">
+                      <a href="/aiims">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/aiims.aiims.jpg")}
@@ -574,7 +574,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/neet">
+                      <a href="/neet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/neet.neet.jpg")}
@@ -585,7 +585,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/jipmer">
+                      <a href="/jipmer">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/jipmer.jipmer.jpg")}
@@ -596,7 +596,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/gujcet">
+                      <a href="/gujcet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/gujet.gujet.jpg")}
@@ -607,7 +607,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/bhu-pmt">
+                      <a href="/bhu-pmt">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/bhu-pmt.bhu pmt.jpg")}
@@ -618,7 +618,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/pmet">
+                      <a href="/pmet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/pmet-2018.pmet.jpg")}
@@ -632,13 +632,13 @@ class AllExam extends Component {
 
                   <div class="detail-content clearfix">
                     <h2 class="heading-new">
-                      <a href="https://www.careerpotli.com/exam-category/law-exams">
+                      <a href="/law_exams">
                         <i class="fa fa-gears" />&nbsp;&nbsp;
                         <span>Law Exams</span>
                       </a>
                     </h2>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ap-lawcet">
+                      <a href="/ap-lawcet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ap-lawcet-2018.ap lawcet.jpg")}
@@ -649,7 +649,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/clat">
+                      <a href="/clat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/clat-2018.clat.jpg")}
@@ -660,7 +660,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/ailet">
+                      <a href="/ailet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/ailet-2018.ailet.jpg")}
@@ -671,7 +671,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/lsat">
+                      <a href="/lsat">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/lsat.lsat.jpg")}
@@ -682,7 +682,7 @@ class AllExam extends Component {
                       </a>
                     </div>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/mht-cet">
+                      <a href="/mht-cet">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/mh-cet-2018.mh cet.jpg")}
@@ -696,13 +696,13 @@ class AllExam extends Component {
 
                   <div class="detail-content clearfix">
                     <h2 class="heading-new">
-                      <a href="https://www.careerpotli.com/exam-category/other-exams">
+                      <a href="/OtherExams">
                         <i class="fa fa-gears" />&nbsp;&nbsp;
                         <span>Other Exams</span>
                       </a>
                     </h2>
                     <div class="col-md-2">
-                      <a href="https://www.careerpotli.com/exam-details/comedk---uget">
+                      <a href="/comedk---uget">
                         <div class="singleexamp">
                           <img
                             src={require("../.././images/comedk---uget.comedk uget.jpg")}

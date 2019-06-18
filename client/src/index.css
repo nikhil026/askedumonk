@@ -557,6 +557,12 @@ div#searcher {
     justify-content: left;
     margin-left:125px;
   }
+  .col-md-6.imp-image {
+    display:none;
+  }
+  .col-md-6.imp-image1 {
+    display:block;
+  }
 }
 @media only screen and  (max-width: 670px) and (orientation: landscape){
   div.search-bar {

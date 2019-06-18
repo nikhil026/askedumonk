@@ -254,12 +254,12 @@ class Navbar extends Component {
                                     <Link className="dropdown-item" to="/ntse">NTSE</Link>
                                     <Link className="dropdown-item" to="/psu-through-gate">PSU Through GATE</Link>
                                     <Link className="dropdown-item" to="/ssc-chsl">SSC-CHSL</Link>
-                                    <Link className="dropdown-item" to="https://www.careerpotli.com/exam-details/uptet">UPTET</Link>
-                                    <Link className="dropdown-item" to="https://www.careerpotli.com/exam-details/icar-aieea">ICAR AIEEA</Link>
-                                    <Link className="dropdown-item" to="https://www.careerpotli.com/exam-details/fddi---aist">FDDI - AIST</Link>
+                                    <Link className="dropdown-item" to="/uptet">UPTET</Link>
+                                    <Link className="dropdown-item" to="/icar-aieea">ICAR AIEEA</Link>
+                                    <Link className="dropdown-item" to="/fddi-aist">FDDI - AIST</Link>
                                 </div>
-                            </div>
-                            <div className="flex-item" >
+                          </div>
+                          <div className="flex-item" >
                                 <div className="flex-item14">
                                     <Link to="/medical_exams" className="dropdown-header"><i className="fa fa-cog"></i>Medical Exams</Link>
                                     <Link className="dropdown-item" to="/aiims">AIIMS</Link>

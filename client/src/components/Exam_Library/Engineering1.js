@@ -36,7 +36,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/jee-advance"
+                        to="jee-advance"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -51,7 +51,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/bitsat"
+                        to="/bitsat"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -66,7 +66,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/jee-mains"
+                        to="/jee-mains"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -81,7 +81,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/viteee"
+                        to="/viteee"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -96,7 +96,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/wbjee"
+                        to="/wbjee"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -111,7 +111,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/gate"
+                        to="/gate"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -126,7 +126,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/jcece"
+                        to="/jcece"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -141,7 +141,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/upsee"
+                        to="/upsee"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -156,7 +156,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ojee"
+                        to="/ojee"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -171,7 +171,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/bcece"
+                        to="/bcece"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -186,7 +186,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/srmjeee"
+                        to="/srmjeee"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -201,7 +201,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/aeee"
+                        to="/aeee"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -216,7 +216,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/nata"
+                        to="/nata"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -231,7 +231,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/muoet"
+                        to="/muoet"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -246,7 +246,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ceed"
+                        to="/ceed"
                         target="_blank"
                       >
                         <div class="singleexamp">
@@ -261,7 +261,7 @@ class Engineering extends Component {
 
                     <div class="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/iiith-pgee"
+                        to="/iiith-pgee"
                         target="_blank"
                       >
                         <div class="singleexamp">

@@ -36,7 +36,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/upsc-ias"
+                        to="/upsc_ias"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -51,7 +51,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ssc-cgl"
+                        to="/ssc_cgl"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -66,7 +66,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ctet"
+                        to="/ctet"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -81,7 +81,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/kvpy"
+                        to="/kvpy"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -96,7 +96,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ibps-po"
+                        to="/ibps-po"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -111,7 +111,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/sbi-clerk"
+                        to="/sbi-clerk"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -126,7 +126,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ibps-clerk"
+                        to="/ibps-clerk"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -141,7 +141,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ies"
+                        to="/ies"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -156,7 +156,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ntse"
+                        to="/ntse"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -171,7 +171,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/psu-through-gate"
+                        to="/psu-through-gate"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -186,7 +186,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/ssc-chsl"
+                        to="/ssc-chsl"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -201,7 +201,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/uptet"
+                        to="/uptet"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -216,7 +216,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/icar-aieea"
+                        to="/icar-aieea"
                         target="_blank"
                       >
                         <div className="singleexamp">
@@ -231,7 +231,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="https://www.careerpotli.com/exam-details/fddi---aist"
+                        to="/fddi-aist"
                         target="_blank"
                       >
                         <div className="singleexamp">
