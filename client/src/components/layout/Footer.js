@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Tada from 'react-reveal/Tada';
 export default () => {
   return (
     <footer className="copyrights footerall">
       <div className="container1">
         <div className="row">
           <div className="col-md-3 col-sm-12 footerabt">
+            <Tada>
             <img src={require("../.././images/logo-edumonk1.png")} alt="" />
+            </Tada>
             <br />
             <br />
 

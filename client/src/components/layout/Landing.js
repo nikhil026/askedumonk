@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import { PropTypes } from "prop-types";
 import { connect } from "react-redux";
 import Coverflows from "./coverflows";
+import Fade from 'react-reveal/Fade';
+import LightSpeed from 'react-reveal/LightSpeed';
+import Slide from 'react-reveal/Slide';
+import Pulse from 'react-reveal/Pulse';
+
 
 class Landing extends Component {
   componentDidMount() {
@@ -102,7 +107,9 @@ class Landing extends Component {
               <div className="1 margin_120_95">
                 <div className="row">
                   <div className="heading_s1">
+                    <LightSpeed left> 
                     <h2>Explore Everything You Need</h2>
+                    </LightSpeed>
                   </div>
                 </div>
 
@@ -111,6 +118,7 @@ class Landing extends Component {
                     <div className="box_feat" />
                   </div>
                   <div className="flex-container-logo">
+                    <Fade bottom>
                     <div className="flex-item-logo">
                   <div className="col-lg-2">
                     <div className="box_feat">
@@ -165,10 +173,12 @@ class Landing extends Component {
                     </div>
                   </div>
                   </div>
+                  </Fade>
                   </div>
                   <div className="col-lg-1">
                     <div className="box_feat" />
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -176,6 +186,7 @@ class Landing extends Component {
           <section className="testexplainboxh assessment-ex-area">
             <div className="container">
               <div className="col-md-12 info">
+                <Slide left>
                 <p align="center">
                   <span
                     style={{
@@ -195,7 +206,9 @@ class Landing extends Component {
                     </span>
                   </b>
                 </p>
+                </Slide>
                 <br />
+                <Slide right>
                 <p align="center">
                   <span style={{ color: "gray", "fontSize": "18px" }}>
                     <i>
@@ -204,7 +217,9 @@ class Landing extends Component {
                     </i>
                   </span>
                 </p>
+                </Slide>
                 <br />
+                <Fade bottom>
                 <p align="center">
                   <span style={{ "fontSize": "18px" }}>
                     <b>
@@ -215,6 +230,7 @@ class Landing extends Component {
                     </b>
                   </span>
                 </p>
+                </Fade>
               </div>
             </div>
           </section>
@@ -223,19 +239,26 @@ class Landing extends Component {
           <section className="assessment-ex-area">
             <div className="container">
               <div className="row">
+                
                 <div className="col-md-6 info">
+                  <Pulse>
                   <h3>
                     <b>Discover Your Inborn Potential</b>
                   </h3>
+                  </Pulse>
+                  
+                  
                   <p>
                     <span style={{ "fontSize": "18px" }}>
                       Tap into the inner intelligence of your mind to choose the
-                      best career for yourself and choose course as well as
+                      best careerfor yourself and choose course as well as
                       colleges accordingly to reach towards your planned career
                       most efficiently
                     </span>
                   </p>
+                  
                   <br />
+                  <Pulse>
                   <a
                     href={process.env.PUBLIC_URL + '/SIDCAT Career Report(2).pdf'}
                     download
@@ -243,15 +266,20 @@ class Landing extends Component {
                     target="_blank"
                     type="application/pdf"
                   >
+                  
                     Get SIDCAT Sample Career Report
                   </a>
+                  </Pulse>
                 </div>
+                
                 <div className="col-md-6">
+                  
                   <img
                     src={require("../.././images/discover2.jpg")}
                     className="homestressbox"
                     alt=""
                   />
+                  
                 </div>
               </div>
             </div>
@@ -259,13 +287,15 @@ class Landing extends Component {
           <section className="testexplainboxh assessment-ex-area">
             <div className="container">
               <div className="col-md-12 info">
+                <Fade bottom>
                 <h3 align="center">
                   <b>
                     Self Intelligence Discovery Certification And
                     Training(SIDCAT)
                   </b>
                 </h3>
-
+                </Fade>
+                <Fade bottom>
                 <p align="center">
                   <span style={{ "fontSize": "18px" }}>
                     Tap into the inner intelligence of your mind to choose the
@@ -274,6 +304,7 @@ class Landing extends Component {
                     life goals most efficiently
                   </span>
                 </p>
+                </Fade>
                 <br />
               </div>
             </div>
@@ -282,6 +313,7 @@ class Landing extends Component {
             <div className="container">
               <div className="1 margin_120_95">
                 <div className="row">
+                  <Fade bottom>
                   <div className="col-lg-1">
                     <div className="box_feat" />
                   </div>
@@ -322,6 +354,7 @@ class Landing extends Component {
                   <div className="col-lg-1">
                     <div className="box_feat" />
                   </div>
+                  </Fade>
                 </div>
               </div>
             </div>
@@ -329,6 +362,7 @@ class Landing extends Component {
           <section className=" assessment-ex-area">
             <div className="container">
               <div className="row">
+                <Slide left>
                 <div className=" testexplainboxh col-md-6 info">
                   <h3 className="heading">Take the Online Assessment</h3>
                   <p>
@@ -368,13 +402,16 @@ class Landing extends Component {
                       below.
                     </span>
                   </p>
-                </div>
+                  </div>
+                  </Slide>
                 <div className="col-md-6">
+                  <Slide right>
                   <img
                     src="/images/thinking.png"
                     className="homestressbox"
                     alt=""
                   />
+                  </Slide>
                 </div>
               </div>
             </div>
@@ -382,14 +419,18 @@ class Landing extends Component {
           <section className=" assessment-ex-area">
             <div className="container">
               <div className="row">
+                
               <div className="col-md-6 imp-image">
+              <Slide left>
                   <img
                     src="/images/our.png"
                     className="homestressbox lower"
                     alt=""
                   />
+                  </Slide>
                 </div>
                 <div className=" testexplainboxh col-md-6 info lowernew">
+                <Slide right>
                   <h3 className="heading">
                   Find Out Who You Really Are
                   </h3>
@@ -430,13 +471,16 @@ class Landing extends Component {
                       below.
                     </span>
                   </p>
+                  </Slide>
                 </div>
                 <div className="col-md-6 imp-image1">
+                  <Slide left>
                   <img
                     src="/images/our.png"
                     className="homestressbox lower"
                     alt=""
                   />
+                  </Slide>
                 </div>
               </div>
             </div>
@@ -445,6 +489,7 @@ class Landing extends Component {
             <div className="container">
               <div className="row">
                 <div className=" testexplainboxh col-md-6 info">
+                  <Slide left>
                   <h3 className="heading">
                   Get Personalized Guidence from Experts
                   </h3>
@@ -485,13 +530,16 @@ class Landing extends Component {
                       below.
                     </span>
                   </p>
+                  </Slide>
                 </div>
                 <div className="col-md-6">
+                  <Slide right>
                   <img
                     src="/images/guidance.png"
                     className="homestressbox"
                     alt=""
                   />
+                  </Slide>
                 </div>
               </div>
             </div>
@@ -499,6 +547,7 @@ class Landing extends Component {
           <section className="testexplainboxh assessment-ex-area">
             <div className="container">
               <div className="col-md-12 info">
+                <Slide bottom>
                 <h3 className="heading" align="center" style={{ "color":"white" }} >
                   <b>
                     Study Abroad
@@ -518,6 +567,7 @@ class Landing extends Component {
                   <Link to="/abroad_study" className="purchsetestbtnfrree1">
                     Get More Information</Link>
                 </p>
+                </Slide>
               </div>
             </div>
           </section>
