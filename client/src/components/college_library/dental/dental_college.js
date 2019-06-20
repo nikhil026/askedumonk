@@ -74,8 +74,149 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     <h2 className="heading-new">
                       <span>Ranking Wise Dental college</span>
                     </h2>
-                   
                     {this.state.activePage === 1? 
+                    <div className="col-md-4 mrgn-branches"> 
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/gdcha_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />Govt. Dental College & Hospital, Ahmedabad 
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/gdchj_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />Govt. Dental College & Hospital, Jamnagar
+                          </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                        </Link>
+                    </div>                   
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/mppdc_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />M.P. Patel Dental College & Dental Hospital, Vadodara
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/adc_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />Ahmedabad Dental College, Bhadaj-Rancchodpura
+Road, Dist. Gandhinagar
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                   
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/ksd_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />Karnavati School of Dentisty, Uvarsad, Gandhinagar
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/ddids_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />Dharamsinh Desai Institute of Dental Sciences,
+Nadiad
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/npdch_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />Narsinhbhai Patel Dental College & Hospital, Visnagar
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/cdsrc_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />College of Dental Sciences & Research Centre, Near
+Bopal, Ahmedabad 
+                        </p>
+                        <p>  
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/amcdc_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />AMC Dental College, Ahmedabad
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/vdcr_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" /> Vaidik Dental College & Research, Kadaiya, Nani
+Daman (U.T.) 
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/cdsr_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />College of Dental Sciences & Research, Amargadh,
+Dist. Bhavnagar 
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/grids_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />Goenka Research Institute of Dental Science,
+Pethapur Road, Piplaj, Dist. Gandhinagar  
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="col-md-4 mrgn-branches">
+                      <Link to="/list_college_dental/sgdherdc_detail">
+                        <p className="brnchname">
+                          <i className="fa fa-database" />SGDHER Dental College, Dethadi, Siddhpur  
+                        </p>
+                        <p>
+                          <i className="fa fa-angle-right" />
+                        </p>
+                      </Link>
+                    </div>
+                   </div>
+                    : null }
+                    {this.state.activePage === 2? 
                     <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
                       <Link to="/list_college_dental/maids_detail">
@@ -181,7 +322,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                    </div>
                     : null }
-                    {this.state.activePage === 2? 
+                    {this.state.activePage === 3? 
                       <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
                       <Link to="/list_college_dental/jkkndch_detail">
@@ -286,7 +427,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                    </div>
                     : null }
-                    {this.state.activePage === 3? 
+                    {this.state.activePage === 4? 
                       <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
                       <Link to="/list_college_dental/idch_detail">
@@ -390,7 +531,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                    </div>
                     : null }
-                    {this.state.activePage === 4? 
+                    {this.state.activePage === 5? 
                       <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
                       <Link to="/list_college_dental/zadc_detail">
@@ -495,7 +636,7 @@ For India Rankings – 2017, the main ranking parameters remain the same. Howeve
                     </div>
                    </div>
                     : null }
-                    {this.state.activePage === 5? 
+                    {this.state.activePage ===6? 
                       <div className="col-md-4 mrgn-branches"> 
                     <div className="col-md-4 mrgn-branches">
                       <Link to="/list_college_dental/dcdc_detail">

@@ -204,6 +204,8 @@ import Arts_College from './components/college_library/arts/arts_college';
 import Pharmacy_College from './components/college_library/pharmacy/pharmacy_college';
 import Fashion_College from './components/college_library/fashion/fashion_college';
 import Media_College from './components/college_library/media/media_college';
+import Ayurveda_College from './components/college_library/ayurveda/ayurveda';
+import Homeopathy_College from './components/college_library/homeopathy/homeopathy';
 import Paramedical_College from './components/college_library/paramedical/paramedical_college';
 import Dental_College from './components/college_library/dental/dental_college';
 import Veterinary_Science_College from './components/college_library/veterinary_sciences/veterinary_sciences_college';
@@ -531,7 +533,8 @@ class App extends Component {
               <Route exact path="/course_search" component={Course_Search} />
               <Route exact path="/exams_search" component={Exams_Search} />
               {/* Route for the college library */}
-
+              <Route exact path="/list_college_ayurveda" component={Ayurveda_College} />
+              <Route exact path="/list_college_homeopathy" component={Homeopathy_College} />
               <Route exact path="/list_college_engineering" component={Engineering_college} />
               <Route exact path="/list_college_management" component={Management_college} />
               <Route exact path="/list_college_medical" component ={Medical_college} />

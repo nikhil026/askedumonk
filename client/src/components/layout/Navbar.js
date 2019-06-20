@@ -360,11 +360,11 @@ class Navbar extends Component {
                                     <Link to="/list_college_engineering" className="dropdown-header">Diploma And <br />Certificate Courses</Link>
                                     <Link className="dropdown-item" to="/list_college_engineering"><img src="/images/17.png" alt="img" /><br />714 Colleges</Link>
                                 
-                                    <Link to="/list_college_hotel_management" className="dropdown-header">Hotel Management</Link>
-                                    <Link className="dropdown-item" to="/list_college_hotel_management"><img src="/images/18.png" alt="img" /><br />750 Colleges</Link>
+                                    <Link to="/list_college_homeopathy" className="dropdown-header">Homeopathy</Link>
+                                    <Link className="dropdown-item" to="/list_college_homeopathy"><img src="/images/18.png" alt="img" /><br />750 Colleges</Link>
                                 
-                                    <Link to="/list_college_management" className="dropdown-header">Management</Link>
-                                    <Link className="dropdown-item" to="/list_college_management"><img src="/images/19.png" alt="img" /><br />6014 Colleges</Link>
+                                    <Link to="/list_college_ayurveda" className="dropdown-header">Ayurveda</Link>
+                                    <Link className="dropdown-item" to="/list_college_ayurveda"><img src="/images/19.png" alt="img" /><br />6014 Colleges</Link>
                                 
                                     <Link to="/list_college_architecture" className="dropdown-header">Architecture</Link>
                                     <Link className="dropdown-item" to="/list_college_architecture"><img src="/images/20.png" alt="img" /><br />516 Colleges</Link>
