@@ -149,7 +149,7 @@ import MUOET from "./components/Exam_Library/muoet";
 import NMAT from "./components/Exam_Library/nmat";
 import XAT from "./components/Exam_Library/xat";
 import SNAP from "./components/Exam_Library/snap"
-import IRMA from './components/Exam_Library/irma' ;
+// import IRMA from './components/Exam_Library/irma' ;
 import TANCET from "./components/Exam_Library/tancet";
 import MAHCET from "./components/Exam_Library/mahcet";
 import Compititive from "./components/Exam_Library/compititive_exam";
@@ -323,7 +323,7 @@ class App extends Component {
               <Route exact path="/ojee" component={OJEE} />
               <Route exact path="/jcece" component={JCECE} />
               <Route exact path="/wbjee" component={WBJEE} />
-              <Route exact path="/irma" component={IRMA} />
+              {/* <Route exact path="/irma" component={IRMA} /> */}
               <Route exact path="/vitee" component={VITEE} />
               <Route exact path="/gate" component={GATE} />
               <Route exact path="/upsee" component={UPSEE} />
