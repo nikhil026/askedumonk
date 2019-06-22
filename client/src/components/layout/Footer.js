@@ -15,14 +15,21 @@ export default () => {
 
             <p>
               <Link to="/" alt="">
-                <b>AskEdumonk</b>
+                <b>From EDUMONK FOUNDATION</b>
               </Link>{" "}
-              is a one stop solution for all your career oriented issues. Take
+              I'm Edumonk. Helping students in Career Goal setting & Self Intelligence Discovery
+              is my passion. I counsel students for College Admissions Globally. Our Counselling 
+              experts help you find your inner passion through Self Intelligence Discovery Certification
+              And Training(SIDCAT) program and define your career goals to reach your highest potential.
+              We also help in College Community Development and establishing next generation Branding 
+              Network for Educational Institutions all around the world
+
+              {/* is a one stop solution for all your career oriented issues. Take
               in the first step with us and we will lead you in your path until
               and unless you reach the final step. Begin from picking your
               stream to helping you get ready for your entrance tests. We here
               at AskEdumonk go about analyzing your skills and help you choose
-              the stream that’s better for you.{" "}
+              the stream that’s better for you.{" "} */}
             </p>
           </div>
           {/* <div className="col-md-2 col-sm-12 ">
