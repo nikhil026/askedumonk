@@ -288,7 +288,7 @@ class Navbar extends Component {
                         </div>
                     </div>
                 </li>
-                <li className="nav-item dropdown">
+                {/* <li className="nav-item dropdown">
                     <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     College
                     </Link>
@@ -386,7 +386,7 @@ class Navbar extends Component {
                             </div>
                         </div>
                     </div>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <a className="nav-link" href="https://edumonk.org"
                         target="_blank"

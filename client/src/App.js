@@ -75,7 +75,7 @@ import BOCommLaw from "./components/Course_Library/bachelor_comLaw";
 import BOBusiness from "./components/Course_Library/bachelor_businessadd";
 import ArtHuminities from "./components/Course_Library/art_huminites";
 import BOArts from "./components/Course_Library/bachelor_arts";
-import DFineart from "./components/Course_Library/diploma_fineArts";
+// import DFineart from "./components/Course_Library/diploma_fineArts";
 import BOFineart from "./components/Course_Library/bachelor_fineart";
 import Commerce from "./components/Course_Library/commerce";
 import BOCommerce from "./components/Course_Library/bachelor_commerce";
@@ -194,86 +194,86 @@ import "./css/bootstrap4.css";
 
 // import the college library
 
-import Engineering_college from './components/college_library/Engineering/engineering_college'
-import Management_college from "./components/college_library/management/management";
-import Medical_college from './components/college_library/medical/medical_college';
-import Law_College from './components/college_library/law/law_college';
-import Commerce_College from './components/college_library/commerce/commerce_college';
-import Science_College from './components/college_library/science/science_college';
-import Arts_College from './components/college_library/arts/arts_college';
-import Pharmacy_College from './components/college_library/pharmacy/pharmacy_college';
-import Fashion_College from './components/college_library/fashion/fashion_college';
-import Media_College from './components/college_library/media/media_college';
-import Ayurveda_College from './components/college_library/ayurveda/ayurveda';
-import Homeopathy_College from './components/college_library/homeopathy/homeopathy';
-import Paramedical_College from './components/college_library/paramedical/paramedical_college';
-import Dental_College from './components/college_library/dental/dental_college';
-import Veterinary_Science_College from './components/college_library/veterinary_sciences/veterinary_sciences_college';
-import Aviation_College from './components/college_library/aviation/aviation_college';
-import Education_College from './components/college_library/education/education_college';
-import Vocational_College from './components/college_library/vocational/vocational_college';
-import Architecture_College from './components/college_library/architecture/architecture_college';
-import Agriculture_College from './components/college_library/agriculture/agriculture_college';
-import Hotel_Management_College from './components/college_library/hotel_management/hotel_management_college';
-// import Law_College from "./components/college_library/law/law_college";
-// importing college from their names 
+// import Engineering_college from './components/college_library/Engineering/engineering_college'
+// import Management_college from "./components/college_library/management/management";
+// import Medical_college from './components/college_library/medical/medical_college';
+// import Law_College from './components/college_library/law/law_college';
+// import Commerce_College from './components/college_library/commerce/commerce_college';
+// import Science_College from './components/college_library/science/science_college';
+// import Arts_College from './components/college_library/arts/arts_college';
+// import Pharmacy_College from './components/college_library/pharmacy/pharmacy_college';
+// import Fashion_College from './components/college_library/fashion/fashion_college';
+// import Media_College from './components/college_library/media/media_college';
+// import Ayurveda_College from './components/college_library/ayurveda/ayurveda';
+// import Homeopathy_College from './components/college_library/homeopathy/homeopathy';
+// import Paramedical_College from './components/college_library/paramedical/paramedical_college';
+// import Dental_College from './components/college_library/dental/dental_college';
+// import Veterinary_Science_College from './components/college_library/veterinary_sciences/veterinary_sciences_college';
+// import Aviation_College from './components/college_library/aviation/aviation_college';
+// import Education_College from './components/college_library/education/education_college';
+// import Vocational_College from './components/college_library/vocational/vocational_college';
+// import Architecture_College from './components/college_library/architecture/architecture_college';
+// import Agriculture_College from './components/college_library/agriculture/agriculture_college';
+// import Hotel_Management_College from './components/college_library/hotel_management/hotel_management_college';
+// // import Law_College from "./components/college_library/law/law_college";
+// // importing college from their names 
 
-import IIT_DELHI from './components/college_library/Engineering/iit_delhi';
-import IIT_BOMBAY from './components/college_library/Engineering/iit_bombay';
-import IIT_MADRAS from './components/college_library/Engineering/iit_madras';
-import IIT_KHARAGPUR from './components/college_library/Engineering/iit_kharagpur';
-import IIT_KANPUR from './components/college_library/Engineering/iit_kanpur';
-import IIT_GUWAHATI from './components/college_library/Engineering/iit_guwahati';
-import IIT_ROORKEE from './components/college_library/Engineering/iit_roorkee';
-import IIT_HYDERABAD from './components/college_library/Engineering/iit_hyderabad';
-import ANNA_UNI from './components/college_library/Engineering/anna_university';
-import NIT_TRICHY from './components/college_library/Engineering/nit_trichy';
-import IIT_BHU from './components/college_library/Engineering/iit_bhu';
-import ICT from './components/college_library/Engineering/ict';
-import IIT_INDORE from './components/college_library/Engineering/iit_indore';
-import JADAV_UNI from './components/college_library/Engineering/jadavur_university';
-import IIEST from "./components/college_library/Engineering/iiest";
-import IIT_MANDI from "./components/college_library/Engineering/iit_mandi";
-import IIT_BHUBANESWAR from "./components/college_library/Engineering/iit_bhubaneswar";
-import IIT_DHANBAD from "./components/college_library/Engineering/iit_dhanbad";
-import NIT_ROURKELA from "./components/college_library/Engineering/nit_rourkela";
-import VIT from "./components/college_library/Engineering/vit";
-//management college
+// import IIT_DELHI from './components/college_library/Engineering/iit_delhi';
+// import IIT_BOMBAY from './components/college_library/Engineering/iit_bombay';
+// import IIT_MADRAS from './components/college_library/Engineering/iit_madras';
+// import IIT_KHARAGPUR from './components/college_library/Engineering/iit_kharagpur';
+// import IIT_KANPUR from './components/college_library/Engineering/iit_kanpur';
+// import IIT_GUWAHATI from './components/college_library/Engineering/iit_guwahati';
+// import IIT_ROORKEE from './components/college_library/Engineering/iit_roorkee';
+// import IIT_HYDERABAD from './components/college_library/Engineering/iit_hyderabad';
+// import ANNA_UNI from './components/college_library/Engineering/anna_university';
+// import NIT_TRICHY from './components/college_library/Engineering/nit_trichy';
+// import IIT_BHU from './components/college_library/Engineering/iit_bhu';
+// import ICT from './components/college_library/Engineering/ict';
+// import IIT_INDORE from './components/college_library/Engineering/iit_indore';
+// import JADAV_UNI from './components/college_library/Engineering/jadavur_university';
+// import IIEST from "./components/college_library/Engineering/iiest";
+// import IIT_MANDI from "./components/college_library/Engineering/iit_mandi";
+// import IIT_BHUBANESWAR from "./components/college_library/Engineering/iit_bhubaneswar";
+// import IIT_DHANBAD from "./components/college_library/Engineering/iit_dhanbad";
+// import NIT_ROURKELA from "./components/college_library/Engineering/nit_rourkela";
+// import VIT from "./components/college_library/Engineering/vit";
+// //management college
 
-import IIM_BANGALORE from "./components/college_library/management/iim_bangalore";
-import IIM_AHMEDABAD from "./components/college_library/management/iim_ahmedabad";
-import IIM_CALCUTTA from "./components/college_library/management/iim_calcutta";
-import IIM_LUCKNOW from "./components/college_library/management/iim_lucknow";
-import IIM_INDORE from "./components/college_library/management/iim_indore";
-import XAVIER from "./components/college_library/management/xavier";
-import IIM_KOZHIKODE from "./components/college_library/management/iim_kozhikode";
-import MDI from "./components/college_library/management/mdi";
-import IIM_UDAIPUR from "./components/college_library/management/iim_udaipur";
-import IIM_TRICHY from "./components/college_library/management/iim_trichy";
-import SPJIM from "./components/college_library/management/spjim";
-import GLIM from "./components/college_library/management/glim";
-import IIM_RAIPUR from "./components/college_library/management/iim_raipur";
-//medical colleges
-import AIIMS_C from './components/college_library/medical/aiims'
-import PGIMER from './components/college_library/medical/pgimer'
-import CMC from './components/college_library/medical/cmc'
-import SGPIMS from './components/college_library/medical/sgpims'
-import AVV from './components/college_library/medical/avv'
-import BHU from './components/college_library/medical/bhu'
-import KMC from './components/college_library/medical/kmc'
-import JIPGMER from './components/college_library/medical/jipgmer'
-import ILBS from './components/college_library/medical/ilbs'
-import KGMU from './components/college_library/medical/kgmu'
-//LAW college
-import NLSIU from './components/college_library/law/nlsiu'
-import NLU from './components/college_library/law/nlu'
-import NUL from './components/college_library/law/nul'
-import WBNUJS from './components/college_library/law/wbnujs'
-import SLS from './components/college_library/law/sls'
-import JMI from './components/college_library/law/jmi'
-import GNLU from './components/college_library/law/gnlu'
-import RGNUL from './components/college_library/law/rgnul'
-import NLIU from './components/college_library/law/nliu'
+// import IIM_BANGALORE from "./components/college_library/management/iim_bangalore";
+// import IIM_AHMEDABAD from "./components/college_library/management/iim_ahmedabad";
+// import IIM_CALCUTTA from "./components/college_library/management/iim_calcutta";
+// import IIM_LUCKNOW from "./components/college_library/management/iim_lucknow";
+// import IIM_INDORE from "./components/college_library/management/iim_indore";
+// import XAVIER from "./components/college_library/management/xavier";
+// import IIM_KOZHIKODE from "./components/college_library/management/iim_kozhikode";
+// import MDI from "./components/college_library/management/mdi";
+// import IIM_UDAIPUR from "./components/college_library/management/iim_udaipur";
+// import IIM_TRICHY from "./components/college_library/management/iim_trichy";
+// import SPJIM from "./components/college_library/management/spjim";
+// import GLIM from "./components/college_library/management/glim";
+// import IIM_RAIPUR from "./components/college_library/management/iim_raipur";
+// //medical colleges
+// import AIIMS_C from './components/college_library/medical/aiims'
+// import PGIMER from './components/college_library/medical/pgimer'
+// import CMC from './components/college_library/medical/cmc'
+// import SGPIMS from './components/college_library/medical/sgpims'
+// import AVV from './components/college_library/medical/avv'
+// import BHU from './components/college_library/medical/bhu'
+// import KMC from './components/college_library/medical/kmc'
+// import JIPGMER from './components/college_library/medical/jipgmer'
+// import ILBS from './components/college_library/medical/ilbs'
+// import KGMU from './components/college_library/medical/kgmu'
+// //LAW college
+// import NLSIU from './components/college_library/law/nlsiu'
+// import NLU from './components/college_library/law/nlu'
+// import NUL from './components/college_library/law/nul'
+// import WBNUJS from './components/college_library/law/wbnujs'
+// import SLS from './components/college_library/law/sls'
+// import JMI from './components/college_library/law/jmi'
+// import GNLU from './components/college_library/law/gnlu'
+// import RGNUL from './components/college_library/law/rgnul'
+// import NLIU from './components/college_library/law/nliu'
 
 if (localStorage.jwtToken) {
   setAuthToken(localStorage.jwtToken);
@@ -533,7 +533,7 @@ class App extends Component {
               <Route exact path="/course_search" component={Course_Search} />
               <Route exact path="/exams_search" component={Exams_Search} />
               {/* Route for the college library */}
-              <Route exact path="/list_college_ayurveda" component={Ayurveda_College} />
+              {/* <Route exact path="/list_college_ayurveda" component={Ayurveda_College} />
               <Route exact path="/list_college_homeopathy" component={Homeopathy_College} />
               <Route exact path="/list_college_engineering" component={Engineering_college} />
               <Route exact path="/list_college_management" component={Management_college} />
@@ -557,7 +557,7 @@ class App extends Component {
               <Route exact path="/diploma_fineArts" component={DFineart} />
               <br />
               {/* ROUTES FOR THE PARTICULAR COLLeGE */}
-              <Route exact path="/list_college_engineering/iit_delhi_detail" component={IIT_DELHI} />
+              {/* <Route exact path="/list_college_engineering/iit_delhi_detail" component={IIT_DELHI} />
               <Route exact path="/list_college_engineering/iit_bombay_detail" component={IIT_BOMBAY} />
               <Route exact path="/list_college_engineering/iit_madras_detail" component={IIT_MADRAS} />
               <Route exact path="/list_college_engineering/iit_kanpur_detail" component={IIT_KANPUR} />
@@ -576,9 +576,9 @@ class App extends Component {
               <Route exact path="/list_college_engineering/vit_detail" component={ VIT} />
               <Route exact path="/list_college_engineering/iiest_detail" component={IIEST} />
               <Route exact path="/list_college_engineering/iit_mandi_detail" component={ IIT_MANDI} />
-              <Route exact path="/list_college_engineering/iit_dhanbad_detail" component={IIT_DHANBAD} />
+              <Route exact path="/list_college_engineering/iit_dhanbad_detail" component={IIT_DHANBAD} /> */}
               {/* management colleges */}
-              <Route exact path="/list_college_management/iim_bangalore_detail" component={IIM_BANGALORE} />
+              {/* <Route exact path="/list_college_management/iim_bangalore_detail" component={IIM_BANGALORE} />
               <Route exact path="/list_college_management/iim_ahmedabad_detail" component={IIM_AHMEDABAD} />
               <Route exact path="/list_college_management/iim_calcutta_detail" component={IIM_CALCUTTA} />
               <Route exact path="/list_college_management/iim_lucknow_detail" component={IIM_LUCKNOW} />
@@ -590,9 +590,9 @@ class App extends Component {
               <Route exact path="/list_college_management/iim_tiruchi_detail" component={IIM_TRICHY} />
               <Route exact path="/list_college_management/spjim_detail" component={SPJIM} />
               <Route exact path="/list_college_management/glim_detail" component={GLIM} />
-              <Route exact path="/list_college_management/iim_raipur_detail" component={IIM_RAIPUR} />
+              <Route exact path="/list_college_management/iim_raipur_detail" component={IIM_RAIPUR} /> */}
               {/* medical colleges */}
-              <Route exact path="/list_college_medical/aiims_detail" component={AIIMS_C} />
+              {/* <Route exact path="/list_college_medical/aiims_detail" component={AIIMS_C} />
               <Route exact path="/list_college_medical/pgimer_detail" component={PGIMER} />
               <Route exact path="/list_college_medical/cmc_detail" component={CMC} />
               <Route exact path="/list_college_medical/sgpims_detail" component={SGPIMS} />
@@ -601,9 +601,9 @@ class App extends Component {
               <Route exact path="/list_college_medical/kmc_detail" component={KMC} />
               <Route exact path="/list_college_medical/jipgmer_detail" component={JIPGMER} />
               <Route exact path="/list_college_medical/ilbs_detail" component={ILBS} />
-              <Route exact path="/list_college_medical/kgmu_detail" component={KGMU} />
+              <Route exact path="/list_college_medical/kgmu_detail" component={KGMU} /> */} */}
               {/* law colleges */}
-              <Route exact path="/list_college_law/nlsiu_detail" component={NLSIU} />
+              {/* <Route exact path="/list_college_law/nlsiu_detail" component={NLSIU} />
               <Route exact path="/list_college_law/nlu_detail" component={NLU} />
               <Route exact path="/list_college_law/nul_detail" component={NUL} />
               <Route exact path="/list_college_law/wbnujs_detail" component={WBNUJS} />
@@ -611,7 +611,7 @@ class App extends Component {
               <Route exact path="/list_college_law/jmi_detail" component={JMI} />
               <Route exact path="/list_college_law/gnlu_detail" component={GNLU} />
               <Route exact path="/list_college_law/rgnul_detail" component={RGNUL} />
-              <Route exact path="/list_college_law/nliu_detail" component={NLIU} />
+              <Route exact path="/list_college_law/nliu_detail" component={NLIU} /> */}
 
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
