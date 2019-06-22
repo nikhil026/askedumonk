@@ -25,7 +25,7 @@ export default () => {
               the stream that’s better for you.{" "}
             </p>
           </div>
-          <div className="col-md-2 col-sm-12 ">
+          {/* <div className="col-md-2 col-sm-12 ">
             <h4>Important Links</h4>
             <div className="small-border" />
             <ul className="check">
@@ -65,7 +65,7 @@ export default () => {
               </li>
               <Link to="career-assessment-test" />
             </ul>
-          </div>
+          </div> */}
           <Link to="/career-assessment-test" />
           <div className="col-md-2 col-sm-12">
             <Link to="/career-assessment-test">
