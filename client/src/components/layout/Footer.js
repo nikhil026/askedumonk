@@ -17,6 +17,7 @@ export default () => {
               <Link to="/" alt="">
                 <b>From EDUMONK FOUNDATION</b>
               </Link>{" "}
+              <br />
               I'm Edumonk. Helping students in Career Goal setting & Self Intelligence Discovery
               is my passion. I counsel students for College Admissions Globally. Our Counselling 
               experts help you find your inner passion through Self Intelligence Discovery Certification
