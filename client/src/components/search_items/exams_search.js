@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class Exams_Search extends Component {
+class ExamsSearch extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -106,4 +106,4 @@ class Exams_Search extends Component {
     );
   }
 }
-export default Exams_Search;
+export default ExamsSearch;

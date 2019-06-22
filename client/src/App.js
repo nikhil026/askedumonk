@@ -9,11 +9,11 @@ import store from "./store";
 
 import PrivateRoute from "./components/common/PrivateRoute";
 //for search purpose
-import College_Search from './components/search_items/college_search';
-import Course_Search from './components/search_items/course_search';
-import Exams_Search from './components/search_items/exams_search';
+import CollegeSearch from './components/search_items/college_search';
+import CourseSearch from './components/search_items/course_search';
+import ExamsSearch from './components/search_items/exams_search';
 
-import Abroad_Info from './components/abroad_study/abroad_info'
+import AbroadInfo from './components/abroad_study/abroad_info'
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Landing from "./components/layout/Landing";
@@ -158,14 +158,14 @@ import KVPY from "./components/Exam_Library/kvpy";
 import IBPSPO from "./components/Exam_Library/ibps-po";
 import SBICLERK from "./components/Exam_Library/sbi-clerk";
 import CTET from "./components/Exam_Library/ctet";
-import MEDICAL_EXAMS from "./components/Exam_Library/medical_exams";
+import MedicalEXAM from "./components/Exam_Library/medical_exams";
 import AIIMS from "./components/Exam_Library/aiims";
 import NEET from "./components/Exam_Library/neet";
 import BHUPMT from "./components/Exam_Library/bhu_pmt";
 import JIMPER from "./components/Exam_Library/jimper";
 import GUJCET from "./components/Exam_Library/gujcet";
 import PMET from "./components/Exam_Library/pmet";
-import Law_exams from "./components/Exam_Library/law_exams";
+import Lawexams from "./components/Exam_Library/law_exams";
 import APLAW from "./components/Exam_Library/ap_lawcet";
 import CLAT from "./components/Exam_Library/clat";
 import AILET from "./components/Exam_Library/ailet";
@@ -310,7 +310,7 @@ class App extends Component {
               <Route exact path="/Landing" component={Landing} />
               <Route exact path="/register" component={Register} />
               <br />
-              <Route exact path="/abroad_study" component={Abroad_Info} />
+              <Route exact path="/abroad-study" component={AbroadInfo} />
               <Route exact path="/login" component={Login} />
               <br />
               <Route exact path="/profiles" component={Profiles} />
@@ -346,36 +346,36 @@ class App extends Component {
               <Route exact path="/nmat" component={NMAT} />
               <Route exact path="/xat" component={XAT} />
               <Route exact path="/snap" component={SNAP} />
-              <Route exact path="/compititive_exam" component={Compititive} />
-              <Route exact path="/upsc_ias" component={UPSCIAS} />
+              <Route exact path="/compititive-exam" component={Compititive} />
+              <Route exact path="/upsc-ias" component={UPSCIAS} />
               <Route exact path="/kvpy" component={KVPY} />
               <Route exact path="/ibps-po" component={IBPSPO} />
               <Route exact path="/sbi-clerk" component={SBICLERK} />
               <Route exact path="/ctet" component={CTET} />
-              <Route exact path="/medical_exams" component={MEDICAL_EXAMS} />
+              <Route exact path="/medical-exams" component={MedicalEXAM} />
               <Route exact path="/aiims" component={AIIMS} />
               <Route exact path="/neet" component={NEET} />
-              <Route exact path="/bhu_pmt" component={BHUPMT} />
+              <Route exact path="/bhu-pmt" component={BHUPMT} />
               <Route exact path="/jipmer" component={JIMPER} />
               <Route exact path="/pmet" component={PMET} />
               <Route exact path="/gujcet" component={GUJCET} />
-              <Route exact path="/law_exams" component={Law_exams} />
-              <Route exact path="/ap_lawcet" component={APLAW} />
+              <Route exact path="/law-exams" component={Lawexams} />
+              <Route exact path="/ap-lawcet" component={APLAW} />
               <Route exact path="/clat" component={CLAT} />
               <Route exact path="/ailet" component={AILET} />
               <Route exact path="/isat" component={ISAT} />
-              <Route exact path="/mht_cet" component={MHTCET} />
+              <Route exact path="/mht-cet" component={MHTCET} />
               <Route exact path="/OtherExams" component={OtherExams} />
-              <Route exact path="/comedk_uget" component={COMEDK} />
+              <Route exact path="/comedk-uget" component={COMEDK} />
               <Route exact path="/about-us" component={Aboutus} />
               <Route
                 exact
-                path="/Management_Business"
+                path="/Management-Business"
                 component={ManagementBusiness}
               />
               <Route
                 exact
-                path="/Business_Administration"
+                path="/Business-Administration"
                 component={BusinessAdministration}
               />
               <Route exact path="/Engineering" component={Engineering} />
@@ -388,7 +388,7 @@ class App extends Component {
               <Route exact path="/chemical" component={Chemical} />
               <Route exact path="/information" component={Information} />
               <Route exact path="/electronics" component={Electronics} />
-              <Route exact path="/ask_edumonk" component={AskEdumonk} />
+              <Route exact path="/ask-edumonk" component={AskEdumonk} />
               <Route exact path="/create_poll" component={CreatePoll} />
               <Route exact path="/biochemical" component={Biochemical} />
               <Route exact path="/metallurgical" component={Metallurgical} />
@@ -408,119 +408,119 @@ class App extends Component {
               <Route exact path="/architecture" component={Architecture} />
               <Route
                 exact
-                path="/bachelor_architecture"
+                path="/bachelor-architecture"
                 component={BArchitecture}
               />
-              <Route exact path="/computer_app" component={ComputerApp} />
-              <Route exact path="/bachelor_computer" component={BOComputer} />
+              <Route exact path="/computer-app" component={ComputerApp} />
+              <Route exact path="/bachelor-computer" component={BOComputer} />
               <Route exact path="/medical" component={Medical} />
-              <Route exact path="/bachelor_medicine" component={BOMedicine} />
+              <Route exact path="/bachelor-medicine" component={BOMedicine} />
               <Route
                 exact
-                path="/bachelor_homeopathy"
+                path="/bachelor-homeopathy"
                 component={BOHomeopathy}
               />
-              <Route exact path="/bachelor_ayurveda" component={BOAyurveda} />
-              <Route exact path="/bachelor_unani" component={BOUnani} />
-              <Route exact path="/bachelor_art" component={BOArt} />
+              <Route exact path="/bachelor-ayurveda" component={BOAyurveda} />
+              <Route exact path="/bachelor-unani" component={BOUnani} />
+              <Route exact path="/bachelor-art" component={BOArt} />
               <Route exact path="/law" component={Law} />
-              <Route exact path="/bachelor_law" component={BOLaw} />
-              <Route exact path="/bachelor_comLaw" component={BOCommLaw} />
+              <Route exact path="/bachelor-law" component={BOLaw} />
+              <Route exact path="/bachelor-comLaw" component={BOCommLaw} />
               <Route
                 exact
-                path="/bachelor_businessadd"
+                path="/bachelor-businessadd"
                 component={BOBusiness}
               />
-              <Route exact path="/bachelor_dental" component={BODental} />
+              <Route exact path="/bachelor-dental" component={BODental} />
               <Route
                 exact
-                path="/bachelor_physiotherapy"
+                path="/bachelor-physiotherapy"
                 component={BOPhysiotherapy}
               />
-              <Route exact path="/bachelor_commerce" component={BOCommerce} />{" "}
-              <Route exact path="/bachelor_science" component={BOScience} />
+              <Route exact path="/bachelor-commerce" component={BOCommerce} />{" "}
+              <Route exact path="/bachelor-science" component={BOScience} />
               <Route exact path="/science" component={Science} />
               <Route exact path="/commerce" component={Commerce} />
-              <Route exact path="/art_huminities" component={ArtHuminities} />
-              <Route exact path="/bachelor_arts" component={BOArts} />
-              <Route exact path="/bachelor_fineart" component={BOFineart} />
+              <Route exact path="/art-huminities" component={ArtHuminities} />
+              <Route exact path="/bachelor-arts" component={BOArts} />
+              <Route exact path="/bachelor-fineart" component={BOFineart} />
               <Route exact path="/diploma" component={Diploma} />
-              <Route exact path="/diploma_computer" component={DComputer} />
-              <Route exact path="/diploma_automobile" component={DAutomobile} />
-              <Route exact path="/diploma_civil" component={DCivil} />
-              <Route exact path="/diploma_mechanical" component={DMechanical} />
-              <Route exact path="/diploma_electrical" component={DElectrical} />
+              <Route exact path="/diploma-computer" component={DComputer} />
+              <Route exact path="/diploma-automobile" component={DAutomobile} />
+              <Route exact path="/diploma-civil" component={DCivil} />
+              <Route exact path="/diploma-mechanical" component={DMechanical} />
+              <Route exact path="/diploma-electrical" component={DElectrical} />
               <Route
                 exact
-                path="/diploma_electronics"
+                path="/diploma-electronics"
                 component={DElectronics}
               />
-              <Route exact path="/fashion_design" component={FashionD} />
+              <Route exact path="/fashion-design" component={FashionD} />
               <Route
                 exact
-                path="/fashion_designcourse"
+                path="/fashion-designcourse"
                 component={FashionDesign}
               />
-              <Route exact path="/bachelor_design" component={BODesign} />
+              <Route exact path="/bachelor-design" component={BODesign} />
               <Route
                 exact
-                path="/bachelor_hmanagement"
+                path="/bachelor-hmanagement"
                 component={BOHmanagement}
               />
               <Route
                 exact
-                path="/hotal_management"
+                path="/hotal-management"
                 component={HotalManagement}
               />
-              <Route exact path="/media_mass" component={MediaMass} />
+              <Route exact path="/media-mass" component={MediaMass} />
               <Route
                 exact
-                path="/bachelor_journalism"
+                path="/bachelor-journalism"
                 component={BOJournalism}
               />
               <Route exact path="/Agriculture1" component={Agriculture11} />
               <Route
                 exact
-                path="/diploma_certificate"
+                path="/diploma-certificate"
                 component={DiplomaCert}
               />
               <Route
                 exact
-                path="/aviation_hospitality"
+                path="/aviation-hospitality"
                 component={AvaitionHospitality}
               />
               <Route
                 exact
-                path="/Airfare_ticketing"
+                path="/Airfare-ticketing"
                 component={AirfareTicketing}
               />
               <Route exact path="/teaching" component={Teaching} />
               <Route exact path="/bed" component={BED} />
-              <Route exact path="/travel_tourism" component={Travel} />
-              <Route exact path="/tourism_management" component={Tourism} />
+              <Route exact path="/travel-tourism" component={Travel} />
+              <Route exact path="/tourism-management" component={Tourism} />
               <Route exact path="/aviation" component={Avaition} />
-              <Route exact path="/bba_airport" component={BBAAirport} />
-              <Route exact path="/bsc_avaition" component={BscAvaition} />
+              <Route exact path="/bba-airport" component={BBAAirport} />
+              <Route exact path="/bsc-avaition" component={BscAvaition} />
               <Route exact path="/pharmecy" component={Pharmacy} />
-              <Route exact path="/bachelor_pharmecy" component={BOPharmacy} />
+              <Route exact path="/bachelor-pharmecy" component={BOPharmacy} />
               <Route
                 exact
-                path="/bachelor_horiculture"
+                path="/bachelor-horiculture"
                 component={BOHoriculture}
               />
               <Route
                 exact
-                path="/bachelor_scienceAgriculture"
+                path="/bachelor-scienceAgriculture"
                 component={BOScienceAgriculture}
               />
               <Route
                 exact
-                path="/bachelor_scienceHoriculture"
+                path="/bachelor-scienceHoriculture"
                 component={BOScienceHoriculture}
               />
               <Route
                 exact
-                path="/agriculture_business"
+                path="/agriculture-business"
                 component={AgricultureBusiness}
               />
               <Route
@@ -529,11 +529,11 @@ class App extends Component {
                 component={ChartedAccountant}
               />
               {/* Route for the search purpose */}
-              <Route exact path="/college_search" component={College_Search} />
-              <Route exact path="/course_search" component={Course_Search} />
-              <Route exact path="/exams_search" component={Exams_Search} />
+              <Route exact path="/collegesearch" component={CollegeSearch} />
+              <Route exact path="/coursesearch" component={CourseSearch} />
+              <Route exact path="/examssearch" component={ExamsSearch} />
               {/* Route for the college library */}
-              {/* <Route exact path="/list_college_ayurveda" component={Ayurveda_College} />
+              {/* <Route exact path="/lit_college_ayurveda" component={Ayurveda_College} />
               <Route exact path="/list_college_homeopathy" component={Homeopathy_College} />
               <Route exact path="/list_college_engineering" component={Engineering_college} />
               <Route exact path="/list_college_management" component={Management_college} />

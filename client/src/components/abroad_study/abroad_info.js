@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import {Link} from 'react-router-dom'
 import Slideshow from './Slideshow'
 
-class Abroad_Info extends Component {
+class AbroadInfo extends Component {
     render() {
         return (
             <div>
@@ -157,4 +157,4 @@ class Abroad_Info extends Component {
     }
 }
 
-export default Abroad_Info
+export default AbroadInfo

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-class Medical_EXAM extends Component {
+class MedicalEXAM extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -130,4 +130,4 @@ class Medical_EXAM extends Component {
     );
   }
 }
-export default Medical_EXAM;
+export default MedicalEXAM;
