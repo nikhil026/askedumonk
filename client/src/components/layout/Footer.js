@@ -19,7 +19,7 @@ export default () => {
               </Link>{" "}
               is a one stop solution for all your career oriented issues. Take
               in the first step with us and we will lead you in your path until
-              and unless you reach the final step. Beginning from picking your
+              and unless you reach the final step. Begin from picking your
               stream to helping you get ready for your entrance tests. We here
               at AskEdumonk go about analyzing your skills and help you choose
               the stream that’s better for you.{" "}

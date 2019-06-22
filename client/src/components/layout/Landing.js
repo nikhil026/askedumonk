@@ -199,7 +199,7 @@ class Landing extends Component {
                   </span>
                   <b>
                     <span style={{ "fontSize": "18px" }}>
-                      is an intiative taken by Edumonk Foundation to address the
+                      is an initiative taken by Edumonk Foundation to address the
                       growing needs of <br />
                       sustainable guidance effective process of self
                       intelligence Discovery.
@@ -226,7 +226,7 @@ class Landing extends Component {
                       Align the intelligence of your mind with study habits for
                       defining learning path to have a greater
                       <br /> sense of self achievement and higher posibilites of
-                      employability.
+                      Employment.
                     </b>
                   </span>
                 </p>
@@ -251,8 +251,8 @@ class Landing extends Component {
                   <p>
                     <span style={{ "fontSize": "18px" }}>
                       Tap into the inner intelligence of your mind to choose the
-                      best careerfor yourself and choose course as well as
-                      colleges accordingly to reach towards your planned career
+                      best career for yourself and choose course as well as
+                      colleges accordingly, to reach towards your planned career
                       most efficiently
                     </span>
                   </p>
@@ -371,9 +371,9 @@ class Landing extends Component {
                       8 dimensional intellegence of your mind. Its analysis is
                       conducted by identifying the shape of fingerprint patterns
                       and counting the number of ridges. Its just like the
-                      sacnning we having during our{" "}
+                      scanning we having during our{" "}
                       <strong>Aadhar Card Registration</strong> in India.
-                      Thereafter, the scan are analyzed our success factors.
+                      Thereafter, the scan is analyzed our success factors.
                     </span>
                   </p>
                   <br />
@@ -394,14 +394,6 @@ class Landing extends Component {
                   </div>
                   &nbsp;
                   <br />
-                  <p>
-                    <span style={{ "fontSize": "16px" }}>
-                      Book your free slots with the nearest
-                      <strong> #AskEdumonk Career Lab</strong> near your
-                      location from the list of centers mentaioned in the list
-                      below.
-                    </span>
-                  </p>
                   </div>
                   </Slide>
                 <div className="col-md-6">
@@ -440,7 +432,7 @@ class Landing extends Component {
                       Students. College Students as well as Working
                       professionals. These Counselling Event & Webinars are
                       meant for discussing and addressing most of the queries
-                      people face in choosing their career, deciding which study
+                      people face in choosing their career, deciding which 
                       stream to opt for or which colleges they should take
                       adimission.
                     </span>
@@ -463,14 +455,7 @@ class Landing extends Component {
                   </div>
                   &nbsp;
                   <br />
-                  <p>
-                    <span style={{ "fontSize": "16px" }}>
-                      Book your free slots with the nearest
-                      <strong> #AskEdumonk Career Lab</strong> near your
-                      location from the list of centers mentaioned in the list
-                      below.
-                    </span>
-                  </p>
+                 
                   </Slide>
                 </div>
                 <div className="col-md-6 imp-image1">
@@ -499,7 +484,7 @@ class Landing extends Component {
                       Students. College Students as well as Working
                       professionals. These Counselling Event & Webinars are
                       meant for discussing and addressing most of the queries
-                      people face in choosing their career, deciding which study
+                      people face in choosing their career, deciding which
                       stream to opt for or which colleges they should take
                       adimission.
                     </span>
@@ -522,14 +507,7 @@ class Landing extends Component {
                   </div>
                   &nbsp;
                   <br />
-                  <p>
-                    <span style={{ "fontSize": "16px" }}>
-                      Book your free slots with the nearest
-                      <strong> #AskEdumonk Career Lab</strong> near your
-                      location from the list of centers mentaioned in the list
-                      below.
-                    </span>
-                  </p>
+                  
                   </Slide>
                 </div>
                 <div className="col-md-6">

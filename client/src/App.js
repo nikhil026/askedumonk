@@ -601,7 +601,7 @@ class App extends Component {
               <Route exact path="/list_college_medical/kmc_detail" component={KMC} />
               <Route exact path="/list_college_medical/jipgmer_detail" component={JIPGMER} />
               <Route exact path="/list_college_medical/ilbs_detail" component={ILBS} />
-              <Route exact path="/list_college_medical/kgmu_detail" component={KGMU} /> */} */}
+              <Route exact path="/list_college_medical/kgmu_detail" component={KGMU} /> */}
               {/* law colleges */}
               {/* <Route exact path="/list_college_law/nlsiu_detail" component={NLSIU} />
               <Route exact path="/list_college_law/nlu_detail" component={NLU} />
