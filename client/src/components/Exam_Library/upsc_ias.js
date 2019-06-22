@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class UPSC_IAS extends Component {
+class UPSCIAS extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -2169,4 +2169,4 @@ class UPSC_IAS extends Component {
     );
   }
 }
-export default UPSC_IAS;
+export default UPSCIAS;

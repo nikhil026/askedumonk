@@ -224,7 +224,7 @@ class Graduation extends Component {
                                         </h2>
                                         <ul>
                                           <li>
-                                            <Link to="/bachelor_computer">
+                                            <Link to="/bachelor-computer">
                                               Bachelor of Computer Applications
                                             </Link>
                                           </li>
@@ -245,7 +245,7 @@ class Graduation extends Component {
                                             </Link>
                                           </li>
                                           <li>
-                                            <Link to="/bachelor_ayurveda">
+                                            <Link to="/bachelor-ayurveda">
                                               Bachelor of Ayurveda, Medicine and
                                               Surgery
                                             </Link>
@@ -462,7 +462,7 @@ class Graduation extends Component {
                                       </div>
                                       <div className="item">
                                         <h2>
-                                          <Link to="/media_mass">
+                                          <Link to="/media-mass">
                                             <i className="fa fa-camera" />
                                             Media &amp; Mass Communication
                                           </Link>
@@ -564,7 +564,7 @@ class Graduation extends Component {
                                       </div>
                                       <div className="item">
                                         <h2>
-                                          <Link to="/travel_tourism">
+                                          <Link to="/travel-tourism">
                                             <i className="fa fa-plane" />
                                             Travel and Tourism
                                           </Link>
@@ -1111,7 +1111,7 @@ class Graduation extends Component {
                                     <p />
                                     <ul className="menu-item">
                                       <li>
-                                        <Link to="/upsc_ias">
+                                        <Link to="/upsc-ias">
                                           UPSC-IAS
                                         </Link>
                                       </li>

@@ -157,7 +157,7 @@ class CourseSearch extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/media_mass">
+                      <Link to="/media-mass">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Media & Mass Communication Courses
                         </p>
@@ -208,7 +208,7 @@ class CourseSearch extends Component {
                     </div>
                    
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/travel_tourism">
+                      <Link to="/travel-tourism">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Travel And Tourism Courses
                         </p>

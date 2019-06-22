@@ -65,7 +65,7 @@ class Medical extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_ayurveda">
+                      <Link to="/bachelor-ayurveda">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Ayurveda,
                           Medicine and Surgery

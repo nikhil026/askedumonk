@@ -25,7 +25,7 @@ class BED extends Component {
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
-                <Link to="/travel_tourism" className="crssidebtn">
+                <Link to="/travel-tourism" className="crssidebtn">
                   All Travel and Tourism Courses
                 </Link>
               </div>

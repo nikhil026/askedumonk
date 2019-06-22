@@ -84,7 +84,7 @@ export default () => {
               <Link to="/career-assessment-test" />
               <li>
                 <Link to="/career-assessment-test" />
-                <Link to="/travel_tourism">Tourism Management</Link>
+                <Link to="/travel-tourism">Tourism Management</Link>
               </li>
 
               <li>
@@ -92,7 +92,7 @@ export default () => {
               </li>
 
               <li>
-                <Link to="/bachelor_ayurveda">
+                <Link to="/bachelor-ayurveda">
                   Bachelor of Ayurveda, Medicine and Surgery
                 </Link>
               </li>
@@ -106,7 +106,7 @@ export default () => {
               </li>
 
               <li>
-                <Link to="/media_mass">Media Mass</Link>
+                <Link to="/media-mass">Media Mass</Link>
               </li>
 
               <li>
@@ -116,7 +116,7 @@ export default () => {
               </li>
 
               <li>
-                <Link to="/bachelor_computer">
+                <Link to="/bachelor-computer">
                   Computer Science Engineering
                 </Link>
               </li>
@@ -152,7 +152,7 @@ export default () => {
               </li>
 
               <li>
-                <Link to="/mah_cet">MAH-CET</Link>
+                <Link to="/mah-cet">MAH-CET</Link>
               </li>
 
               <li>
@@ -160,7 +160,7 @@ export default () => {
               </li>
 
               <li>
-                <Link to="/upsc_ias">UPSC IAS</Link>
+                <Link to="/upsc-ias">UPSC IAS</Link>
               </li>
             </ul>
           </div>

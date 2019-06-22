@@ -36,7 +36,7 @@ class Compititive extends Component {
 
                     <div className="col-md-2">
                       <Link
-                        to="/upsc_ias"
+                        to="/upsc-ias"
                         target="_blank"
                       >
                         <div className="singleexamp">

@@ -542,7 +542,7 @@ class Landing extends Component {
                 </p>
                 <br />
                 <p align="center">
-                  <Link to="/abroad_study" className="purchsetestbtnfrree1">
+                  <Link to="/abroad-study" className="purchsetestbtnfrree1">
                     Get More Information</Link>
                 </p>
                 </Slide>
