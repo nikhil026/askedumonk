@@ -264,6 +264,7 @@ class Landing extends Component {
                     download
                     className="purchsetestbtnfrree1"
                     target="_blank"
+                    rel="noopener noreferrer"
                     type="application/pdf"
                   >
                   
@@ -386,6 +387,7 @@ class Landing extends Component {
                     download
                     className="purchsetestbtnfrree1"
                     target="_blank"
+                    rel="noopener noreferrer"
                     type="application/pdf"
                   >
                     Get SIDCAT Sample Career Report
@@ -447,6 +449,7 @@ class Landing extends Component {
                     download
                     className="purchsetestbtnfrree1"
                     target="_blank"
+                    rel="noopener noreferrer"
                     type="application/pdf"
                   >
                     Get SIDCAT Sample Career Report
@@ -499,6 +502,7 @@ class Landing extends Component {
                     download
                     className="purchsetestbtnfrree1"
                     target="_blank"
+                    rel="noopener noreferrer"
                     type="application/pdf"
                   >
                     Get SIDCAT Sample Career Report
