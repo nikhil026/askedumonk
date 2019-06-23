@@ -36,7 +36,6 @@
     "react-redux": "^5.0.7",
     "react-reveal": "1.2.2",
     "react-router-dom": "^4.2.2",
-    "react-router-sitemap": "1.2.0",
     "react-scripts": "1.1.4",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
