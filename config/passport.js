@@ -1,24 +1,54 @@
-const JwtStrategy = require('passport-jwt').Strategy;
-const ExtractJwt = require('passport-jwt').ExtractJwt;
-const mongoose = require('mongoose');
-const User = mongoose.model('users');
-const keys = require('../config/keys');
+const GoogleStrategy = require("passport-google-oauth20").Strategy;
+const mongoose = require("mongoose");
+const keys = require("./keys");
 
-const opts = {};
-opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
-opts.secretOrKey = keys.secretOrKey;
+// load user model
+const User = mongoose.model("User");
 
-module.exports = passport => {
+module.exports = (passport) => {
   passport.use(
-    new JwtStrategy(opts, (jwt_payload, done) => {
-      User.findById(jwt_payload.id)
-        .then(user => {
+    new GoogleStrategy({
+        clientID: keys.googleClientID,
+        clientSecret: keys.googleClientSecret,
+        callbackURL: "/auth/google/callback",
+        proxy: true
+      },
+      (accessToken, refreshToken, profile, done) => {
+        const image = profile.photos[0].value.substring(0, profile.photos[0].value.indexOf("?"));
+
+        const newUser = {
+          googleID: profile.id,
+          email: profile.emails[0].value,
+          firstName: profile.name.givenName,
+          lastName: profile.name.familyName,
+          image: image
+        };
+
+        // check for existing user
+        User.findOne({
+          googleID: profile.id
+        }).then((user) => {
           if (user) {
-            return done(null, user);
+            // return user
+            done(null, user);
+          } else {
+            // create user
+            new User(newUser)
+              .save()
+              .then((user) => done(null, user));
           }
-          return done(null, false);
-        })
-        .catch(err => console.log(err));
-    })
+        });
+      }
+    )
   );
+
+  passport.serializeUser((user, done) => {
+    done(null, user.id);
+  });
+
+  passport.deserializeUser((id, done) => {
+    User.findById(id).then((user) => {
+      done(null, user);
+    });
+  });
 };

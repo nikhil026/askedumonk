@@ -6,6 +6,12 @@ import { setCurrentUser, logoutUser } from "./actions/authActions";
 import { clearCurrentProfile } from "./actions/profileActions";
 import { Provider } from "react-redux";
 import store from "./store";
+import YoutubeList from './components/community/youtube-player/components/youtube-list'
+import About from './components/community/story/about';
+import Welcome from './components/community/story/welcome';
+import PublicStories from './components/community/story/public-stories';
+import AddStory from './components/community/story/add-story';
+import Community from './components/community/community';
 
 // import PrivateRoute from "./components/common/PrivateRoute";
 //for search purpose
@@ -195,6 +201,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
+      
         <Router>
           <div className="App">
             <Navbar />
@@ -204,7 +211,14 @@ class App extends Component {
               <br />
               <br />
               <br />
+              
               <br />
+              <Route exact path="/community/add-stories" component={AddStory} />
+              <Route exact path="/community/public-stories" component={PublicStories} />
+              <Route exact path="/community/welcome" component={Welcome} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/community" component={Community} />
+              <Route exact path="/community/youtube" component={YoutubeList} />
               <Route exact path="/Landing" component={Landing} />
               <Route exact path="/register" component={Register} />
               <br />

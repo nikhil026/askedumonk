@@ -7,6 +7,7 @@ import Fade from 'react-reveal/Fade';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Slide from 'react-reveal/Slide';
 import Pulse from 'react-reveal/Pulse';
+import { ReactiveBase, DataSearch } from '@appbaseio/reactivesearch';
 
 
 class Landing extends Component {
@@ -18,7 +19,10 @@ class Landing extends Component {
 
   render() {
     return (
-      
+      <ReactiveBase
+  app="askedumonk"
+  url="http://35.194.30.75:9243"
+>
       <div className="homepagem">
         <div id="wrapper">
           <div
@@ -553,10 +557,22 @@ class Landing extends Component {
               </div>
             </div>
           </section>
-          
+          <DataSearch
+            className="datasearch"
+            componentId="mainSearch"
+            dataField={["college_data"]}
+            placeholder="search for college"
+            innerClass={{
+              "input": "searchbox",
+              "list": "suggestionlist"
+            }}
+            autosuggest={false}
+            iconPosition="right"
+            filterLabel="search"
+          /> 
         </div>
       </div>
-      
+      </ReactiveBase>
     );
   }
 }

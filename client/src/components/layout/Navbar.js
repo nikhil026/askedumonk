@@ -289,11 +289,9 @@ class Navbar extends Component {
                     </div>
                 </li>
                <li className="nav-item">
-                    <a className="nav-link" href="https://edumonk.org"
-                        target="_blank"
-                        rel="noopener noreferrer">
+                    <Link className="nav-link" to="community">
                         Community
-                    </a>
+                    </Link>
                 </li>
                 {isAuthenticated ? authLinks : guestLinks}
         </ul>
