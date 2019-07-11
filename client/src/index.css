@@ -7,6 +7,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.collapse.navbar-collapse{
+  justify-content: flex-end;
+  margin-right:35px;
+}
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -23,7 +27,23 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
-
+.cards,.stories {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.cardui{
+  padding:5px;
+}
+.card-header {
+  background: linear-gradient(45deg, #d42525, transparent);
+}
+.card-body {
+  background: linear-gradient(45deg, #84bcc5, transparent);
+}
+.card.text-center {
+  margin: 10px;
+}
 .flex-container-logo-again {
   display: flex;
   flex-flow: row wrap;
@@ -87,12 +107,34 @@ a.dropdown-item {
 i{
   margin: 3px;
 }
+.card-img-top {
+  width: 100%;
+  height: 298px;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
 @media (min-width: 992px) {
   .dropdown-menu.show {
     display: block;
     width: 700px;
-    margin-left: -190px;
+    margin-left: -675px;
     margin-top: 20px;
+}
+.ui.form {
+  margin-left: 0px;  
+  height: 70px;
+  margin-top:0px; 
+}
+.ui.segmentr{
+  position: relative;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  margin: 1rem 0;
+  padding: 1em 1em;
+  border-radius: .28571429rem;
+  border: 1px solid rgba(34,36,38,.15);
+  height:180px;
+  font-size: 2rem;
 }
 .col-md-4.mrgn-branches {
   flex: none;
@@ -187,7 +229,7 @@ input#prosearch {
     display: block;
     width: 950px;
     margin-right: 400px;
-    margin-left: -180px;
+    margin-left: -675px;
     margin-top: 20px;
 }
 .box_feat h3 {
@@ -674,3 +716,4 @@ div#searcher {
     margin-left:45px;
   }
 }
+
