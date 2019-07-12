@@ -54,7 +54,7 @@ class Diploma extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/diploma_civil">
+                      <Link to="/diploma-civil">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Diploma in Civil
                           Engineering
@@ -65,7 +65,7 @@ class Diploma extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/diploma_automobile">
+                      <Link to="/diploma-automobile">
                         <p className="brnchname">
                           <i className="fa fa-database" />
                           Diploma in Automobile Engineering
@@ -76,7 +76,7 @@ class Diploma extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/diploma_computer">
+                      <Link to="/diploma-computer">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Diploma in Computer
                           Engineering
@@ -87,7 +87,7 @@ class Diploma extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/diploma_electrical">
+                      <Link to="/diploma-electrical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Diploma in Electrical
                           &amp; Electronics Engineering
@@ -98,7 +98,7 @@ class Diploma extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/diploma_electronics">
+                      <Link to="/diploma-electronics">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Diploma in
                           Electronics &amp; Communication Engineering
@@ -109,7 +109,7 @@ class Diploma extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/diploma_mechanical">
+                      <Link to="/diploma-mechanical">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Diploma in Mechanical
                           Engineering

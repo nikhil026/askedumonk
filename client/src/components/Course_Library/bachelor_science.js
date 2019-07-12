@@ -129,7 +129,7 @@ class BOScience extends Component {
                     <p>
                       <span style={{ "font-size": "14px" }}>
                         The syllabus of the course of{" "}
-                        <Link to="/bachelor_commerce" />
+                        <Link to="/bachelor-commerce" />
                         <strong>B.Sc</strong> may differ from college to
                         college, but the structure is the same. A definite
                         syllabus of the same is as per the following:

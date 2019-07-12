@@ -41,7 +41,7 @@ class MediaMass extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_design">
+                      <Link to="/bachelor-design">
                         <p className="brnchname">
                           <i className="fa fa-database" />
                           Bachelor's in Journalism and Mass Communication

@@ -114,7 +114,7 @@ class Computer extends Component {
                         <Link
                           to="/jeemain"
                           rel="noopener noreferrer"
-                          target="_blank"
+                          target="-blank"
                         >
                           JEE (Joint Enterance Exam)
                         </Link>
@@ -1036,7 +1036,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.flipkart.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1049,7 +1049,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.microsoft.com/en-in"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1062,7 +1062,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.oracle.com/in/index.html"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1075,7 +1075,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www2.deloitte.com/us/en.html"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1088,7 +1088,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.ibm.com/in-en/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1101,7 +1101,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.intel.com/http://www.nvidia.com/content/global/global.php"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1114,7 +1114,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www1.ap.dell.com/content/default.aspx?c=in&amp;l=en&amp;s=gen&amp;~ck=cr"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1127,7 +1127,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.cognizant.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1140,7 +1140,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://in.yahoo.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1153,7 +1153,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.google.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1166,7 +1166,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.infosys.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1179,7 +1179,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.hcltech.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1192,7 +1192,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.tcs.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1205,7 +1205,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.amazon.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1218,7 +1218,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.asus.com/in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1231,7 +1231,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.techmahindra.com"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1244,7 +1244,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.wipro.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1257,7 +1257,7 @@ class Computer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.accenture.com"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img

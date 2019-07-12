@@ -636,7 +636,7 @@ class Mechanical extends Component {
                       <li>
                         <span style={{ "font-size": "14px" }}>
                           <span style={{ color: "rgb(17, 17, 17)" }}>
-                            <Link to="/robotics_engineering">Robotics</Link>{" "}
+                            <Link to="/robotics-engineering">Robotics</Link>{" "}
                             engineer
                           </span>
                         </span>

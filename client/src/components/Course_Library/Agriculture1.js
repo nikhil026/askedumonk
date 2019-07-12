@@ -48,7 +48,7 @@ class Agriculture extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_horiculture">
+                      <Link to="/bachelor-horiculture">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of
                           Technology (B.Tech) in Horticulture
@@ -59,7 +59,7 @@ class Agriculture extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_scienceHoriculture">
+                      <Link to="/bachelor-scienceHoriculture">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Science
                           (B.Sc) in Horticulture
@@ -70,7 +70,7 @@ class Agriculture extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/agriculture_business">
+                      <Link to="/agriculture-business">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Agriculture Business
                           Management
@@ -81,7 +81,7 @@ class Agriculture extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_scienceagriculture">
+                      <Link to="/bachelor-scienceagriculture">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Science
                           (B.Sc) in Agriculture

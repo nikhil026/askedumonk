@@ -40,7 +40,7 @@ class HManagement extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_HManagement">
+                      <Link to="/bachelor-HManagement">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Hotel
                           Management

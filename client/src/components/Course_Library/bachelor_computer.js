@@ -25,7 +25,7 @@ class BOComputer extends Component {
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
-                <Link to="/computr_app" className="crssidebtn">
+                <Link to="/computr-app" className="crssidebtn">
                   All Computers &amp; IT Courses
                 </Link>
               </div>
@@ -704,7 +704,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://hexaware.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -717,7 +717,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www1.ap.dell.com/content/default.aspx?c=in&amp;l=en&amp;s=gen&amp;~ck=cr"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -730,7 +730,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.niit.com/pages/default.aspx"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -743,7 +743,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.syntelinc.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -756,7 +756,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.cognizant.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -769,7 +769,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.infosys.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -782,7 +782,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.hcltech.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -795,7 +795,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.tcs.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -808,7 +808,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.techmahindra.com"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -821,7 +821,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.wipro.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img
@@ -834,7 +834,7 @@ class BOComputer extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.accenture.com"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img

@@ -25,7 +25,7 @@ class AviationHospitality extends Component {
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
-                <Link to="/diploma_certificate" className="crssidebtn">
+                <Link to="/diploma-certificate" className="crssidebtn">
                   All Diploma and Certificate Courses Courses
                 </Link>
               </div>
@@ -290,7 +290,7 @@ class AviationHospitality extends Component {
                         <span style={{ color: "rgb(17, 17, 17)" }}>
                           <span style={{ "font-size": "14px" }}>
                             <Link
-                              to="https://career.webindia123.com/career/institutes/details_colleges_Institutes.asp?group=90&amp;course=410&amp;inst_no=11510"
+                              to="https://career.webindia123.com/career/institutes/details-colleges-Institutes.asp?group=90&amp;course=410&amp;inst-no=11510"
                               title="Bhagwant University : Institute of Hospitality and Aviation, Ajmer -  Colleges In Rajasthan"
                             >
                               Bhagwant University : Institute of Hospitality and
@@ -303,7 +303,7 @@ class AviationHospitality extends Component {
                         <span style={{ color: "rgb(17, 17, 17)" }}>
                           <span style={{ "font-size": "14px" }}>
                             <Link
-                              to="https://career.webindia123.com/career/institutes/details_colleges_Institutes.asp?group=90&amp;course=410&amp;inst_no=10722"
+                              to="https://career.webindia123.com/career/institutes/details-colleges-Institutes.asp?group=90&amp;course=410&amp;inst-no=10722"
                               title="Jet India Aviation and Management, Pune -  Colleges In Maharashtra"
                             >
                               Jet India Aviation and Management, Pune
@@ -315,7 +315,7 @@ class AviationHospitality extends Component {
                         <span style={{ color: "rgb(17, 17, 17)" }}>
                           <span style={{ "font-size": "14px" }}>
                             <Link
-                              to="https://career.webindia123.com/career/institutes/details_colleges_Institutes.asp?group=90&amp;course=410&amp;inst_no=9528"
+                              to="https://career.webindia123.com/career/institutes/details-colleges-Institutes.asp?group=90&amp;course=410&amp;inst-no=9528"
                               title="Flying Aviation Academy (FAA), Sikar -  Colleges In Rajasthan"
                             >
                               Flying Aviation Academy (FAA), Sikar
@@ -406,7 +406,7 @@ class AviationHospitality extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.etihad.com/en-in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -419,7 +419,7 @@ class AviationHospitality extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.emirates.com/in/english/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -432,7 +432,7 @@ class AviationHospitality extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.coxandkings.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img

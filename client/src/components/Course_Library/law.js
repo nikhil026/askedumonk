@@ -51,7 +51,7 @@ class Law extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_law">
+                      <Link to="/bachelor-law">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Laws
                         </p>
@@ -61,7 +61,7 @@ class Law extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_art">
+                      <Link to="/bachelor-art">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Arts
                           &amp; Law (B.A, LLB)
@@ -72,7 +72,7 @@ class Law extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_commerce">
+                      <Link to="/bachelor-commerce">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Commerce
                           &amp; Law (B.Com, LLB)
@@ -83,7 +83,7 @@ class Law extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_business">
+                      <Link to="/bachelor-business">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Business
                           Administration &amp; Law (BBA, LLB)

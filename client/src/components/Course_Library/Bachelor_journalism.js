@@ -126,7 +126,7 @@ class BOJournalism extends Component {
                         <span style={{ "font-size": "14px" }}>
                           The syllabus of the course of Bachelor in Journalism
                           &amp; Mass communication{" "}
-                          <Link to="/bachelor_commerce" />
+                          <Link to="/bachelor-commerce" />
                           may differ from college to college, but the structure
                           is the same. A definite syllabus of the same is as per
                           the following:

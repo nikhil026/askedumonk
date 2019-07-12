@@ -25,7 +25,7 @@ class BODesign extends Component {
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
-                <Link to="/fashion_design" className="crssidebtn">
+                <Link to="/fashion-design" className="crssidebtn">
                   All Fashion &amp; Design Courses
                 </Link>
               </div>
