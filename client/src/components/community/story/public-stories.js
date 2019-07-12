@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Spinner from '../../common/Spinner'
 class PublicStories extends Component {
     constructor(props) {
         super(props);
@@ -16,6 +16,13 @@ class PublicStories extends Component {
         })
     }
     render() {
+        if (
+            this.state.story === undefined ||
+            Object.keys(this.state.story).length === 0
+          ) {
+            return <Spinner />;
+          }
+          else{
         return (
             <div>
             <div className="text-center" style={{margin:"50px"}}> 
@@ -36,23 +43,9 @@ class PublicStories extends Component {
                             {stories.date}
                         </div>
                     </div> )}
-                {/* {this.state.story.map(story=> {
-                    return(
-                        <div class="card">
-                        <div class="card-header">
-                            {story.title}
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">{story.status}</h5>
-                            <p class="card-text">{story.body}</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    )
-                })} */}
             </div>
             </div>
-        )
+        )}
     }
 }
 
