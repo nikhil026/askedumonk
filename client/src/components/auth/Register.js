@@ -55,7 +55,7 @@ class Register extends Component {
     })
     .then(res => {
       if (res.status === 200) {
-        this.props.history.push('/');
+        this.props.history.push('/login');
       } else {
         alert("error in status");
         const error = new Error(res.error);
