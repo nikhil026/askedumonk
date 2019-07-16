@@ -12,6 +12,9 @@ import Welcome from './components/community/story/welcome';
 import PublicStories from './components/community/story/public-stories';
 import AddStory from './components/community/story/add-story';
 import Community from './components/community/community';
+import Kyrgystan from './components/abroad_study/kyrgystan';
+import China from './components/abroad_study/china';
+import Bangladesh from './components/abroad_study/bangladesh';
 
 // import PrivateRoute from "./components/common/PrivateRoute";
 //for search purpose
@@ -214,6 +217,9 @@ class App extends Component {
               <br />
               
               <br />
+              <Route exact path="/study-abroad/bangladesh" component={Bangladesh} />
+              <Route exact path="/study-abroad/china" component={China} />
+              <Route exact path="/study-abroad/kyrgystan" component={Kyrgystan} />
               <Route exact path="/neet-councelling" component={NeetCouncelling} />
               <Route exact path="/community/add-stories" component={AddStory} />
               <Route exact path="/community/public-stories" component={PublicStories} />
