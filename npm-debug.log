@@ -1,23 +1,60 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'de' ]
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '–g',
+1 verbose cli   'npm-check-updates' ]
 2 info using npm@3.5.2
 3 info using node@v8.10.0
-4 verbose stack Error: missing script: de
-4 verbose stack     at run (/usr/share/npm/lib/run-script.js:147:19)
-4 verbose stack     at /usr/share/npm/lib/run-script.js:57:5
-4 verbose stack     at /usr/share/npm/node_modules/read-package-json/read-json.js:345:5
-4 verbose stack     at checkBinReferences_ (/usr/share/npm/node_modules/read-package-json/read-json.js:309:45)
-4 verbose stack     at final (/usr/share/npm/node_modules/read-package-json/read-json.js:343:3)
-4 verbose stack     at then (/usr/share/npm/node_modules/read-package-json/read-json.js:113:5)
-4 verbose stack     at /usr/share/npm/node_modules/read-package-json/read-json.js:232:12
-4 verbose stack     at /usr/share/npm/node_modules/graceful-fs/graceful-fs.js:76:16
-4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
-5 verbose cwd /home/ravi/Desktop/askedumonk_new
-6 error Linux 4.18.0-21-generic
-7 error argv "/usr/bin/node" "/usr/bin/npm" "run" "de"
-8 error node v8.10.0
-9 error npm  v3.5.2
-10 error missing script: de
-11 error If you need help, you may report this error at:
-11 error     <https://github.com/npm/npm/issues>
-12 verbose exit [ 1, true ]
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData –g
+8 silly fetchPackageMetaData npm-check-updates
+9 silly fetchOtherPackageData –g
+10 silly cache add args [ '–g', null ]
+11 verbose cache add spec –g
+12 silly fetchNamedPackageData npm-check-updates
+13 silly mapToRegistry name npm-check-updates
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/npm-check-updates
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: '–g',
+17 silly cache add   scope: null,
+17 silly cache add   name: null,
+17 silly cache add   rawSpec: '–g',
+17 silly cache add   spec: '/home/ravi/Desktop/askedumonk_new/–g',
+17 silly cache add   type: 'local' }
+18 verbose request uri https://registry.npmjs.org/npm-check-updates
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 18:12:41
+21 verbose request id 0dfb29208552a8ae
+22 http request GET https://registry.npmjs.org/npm-check-updates
+23 error addLocal Could not install /home/ravi/Desktop/askedumonk_new/–g
+24 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/ravi/Desktop/askedumonk_new/–g'
+24 silly fetchPackageMetaData  error for –g { Error: ENOENT: no such file or directory, open '/home/ravi/Desktop/askedumonk_new/–g'
+24 silly fetchPackageMetaData   errno: -2,
+24 silly fetchPackageMetaData   code: 'ENOENT',
+24 silly fetchPackageMetaData   syscall: 'open',
+24 silly fetchPackageMetaData   path: '/home/ravi/Desktop/askedumonk_new/–g' }
+25 verbose stack TypeError: The header content contains invalid characters
+25 verbose stack     at validateHeader (_http_outgoing.js:494:11)
+25 verbose stack     at ClientRequest.setHeader (_http_outgoing.js:498:3)
+25 verbose stack     at new ClientRequest (_http_client.js:173:14)
+25 verbose stack     at Object.request (http.js:38:10)
+25 verbose stack     at Object.request (https.js:239:15)
+25 verbose stack     at Request.start (/usr/share/npm/node_modules/request/request.js:793:30)
+25 verbose stack     at Request.end (/usr/share/npm/node_modules/request/request.js:1400:10)
+25 verbose stack     at end (/usr/share/npm/node_modules/request/request.js:564:14)
+25 verbose stack     at Immediate._onImmediate (/usr/share/npm/node_modules/request/request.js:578:7)
+25 verbose stack     at runCallback (timers.js:794:20)
+26 verbose cwd /home/ravi/Desktop/askedumonk_new
+27 error Linux 4.18.0-25-generic
+28 error argv "/usr/bin/node" "/usr/bin/npm" "install" "–g" "npm-check-updates"
+29 error node v8.10.0
+30 error npm  v3.5.2
+31 error The header content contains invalid characters
+32 error If you need help, you may report this error at:
+32 error     <https://github.com/npm/npm/issues>
+33 verbose exit [ 1, true ]

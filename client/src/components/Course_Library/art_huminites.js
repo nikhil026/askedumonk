@@ -54,7 +54,7 @@ class ArtHuminities extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_arts">
+                      <Link to="/bachelor-arts">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Arts
                         </p>
@@ -64,7 +64,7 @@ class ArtHuminities extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_fineart">
+                      <Link to="/bachelor-fineart">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Fine Arts
                           (BFA)
@@ -75,7 +75,7 @@ class ArtHuminities extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/diploma_fineArts">
+                      <Link to="/diploma-fineArts">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Diploma in Fine Arts
                         </p>

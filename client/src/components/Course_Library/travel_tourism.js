@@ -53,7 +53,7 @@ class Teaching extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/tourism_management">
+                      <Link to="/tourism-management">
                         <p className="brnchname">
                           <i className="fa fa-database" />
                           Tourism Management

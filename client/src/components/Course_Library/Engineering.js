@@ -179,7 +179,7 @@ class Engineering extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/electrical_instrumental">
+                      <Link to="/electrical-instrumental">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Electrical and
                           Instrumentation Engineering

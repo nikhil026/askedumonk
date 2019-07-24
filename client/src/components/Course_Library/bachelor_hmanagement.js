@@ -25,7 +25,7 @@ class BOHmanagement extends Component {
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
-                <Link to="/hotal_management" class="crssidebtn">
+                <Link to="/hotal-management" class="crssidebtn">
                   All Hotel Management Courses
                 </Link>
               </div>

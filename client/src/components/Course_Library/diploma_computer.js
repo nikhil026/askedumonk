@@ -528,7 +528,7 @@ class DComputer extends Component {
                           Government Polytechnic, Mumbai
                           <Link
                             to="https://www.shiksha.com/college/government-polytechnic-bandra-east-mumbai-24094?city=151&amp;locality=312&amp;fro=serp&amp;pn=1&amp;tn=3&amp;lti=24094&amp;ts=68220779&amp;ct=institute"
-                            target="_blank"
+                            target="-blank"
                           >
                             &nbsp;
                           </Link>
@@ -708,7 +708,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.eagleinfotek.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -721,7 +721,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.aapnainfotech.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -734,7 +734,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://hexaware.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -747,7 +747,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://swifnix.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -760,7 +760,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://in.yahoo.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -773,7 +773,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.google.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -786,7 +786,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www8.hp.com/in/en/home.html"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -799,7 +799,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.infosys.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -812,7 +812,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.hcltech.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -825,7 +825,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.canon.co.in/home?languageCode=EN"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -838,7 +838,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.apple.com/in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -851,7 +851,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.tcs.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -864,7 +864,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.techmahindra.com"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -877,7 +877,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.wipro.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -890,7 +890,7 @@ class DComputer extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.itcinfotech.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img

@@ -654,7 +654,7 @@ class BOUnani extends Component {
                     <span>Top Recruiters</span>
                   </h2>
                   <div class="col-md-3">
-                    <Link to="http://nium.in/" target="_blank" class="clearfix">
+                    <Link to="http://nium.in/" target="-blank" class="clearfix">
                       <img
                         src="https://www.careerpotli.com/afterrecruitmentimage/nursing-home-in-unani-care.jpg"
                         alt=""

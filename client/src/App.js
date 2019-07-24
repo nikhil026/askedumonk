@@ -12,6 +12,9 @@ import Welcome from './components/community/story/welcome';
 import PublicStories from './components/community/story/public-stories';
 import AddStory from './components/community/story/add-story';
 import Community from './components/community/community';
+import Kyrgystan from './components/abroad_study/kyrgystan';
+import China from './components/abroad_study/china';
+import Bangladesh from './components/abroad_study/bangladesh';
 
 // import PrivateRoute from "./components/common/PrivateRoute";
 //for search purpose
@@ -102,6 +105,7 @@ import Teaching from "./components/Course_Library/teaching";
 import BED from "./components/Course_Library/bed";
 import Travel from "./components/Course_Library/travel_tourism";
 import Tourism from "./components/Course_Library/tourism_management";
+import NeetCouncelling from './components/Exam_Library/neet-councelling';
 
 import Avaition from "./components/Course_Library/aviation";
 import BBAAirport from "./components/Course_Library/bba_airport";
@@ -213,6 +217,10 @@ class App extends Component {
               <br />
               
               <br />
+              <Route exact path="/study-abroad/bangladesh" component={Bangladesh} />
+              <Route exact path="/study-abroad/china" component={China} />
+              <Route exact path="/study-abroad/kyrgystan" component={Kyrgystan} />
+              <Route exact path="/neet-councelling" component={NeetCouncelling} />
               <Route exact path="/community/add-stories" component={AddStory} />
               <Route exact path="/community/public-stories" component={PublicStories} />
               <Route exact path="/community/welcome" component={Welcome} />

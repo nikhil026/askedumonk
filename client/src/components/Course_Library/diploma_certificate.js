@@ -46,7 +46,7 @@ class Law extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/Airfare_ticketing">
+                      <Link to="/Airfare-ticketing">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Airfare and Ticketing Management
                         </p>
@@ -56,7 +56,7 @@ class Law extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/aviation_hospitality">
+                      <Link to="/aviation-hospitality">
                         <p className="brnchname">
                           <i className="fa fa-database" />  Aviation Hospitality
                         </p>

@@ -3,24 +3,23 @@ const Schema = mongoose.Schema;
 
 // create schema
 const UserSchema = new Schema({
-  googleID: {
-    type: String,
-    required: true
-  },
   email: {
     type: String,
     required: true
   },
-  firstName: {
-    type: String
+  name: {
+    type: String,
+    required:true
   },
-  lastName: {
-    type: String
+  password: {
+    type: String,
+    required:true
   },
-  image: {
-    type: String
+  password2: {
+    type:String,
+    required:true
   }
 });
 
 // create collection and add scheme
-mongoose.model("User", UserSchema);
+module.exports = mongoose.model("User", UserSchema);

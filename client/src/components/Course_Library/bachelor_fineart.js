@@ -25,7 +25,7 @@ class BOFineart extends Component {
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
-                <Link to="/art_huminities" className="crssidebtn">
+                <Link to="/art-huminities" className="crssidebtn">
                 All Arts &amp; Humanities Courses
                 </Link>
               </div>

@@ -40,7 +40,7 @@ class FashionD extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_design">
+                      <Link to="/bachelor-design">
                         <p className="brnchname">
                           <i className="fa fa-database" />
                           Bachelor of Design
@@ -51,7 +51,7 @@ class FashionD extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_design">
+                      <Link to="/bachelor-design">
                         <p className="brnchname">
                           <i className="fa fa-database" />
                           Fashion Design Courses{" "}

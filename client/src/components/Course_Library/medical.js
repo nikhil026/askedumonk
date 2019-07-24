@@ -54,7 +54,7 @@ class Medical extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_medicine">
+                      <Link to="/bachelor-medicine">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Medicine
                           &amp; Bachelor of Surgery
@@ -76,7 +76,7 @@ class Medical extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_homeopathy">
+                      <Link to="/bachelor-homeopathy">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of
                           Homeopathy medicine and Surgery
@@ -87,7 +87,7 @@ class Medical extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_unani">
+                      <Link to="/bachelor-unani">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Unani
                           Medicine and Surgery
@@ -98,7 +98,7 @@ class Medical extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_physiotherapy">
+                      <Link to="/bachelor-physiotherapy">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of
                           Physiotherapy
@@ -109,7 +109,7 @@ class Medical extends Component {
                       </Link>
                     </div>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_dental">
+                      <Link to="/bachelor-dental">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Dental
                           Surgery

@@ -25,7 +25,7 @@ class AirfareTicket extends Component {
                 </h6>
               </div>
               <div className="col-md-4 col-xs-12 mt-15 blockbtn">
-                <Link to="/diploma_certificate" className="crssidebtn">
+                <Link to="/diploma-certificate" className="crssidebtn">
                   All Diploma and Certificate Courses Courses
                 </Link>
               </div>

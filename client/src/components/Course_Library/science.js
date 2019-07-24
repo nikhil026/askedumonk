@@ -41,7 +41,7 @@ class Science extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_science">
+                      <Link to="/bachelor-science">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of
                           Science(Nursing)

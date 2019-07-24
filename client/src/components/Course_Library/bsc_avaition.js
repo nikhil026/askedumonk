@@ -482,7 +482,7 @@ class BscAvaition extends Component {
                       <span style={{ "font-size": "14px" }}>
                         The benefits of{" "}
                         <strong>
-                          <Link to="/bsc_avaition">B.Sc</Link> in Aviation
+                          <Link to="/bsc-avaition">B.Sc</Link> in Aviation
                         </strong>
                         <strong>&nbsp;</strong>course are:
                       </span>

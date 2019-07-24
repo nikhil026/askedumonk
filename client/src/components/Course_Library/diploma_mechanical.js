@@ -864,7 +864,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.heromotocorp.com/en-in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -877,7 +877,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.bajajauto.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -890,7 +890,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.hondacarindia.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -903,7 +903,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.ashokleyland.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -916,7 +916,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.isro.gov.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -929,7 +929,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.eagleinfotek.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -942,7 +942,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.paltechcoolingtower.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -955,7 +955,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.deere.co.in/en/index.html"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -968,7 +968,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.aban.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -981,7 +981,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.indiannavy.nic.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -994,7 +994,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.ecil.co.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1007,7 +1007,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.ntpc.co.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1020,7 +1020,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.india.ford.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1033,7 +1033,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.tatamotors.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1046,7 +1046,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.coalindia.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1059,7 +1059,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.drdo.gov.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1072,7 +1072,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.sail.co.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -1085,7 +1085,7 @@ class DMechanical extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.bhel.com/home.php"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img

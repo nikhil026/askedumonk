@@ -148,7 +148,7 @@ class Metallurgical extends Component {
                         <Link
                           to="/jeemain"
                           rel="noopener noreferrer"
-                          target="_blank"
+                          target="-blank"
                         >
                           Joint Entrance Examinations &nbsp;(J.E.E)
                         </Link>
@@ -797,7 +797,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.nalcoindia.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/nalco.jpg" alt=""/>
@@ -807,7 +807,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.mepco.co.in/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/the-metal-powder-company-limited.jpg" alt=""/>
@@ -817,7 +817,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.newbharat.co.in/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/new-bharat-refractories-limited.jpg" alt=""/>
@@ -827,7 +827,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.thelarsongroup.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/larsons-group.jpg" alt=""/>
@@ -837,7 +837,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.hindalco.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/hindalco.jpg" alt=""/>
@@ -847,7 +847,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.delhimetrorail.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/delhi-metro-rail-corporation.jpg" alt=""/>
@@ -857,7 +857,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.ongcindia.com/wps/wcm/connect/en/home/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/oil-and-natural-gas-corporation.jpg" alt=""/>
@@ -867,7 +867,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.jindalsteelpower.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/jindal-steel.jpg" alt=""/>
@@ -877,7 +877,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://cablecorporation.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/cable-corporation-of-india.jpg" alt=""/>
@@ -887,7 +887,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.bsnl.co.in/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/bsnl.jpg" alt=""/>
@@ -897,7 +897,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://ibm.nic.in/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/the-indian-bureau-of-mines.jpg" alt=""/>
@@ -907,7 +907,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="http://www.tatasteel.com/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/tata-steel-ltd.jpg" alt=""/>
@@ -917,7 +917,7 @@ class Metallurgical extends Component {
                   <div className="col-md-3">
                     <Link
                       to="https://www.sail.co.in/"
-                      target="_blank"
+                      target="-blank"
                       className="clearfix"
                     >
                       <img src="https://www.careerpotli.com/afterrecruitmentimage/sail.jpg" alt=""/>

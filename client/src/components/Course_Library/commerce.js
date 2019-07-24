@@ -54,7 +54,7 @@ class Commerce extends Component {
                       <span>Courses</span>
                     </h2>
                     <div className="col-md-4 mrgn-branches">
-                      <Link to="/bachelor_commerce">
+                      <Link to="/bachelor-commerce">
                         <p className="brnchname">
                           <i className="fa fa-database" /> Bachelor of Commerce
                         </p>

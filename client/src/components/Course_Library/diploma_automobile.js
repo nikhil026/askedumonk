@@ -710,7 +710,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.marutisuzuki.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -723,7 +723,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.toyota-global.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -736,7 +736,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.haldexindia.in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -749,7 +749,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.heromotocorp.com/en-in/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -762,7 +762,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.hyundai.com/worldwide/en"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -775,7 +775,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.bajajauto.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -788,7 +788,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.mahindra.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -801,7 +801,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.hondacarindia.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -814,7 +814,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.ashokleyland.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -827,7 +827,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="https://www.tatamotors.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
@@ -840,7 +840,7 @@ class DAutomobile extends Component {
                   <div class="col-md-3">
                     <Link
                       to="http://www.yamaha-motor-india.com/"
-                      target="_blank"
+                      target="-blank"
                       class="clearfix"
                     >
                       <img
