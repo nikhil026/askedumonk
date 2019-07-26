@@ -525,6 +525,9 @@ img.homestressbox  {
     justify-content: left;
     margin-left:40px;
   }
+  .col-md-9 {
+    width: 220%;
+}
   .col-md-6.imp-image1 {
     display:block;
   }
@@ -537,6 +540,9 @@ img.homestressbox  {
     justify-content: left;
     margin-left:25px;
   }
+  .col-md-9 {
+    width: 220%;
+}
   .col-md-6.imp-image1 {
     display:block;
   }
@@ -549,6 +555,9 @@ img.homestressbox  {
     justify-content: left;
     margin-left:15px;
   }
+  .col-md-9 {
+    width: 220%;
+}
   .col-md-6.imp-image1 {
     display:block;
   }
@@ -561,6 +570,9 @@ img.homestressbox  {
     justify-content: left;
     margin-left:0px;
   }
+  .col-md-9 {
+    width: 220%;
+}
   .col-md-6.imp-image1 {
     display:block;
   }
@@ -716,4 +728,59 @@ div#searcher {
     margin-left:45px;
   }
 }
-
+img.img-side {
+  width: 30px;
+}
+th.table-header {
+  background-color: #6d5aff;
+}
+tr.table-header {
+  background-color: #73e4ff;
+}
+tr.top-level {
+  background-color: #ffff73;
+}
+td.middle-level {
+  background-color: #82ff82;
+}
+.examsdetailscnt table {
+  margin-bottom: 20px;
+  align-items: center;
+  margin: 20px;
+}
+.flex-imp {
+  display: flex;
+  margin-left: 26px;
+}
+.flex-imp-clg {
+  display: flex;
+  margin-left: -82px;
+}
+.imp-item {
+  justify-content: center;
+  margin: 72px;
+}
+td.clg-name {
+  background-color: #b5e4b5;
+}
+td.year {
+  background-color: #eb96ff;
+}
+td.year-total {
+  background-color: #acffac;
+}
+td.year-grand-total {
+  background: #b5e4b5;
+}
+td.academic {
+  background-color: #66ff66;
+}
+td.term {
+  background-color: #ffaa6b;
+}
+tr.term-detail {
+  background-color: #70b1d8;
+}
+.syllabus-table {
+  background-color: #fcdcff;
+}
