@@ -15,6 +15,7 @@ import Community from './components/community/community';
 import Kyrgystan from './components/abroad_study/kyrgystan';
 import China from './components/abroad_study/china';
 import Bangladesh from './components/abroad_study/bangladesh';
+import Ukrine from './components/abroad_study/ukraine';
 
 // import PrivateRoute from "./components/common/PrivateRoute";
 //for search purpose
@@ -216,7 +217,9 @@ class App extends Component {
               <br />
               <br />
               
+              
               <br />
+              <Route exact path="/study-abroad/ukraine" component={Ukrine} />
               <Route exact path="/study-abroad/bangladesh" component={Bangladesh} />
               <Route exact path="/study-abroad/china" component={China} />
               <Route exact path="/study-abroad/kyrgystan" component={Kyrgystan} />
